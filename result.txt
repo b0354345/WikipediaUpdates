@@ -1,52 +1,2622 @@
 <api>
+    <query-continue>
+        <recentchanges rccontinue="2014-03-05T11:53:31Z|641051170"/>
+    </query-continue>
     <limits recentchanges="500"/>
     <query>
         <recentchanges>
-            <rc ns="2" timestamp="2014-03-03T08:39:13Z"
-                title="User:HYGREE" type="log" user="Gogo Dodo"/>
-            <rc anon="" ns="0" timestamp="2014-03-03T08:39:13Z"
-                title="Akis Samiotis" type="edit" user="87.202.90.228"/>
-            <rc anon="" ns="0" timestamp="2014-03-03T08:39:12Z"
-                title="Pterostegia" type="external" user="SuccuBot"/>
-            <rc ns="2" timestamp="2014-03-03T08:39:12Z"
-                title="User:Giulyvolusia" type="log" user="Giulyvolusia"/>
-            <rc anon="" ns="0" timestamp="2014-03-03T08:39:11Z"
-                title="Feldkirch District" type="external" user="Dexbot"/>
-            <rc ns="1" timestamp="2014-03-03T08:39:11Z"
-                title="Talk:Deuce 7" type="edit" user="Christian75"/>
-            <rc anon="" ns="0" timestamp="2014-03-03T08:39:11Z"
-                title="2014 Asia Cup" type="edit" user="124.30.7.34"/>
-            <rc anon="" ns="0" timestamp="2014-03-03T08:39:11Z"
-                title="Vehicle registration plates of the Philippines"
-                type="edit" user="112.208.107.248"/>
-            <rc ns="0" timestamp="2014-03-03T08:39:11Z"
-                title="Ian Sangalang" type="edit" user="BG19bot"/>
-            <rc ns="0" timestamp="2014-03-03T08:39:10Z"
-                title="Battle of Ambon" type="edit" user="Anotherclown"/>
-            <rc ns="1" timestamp="2014-03-03T08:39:08Z"
-                title="Talk:Paracone" type="edit" user="Animalparty"/>
-            <rc ns="0" timestamp="2014-03-03T08:39:08Z"
-                title="Ghostbusters" type="edit" user="AndyFielding"/>
-            <rc ns="0" timestamp="2014-03-03T08:39:08Z"
-                title="Hydrogen thioperoxide" type="edit" user="DMacks"/>
-            <rc ns="4" timestamp="2014-03-03T08:39:08Z"
-                title="Wikipedia:Village pump (proposals)" type="edit" user="ClueBot III"/>
-            <rc anon="" ns="0" timestamp="2014-03-03T08:39:07Z"
-                title="Sidwaya" type="external" user="JVbot"/>
-            <rc ns="0" timestamp="2014-03-03T08:39:07Z"
-                title="IRrelevant Astronomy" type="edit" user="BG19bot"/>
-            <rc ns="0" timestamp="2014-03-03T08:39:06Z"
-                title="MEMEnomics" type="edit" user="Behug"/>
-            <rc anon="" ns="0" timestamp="2014-03-03T08:39:06Z"
-                title="DAM (band)" type="edit" user="213.130.123.30"/>
-            <rc ns="0" timestamp="2014-03-03T08:39:05Z"
-                title="Pagal Nilavu" type="edit" user="Aspects"/>
-            <rc anon="" ns="0" timestamp="2014-03-03T08:39:05Z"
-                title="Sagareshwar Wildlife Sanctuary" type="edit" user="223.30.95.145"/>
-            <rc anon="" ns="0" timestamp="2014-03-03T08:39:05Z"
-                title="List of companies of Ahmedabad" type="edit" user="122.169.33.89"/>
-            <rc anon="" ns="0" timestamp="2014-03-03T08:39:04Z"
-                title="L'Observateur Paalga" type="external" user="JVbot"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="544777945" pageid="10866139" rcid="641051691"
+                revid="544777945" timestamp="2014-03-05T11:58:11Z"
+                title="Category:People from Memphis, Tennessee"
+                type="external" user="Dexbot" userid="0"/>
+            <rc comment="" ns="14" old_revid="596200354"
+                pageid="41989458" rcid="641051642" revid="598244912"
+                timestamp="2014-03-05T11:58:11Z"
+                title="Category:Louisiana transportation stubs"
+                type="edit" user="Od Mishehu" userid="461626"/>
+            <rc
+                comment="Undid revision 598244742 by [[Special:Contributions/Teknoloji29|Teknoloji29]] please use the talk page in english for questions"
+                ns="4" old_revid="598244742" pageid="351628"
+                rcid="641051641" revid="598244911"
+                timestamp="2014-03-05T11:58:11Z"
+                title="Wikipedia:WikiProject Computing" type="edit"
+                user="Salix alba" userid="212526"/>
+            <rc comment="" ns="0" old_revid="598244778"
+                pageid="41327174" rcid="641051640" revid="598244910"
+                timestamp="2014-03-05T11:58:10Z" title="Dildar Ali Khan"
+                type="edit" user="Dildarswat" userid="20250662"/>
+            <rc
+                comment="Typo fixing, replaced: postive â†’ positive using [[Project:AWB|AWB]]"
+                minor="" ns="0" old_revid="590224484" pageid="31803244"
+                rcid="641051639" revid="598244909"
+                timestamp="2014-03-05T11:58:10Z"
+                title="Are You Gonna Eat That?" type="edit"
+                user="John of Reading" userid="11308236"/>
+            <rc bot=""
+                comment="Robot: Fixing double redirect to [[APRA Music Awards of 2001]]"
+                minor="" ns="2" old_revid="596479278" pageid="42007177"
+                rcid="641051638" revid="598244908"
+                timestamp="2014-03-05T11:58:08Z"
+                title="User:Shaidar cuebiyar/sandbox/APRA Music Awards of 2001"
+                type="edit" user="Xqbot" userid="8066546"/>
+            <rc anon="" comment="/* Members */" ns="0"
+                old_revid="596782707" pageid="16844049" rcid="641051637"
+                revid="598244907" timestamp="2014-03-05T11:58:08Z"
+                title="The Maine (band)" type="edit" user="112.205.15.9" userid="0"/>
+            <rc
+                comment="Undid revision 598242426 by [[Special:Contributions/14.102.53.34|14.102.53.34]] ([[User talk:14.102.53.34|talk]]) Only pointers to Wikipedia articles belong here"
+                ns="0" old_revid="598242426" pageid="83023"
+                rcid="641051636" revid="598244906"
+                timestamp="2014-03-05T11:58:08Z" title="Kronos"
+                type="edit" user="Paul August" userid="87355"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="548214321" pageid="4615630" rcid="641051690"
+                revid="548214321" timestamp="2014-03-05T11:58:06Z"
+                title="Category:Udinese Calcio players" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="Added 'See also'" ns="0" old_revid="598243435"
+                pageid="40371119" rcid="641051635" revid="598244905"
+                timestamp="2014-03-05T11:58:06Z" title="Drishyam"
+                type="edit" user="991joseph" userid="19113628"/>
+            <rc comment="/* LIVING SUPERCENTENARIANS */" ns="2"
+                old_revid="598244616" pageid="42074438" rcid="641051634"
+                revid="598244904" timestamp="2014-03-05T11:58:05Z"
+                title="User:Tim198NY" type="edit" user="Tim198NY" userid="20793345"/>
+            <rc comment="" ns="14" old_revid="596195833"
+                pageid="41989251" rcid="641051633" revid="598244903"
+                timestamp="2014-03-05T11:58:05Z"
+                title="Category:Kentucky transportation stubs"
+                type="edit" user="Od Mishehu" userid="461626"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="569538806" pageid="13755110" rcid="641051689"
+                revid="569538806" timestamp="2014-03-05T11:58:03Z"
+                title="Dankowice, GÅ‚ogÃ³w County" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="wikilinked collision" ns="0"
+                old_revid="596792034" pageid="3338377" rcid="641051632"
+                revid="598244902" timestamp="2014-03-05T11:58:03Z"
+                title="HMAS Voyager (D04)" type="edit" user="Rumiton" userid="3521695"/>
+            <rc comment="/* See also */" ns="0" old_revid="597474679"
+                pageid="342707" rcid="641051631" revid="598244901"
+                timestamp="2014-03-05T11:58:03Z"
+                title="North Caucasian languages" type="edit"
+                user="BÃ¶ri" userid="10891331"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="588463375" pageid="5947462" rcid="641051688"
+                revid="588463375" timestamp="2014-03-05T11:58:01Z"
+                title="Category:People from Perth, Western Australia"
+                type="external" user="Dexbot" userid="0"/>
+            <rc
+                comment="Moved the awards for Blood Dragon to it's artcle"
+                ns="0" old_revid="598068091" pageid="23799631"
+                rcid="641051630" revid="598244900"
+                timestamp="2014-03-05T11:58:01Z" title="Far Cry 3"
+                type="edit" user="TheDeviantPro" userid="13023844"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="589010359"
+                pageid="182998" rcid="641051687" revid="589010359"
+                timestamp="2014-03-05T11:58:00Z" title="Hail Mary"
+                type="external" user="Sjsws1078" userid="0"/>
+            <rc
+                comment="Typo/[[WP:AWB/GF|general]] fixing, replaced: Piligrims â†’ Pilgrims using [[Project:AWB|AWB]]"
+                minor="" ns="0" old_revid="518462759" pageid="22418443"
+                rcid="641051629" revid="598244899"
+                timestamp="2014-03-05T11:57:59Z" title="Ardhagiri"
+                type="edit" user="John of Reading" userid="11308236"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="597288138"
+                pageid="5828178" rcid="641051686" revid="597288138"
+                timestamp="2014-03-05T11:57:58Z"
+                title="List of gravitationally rounded objects of the Solar System"
+                type="external" user="178.16.70.26" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="554190844"
+                pageid="34308976" rcid="641051685" revid="554190844"
+                timestamp="2014-03-05T11:57:58Z"
+                title="1972 Men's Grand Prix (tennis)" type="external"
+                user="Kxont" userid="0"/>
+            <rc comment="" logaction="create" logid="55200427"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="641051628" revid="0"
+                timestamp="2014-03-05T11:57:58Z"
+                title="User:Rebounder101" type="log" user="Rebounder101" userid="20913385"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="544630720" pageid="6104138" rcid="641051684"
+                revid="544630720" timestamp="2014-03-05T11:57:57Z"
+                title="Category:People from Fresno, California"
+                type="external" user="Dexbot" userid="0"/>
+            <rc comment="" ns="0" old_revid="598198775" pageid="7488141"
+                rcid="641051611" revid="598244898"
+                timestamp="2014-03-05T11:57:57Z"
+                title="Empress Xiaokangzhang" type="edit"
+                user="TheLeopard" userid="567745"/>
+            <rc comment="updating link" ns="6" old_revid="519598160"
+                pageid="23524069" rcid="641051610" revid="598244897"
+                timestamp="2014-03-05T11:57:56Z"
+                title="File:Stelizabethcentral.gif" type="edit"
+                user="Huwmanbeing" userid="586015"/>
+            <rc
+                comment="/* Impact of the Clearances: Relgion#Roman Catholicism */"
+                ns="1" old_revid="598236695" pageid="21490801"
+                rcid="641051609" revid="598244896"
+                timestamp="2014-03-05T11:57:55Z"
+                title="Talk:Highland Clearances" type="edit" user="Deb" userid="1219"/>
+            <rc comment="/* Life */" minor="" ns="5"
+                old_revid="598243743" pageid="42097519" rcid="641051608"
+                revid="598244895" timestamp="2014-03-05T11:57:55Z"
+                title="Wikipedia talk:Articles for creation/Deborah Burrows"
+                type="edit" user="Norpois" userid="4854978"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="569393936" pageid="13754900" rcid="641051627"
+                revid="569393936" timestamp="2014-03-05T11:57:53Z"
+                title="Czerna, GÅ‚ogÃ³w County" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" comment="/* Discography */" ns="0"
+                old_revid="598118647" pageid="20666669" rcid="641051607"
+                revid="598244894" timestamp="2014-03-05T11:57:53Z"
+                title="The Handsome Family" type="edit"
+                user="137.226.39.10" userid="0"/>
+            <rc comment="" ns="10" old_revid="598243721"
+                pageid="41825426" rcid="641051606" revid="598244893"
+                timestamp="2014-03-05T11:57:52Z"
+                title="Template:New Zealand general election, 1972"
+                type="edit" user="Hugo999" userid="3006008"/>
+            <rc anon="" comment="/* Filmography */" ns="0"
+                old_revid="598244805" pageid="14934572" rcid="641051605"
+                revid="598244892" timestamp="2014-03-05T11:57:52Z"
+                title="Parvathi (actress)" type="edit"
+                user="198.134.56.84" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="547995936" pageid="6103682" rcid="641051626"
+                revid="547995936" timestamp="2014-03-05T11:57:51Z"
+                title="Category:People from Berkeley, California"
+                type="external" user="Dexbot" userid="0"/>
+            <rc comment="/* Current squad */ shirt number and more ref"
+                ns="0" old_revid="598244113" pageid="1023035"
+                rcid="641051604" revid="598244891"
+                timestamp="2014-03-05T11:57:51Z"
+                title="New Zealand national football team" type="edit"
+                user="Matthew hk" userid="727505"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="598244887"
+                pageid="42118516" rcid="641051625" revid="598244887"
+                timestamp="2014-03-05T11:57:50Z"
+                title="State Assembly elections in India, 1952"
+                type="external" user="Logical1004" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="598244885"
+                pageid="1086792" rcid="641051624" revid="598244885"
+                timestamp="2014-03-05T11:57:50Z"
+                title="Legislative Assembly elections in India, 1952"
+                type="external" user="Logical1004" userid="0"/>
+            <rc comment="" logaction="move" logid="55200426"
+                logtype="move" ns="1" old_revid="0" pageid="42118517"
+                rcid="641051603" revid="0"
+                timestamp="2014-03-05T11:57:50Z"
+                title="Talk:State Assembly elections in India, 1952"
+                type="log" user="Logical1004" userid="19390481">
+                <move new_ns="1" new_title="Talk:Legislative Assembly elections in India, 1952"/>
+            </rc>
+            <rc anon="" comment="" ns="0" old_revid="598244794"
+                pageid="34611039" rcid="641051602" revid="598244889"
+                timestamp="2014-03-05T11:57:49Z"
+                title="Artemis Fowl: The Last Guardian" type="edit"
+                user="2.108.99.66" userid="0"/>
+            <rc comment="" logaction="move" logid="55200425"
+                logtype="move" ns="0" old_revid="0" pageid="42118516"
+                rcid="641051601" revid="0"
+                timestamp="2014-03-05T11:57:48Z"
+                title="State Assembly elections in India, 1952"
+                type="log" user="Logical1004" userid="19390481">
+                <move new_ns="0" new_title="Legislative Assembly elections in India, 1952"/>
+            </rc>
+            <rc comment="" ns="2" old_revid="598143883"
+                pageid="25267978" rcid="641051600" revid="598244886"
+                timestamp="2014-03-05T11:57:48Z"
+                title="User:Ipigott/Sandbox1" type="edit" user="Ipigott" userid="2639797"/>
+            <rc anon="" comment="" minor="" ns="14"
+                old_revid="545868040" pageid="26357352" rcid="641051623"
+                revid="545868040" timestamp="2014-03-05T11:57:47Z"
+                title="Category:1689 treaties" type="external"
+                user="Zdtrlik" userid="0"/>
+            <rc comment="restored [[Munir Ahmad Khan]]" ns="0"
+                old_revid="598124632" pageid="21509973" rcid="641051599"
+                revid="598244884" timestamp="2014-03-05T11:57:47Z"
+                title="List of Kakazai people" type="edit"
+                user="Smsarmad" userid="4174864"/>
+            <rc comment="/* 24 February 2014 */ Closing" ns="4"
+                old_revid="598106955" pageid="42037686" rcid="641051598"
+                revid="598244883" timestamp="2014-03-05T11:57:47Z"
+                title="Wikipedia:Sockpuppet investigations/TimeQueen32"
+                type="edit" user="Callanecc" userid="10440891"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="549607123" pageid="4702606" rcid="641051622"
+                revid="549607123" timestamp="2014-03-05T11:57:46Z"
+                title="Category:OFK Beograd players" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="" logaction="create" logid="55200424"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="641051597" revid="0"
+                timestamp="2014-03-05T11:57:46Z"
+                title="User:SASHA KYTYK" type="log" user="SASHA KYTYK" userid="20913384"/>
+            <rc anon="" comment="/* International albums */" ns="0"
+                old_revid="598244655" pageid="22098459" rcid="641051596"
+                revid="598244882" timestamp="2014-03-05T11:57:46Z"
+                title="Anggun discography" type="edit"
+                user="95.250.99.187" userid="0"/>
+            <rc comment="/* Military flag */" ns="0"
+                old_revid="598244592" pageid="7262794" rcid="641051595"
+                revid="598244881" timestamp="2014-03-05T11:57:45Z"
+                title="List of flags of Ukraine" type="edit"
+                user="Andrew J.Kurbiko" userid="20106661"/>
+            <rc
+                comment="Typo/[[WP:AWB/GF|general]] fixing, replaced: pilgrammages â†’ pilgrimages using [[Project:AWB|AWB]]"
+                minor="" ns="0" old_revid="574097659" pageid="13857726"
+                rcid="641051594" revid="598244880"
+                timestamp="2014-03-05T11:57:45Z"
+                title="Arcozelo (Vila Nova de Gaia)" type="edit"
+                user="John of Reading" userid="11308236"/>
+            <rc comment="" ns="5" old_revid="598244757"
+                pageid="41701946" rcid="641051593" revid="598244879"
+                timestamp="2014-03-05T11:57:45Z"
+                title="Wikipedia talk:Articles for creation/Florence Trevelyan Trevelyan"
+                type="edit" user="Gardengirl14" userid="20554390"/>
+            <rc bot=""
+                comment="Robot: Fixing double redirect to [[Draft:D. Keith Furon]]"
+                minor="" ns="2" old_revid="596002793" pageid="41974202"
+                rcid="641051592" revid="598244878"
+                timestamp="2014-03-05T11:57:45Z"
+                title="User:Cherylisadesigner/sandbox" type="edit"
+                user="Xqbot" userid="8066546"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="544997814" pageid="13754863" rcid="641051621"
+                revid="544997814" timestamp="2014-03-05T11:57:44Z"
+                title="Bukwica, Lower Silesian Voivodeship"
+                type="external" user="Dexbot" userid="0"/>
+            <rc anon=""
+                comment="I added &quot;Lisa One&quot; hatched last week"
+                ns="0" old_revid="585900212" pageid="884156"
+                rcid="641051591" revid="598244877"
+                timestamp="2014-03-05T11:57:44Z" title="List of Kakapo"
+                type="edit" user="81.182.179.115" userid="0"/>
+            <rc comment="correted rahul's PC and the leading paragraph"
+                ns="0" old_revid="598243798" pageid="17349356"
+                rcid="641051590" revid="598244876"
+                timestamp="2014-03-05T11:57:43Z"
+                title="Indian general election, 2014" type="edit"
+                user="Khushank94" userid="18413959"/>
+            <rc comment="/* Statement by Andy Dingley */" ns="4"
+                old_revid="598239273" pageid="12936136" rcid="641051589"
+                revid="598244875" timestamp="2014-03-05T11:57:42Z"
+                title="Wikipedia:Arbitration/Requests/Enforcement"
+                type="edit" user="Andy Dingley" userid="3606755"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="588453754" pageid="6457424" rcid="641051620"
+                revid="588453754" timestamp="2014-03-05T11:57:41Z"
+                title="Category:People from Belfast" type="external"
+                user="Dexbot" userid="0"/>
+            <rc bot=""
+                comment="Dating maintenance tags: {{Who}} {{When}} {{What}}"
+                minor="" ns="0" old_revid="598243393" pageid="41181297"
+                rcid="641051588" revid="598244874"
+                timestamp="2014-03-05T11:57:41Z" title="Euromaidan"
+                type="edit" user="AnomieBOT" userid="7611264"/>
+            <rc comment="/* Appearances in other media */ add data"
+                ns="0" old_revid="598244410" pageid="42109639"
+                rcid="641051587" revid="598244873"
+                timestamp="2014-03-05T11:57:40Z"
+                title="I'm Gonna Get You (Bizarre Inc song)" type="edit"
+                user="Launchballer" userid="9560390"/>
+            <rc anon="" comment="/* Recent Media Appearances */" ns="0"
+                old_revid="597171549" pageid="8093899" rcid="641051586"
+                revid="598244872" timestamp="2014-03-05T11:57:40Z"
+                title="Yossi Shain" type="edit" user="132.66.39.83" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="589010359"
+                pageid="182998" rcid="641051619" revid="589010359"
+                timestamp="2014-03-05T11:57:39Z" title="Hail Mary"
+                type="external" user="Sjsws1078" userid="0"/>
+            <rc anon="" comment="/* Contestants */" ns="0"
+                old_revid="598244686" pageid="41299879" rcid="641051585"
+                revid="598244871" timestamp="2014-03-05T11:57:39Z"
+                title="RuPaul's Drag Race (season 6)" type="edit"
+                user="124.190.133.162" userid="0"/>
+            <rc comment="/* Identifying Hannah Crafts */ brackets"
+                minor="" ns="0" old_revid="597831176" pageid="11598381"
+                rcid="641051584" revid="598244870"
+                timestamp="2014-03-05T11:57:39Z"
+                title="The Bondwoman's Narrative" type="edit"
+                user="Parkwells" userid="5326371"/>
+            <rc
+                comment="the info in this article are outdated ( since the last time l wrote it post season 8)"
+                ns="0" old_revid="598244692" pageid="27660054"
+                rcid="641051583" revid="598244869"
+                timestamp="2014-03-05T11:57:39Z" title="April Kepner"
+                type="edit" user="Meryam90" userid="14744300"/>
+            <rc
+                comment="General note: Unconstructive editing on [[Love Story (1970 film)]]. ([[WP:TW|TW]])"
+                ns="3" old_revid="572616617" pageid="40512559"
+                rcid="641051582" revid="598244868"
+                timestamp="2014-03-05T11:57:38Z"
+                title="User talk:222.127.226.84" type="edit" user="K6ka" userid="11801436"/>
+            <rc anon="" comment="not sourced" ns="0"
+                old_revid="594208978" pageid="412720" rcid="641051581"
+                revid="598244867" timestamp="2014-03-05T11:57:37Z"
+                title="Music of Saudi Arabia" type="edit"
+                user="185.29.167.4" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="544623386" pageid="8443898" rcid="641051618"
+                revid="544623386" timestamp="2014-03-05T11:57:36Z"
+                title="Category:People from Tel Aviv" type="external"
+                user="Dexbot" userid="0"/>
+            <rc
+                comment="Notification: speedy deletion nomination of [[Petssafe]]. ([[WP:TW|TW]])"
+                ns="3" old_revid="595587888" pageid="41950653"
+                rcid="641051580" revid="598244866"
+                timestamp="2014-03-05T11:57:36Z"
+                title="User talk:Imranaith34" type="edit"
+                user="Randor1980" userid="15047683"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="566819345" pageid="31503300" rcid="641051617"
+                revid="566819345" timestamp="2014-03-05T11:57:35Z"
+                title="Category:Films directed by Steve McQueen"
+                type="external" user="Chobot" userid="0"/>
+            <rc comment="updating link" ns="0" old_revid="598241122"
+                pageid="4124092" rcid="641051579" revid="598244865"
+                timestamp="2014-03-05T11:57:34Z"
+                title="Lafayette Home Hospital" type="edit"
+                user="Huwmanbeing" userid="586015"/>
+            <rc comment="Update table (23 requests)" ns="2"
+                old_revid="598242584" pageid="33952838" rcid="641051577"
+                revid="598244863" timestamp="2014-03-05T11:57:33Z"
+                title="User:AnomieBOT/SPERTable" type="edit"
+                user="AnomieBOT" userid="7611264"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="545324092" pageid="17343685" rcid="641051616"
+                revid="545324092" timestamp="2014-03-05T11:57:31Z"
+                title="Category:People from Tianjin" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="/* References */ column" ns="0"
+                old_revid="598244670" pageid="31797583" rcid="641051576"
+                revid="598244862" timestamp="2014-03-05T11:57:31Z"
+                title="John Alan" type="edit" user="Chrisdoyleorwell" userid="13494966"/>
+            <rc comment="/* Super Bowl */" minor="" ns="0"
+                old_revid="598244572" pageid="25764092" rcid="641051575"
+                revid="598244861" timestamp="2014-03-05T11:57:31Z"
+                title="2010 Green Bay Packers season" type="edit"
+                user="Schik8337" userid="17810000"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="597794773" pageid="2025111" rcid="641051615"
+                revid="597794773" timestamp="2014-03-05T11:57:30Z"
+                title="Chieti" type="external" user="Chobot" userid="0"/>
+            <rc
+                comment="Reverted 1 edit by [[Special:Contributions/222.127.226.84|222.127.226.84]] ([[User talk:222.127.226.84|talk]]): This is about the film, not the novel. ([[WP:TW|TW]])"
+                ns="0" old_revid="598236879" pageid="11577392"
+                rcid="641051574" revid="598244860"
+                timestamp="2014-03-05T11:57:30Z"
+                title="Love Story (1970 film)" type="edit" user="K6ka" userid="11801436"/>
+            <rc bot=""
+                comment="Signing comment by [[Special:Contributions/2.29.146.27|2.29.146.27]] - &quot;&quot;"
+                minor="" ns="3" old_revid="598244762" pageid="3455294"
+                rcid="641051573" revid="598244859"
+                timestamp="2014-03-05T11:57:30Z"
+                title="User talk:Derek R Bullamore" type="edit"
+                user="SineBot" userid="4936590"/>
+            <rc comment="/* Compare Main Range and Blue Mountains */"
+                minor="" ns="3" old_revid="598240764" pageid="10031622"
+                rcid="641051572" revid="598244858"
+                timestamp="2014-03-05T11:57:29Z"
+                title="User talk:SatuSuro" type="edit" user="Tabletop" userid="173687"/>
+            <rc comment="/* Serious Problems with this Page */" ns="1"
+                old_revid="595496277" pageid="32781654" rcid="641051571"
+                revid="598244857" timestamp="2014-03-05T11:57:29Z"
+                title="Talk:World's largest airlines" type="edit"
+                user="Bebofpenge" userid="967131"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="545772167" pageid="22264206" rcid="641051614"
+                revid="545772167" timestamp="2014-03-05T11:57:26Z"
+                title="Category:People from Bremen (state)"
+                type="external" user="Dexbot" userid="0"/>
+            <rc comment="/* Seeds */" ns="0" old_revid="598244717"
+                pageid="41603433" rcid="641051570" revid="598244856"
+                timestamp="2014-03-05T11:57:26Z"
+                title="2014 BNP Paribas Open" type="edit"
+                user="Yimingbao" userid="9128333"/>
+            <rc comment="Misleading edit summary" new="" ns="3"
+                old_revid="0" pageid="42118515" rcid="641051569"
+                revid="598244855" timestamp="2014-03-05T11:57:25Z"
+                title="User talk:2602:306:C498:8200:97F:ED92:A66F:8309"
+                type="new" user="JamesBWatson" userid="1909773"/>
+            <rc comment="/* Plot */" ns="0" old_revid="598244800"
+                pageid="3634311" rcid="641051568" revid="598244854"
+                timestamp="2014-03-05T11:57:24Z"
+                title="United 93 (film)" type="edit"
+                user="Illegitimate Barrister" userid="12006778"/>
+            <rc anon="" comment="Olu Dara Jones to the names list"
+                ns="0" old_revid="596072654" pageid="1171480"
+                rcid="641051567" revid="598244853"
+                timestamp="2014-03-05T11:57:24Z"
+                title="Nas (disambiguation)" type="edit"
+                user="92.224.69.78" userid="0"/>
+            <rc comment="/* History navboxes */ bottom" ns="5"
+                old_revid="598243893" pageid="9681697" rcid="641051566"
+                revid="598244852" timestamp="2014-03-05T11:57:24Z"
+                title="Wikipedia talk:WikiProject Aviation" type="edit"
+                user="The Bushranger" userid="7291611"/>
+            <rc anon="" comment="/* Current squad */" ns="0"
+                old_revid="598244755" pageid="830728" rcid="641051548"
+                revid="598244851" timestamp="2014-03-05T11:57:23Z"
+                title="FC Gomel" type="edit" user="109.93.89.87" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="544223343" pageid="3341675" rcid="641051613"
+                revid="544223343" timestamp="2014-03-05T11:57:21Z"
+                title="Category:People from Shanghai" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="593180528" pageid="674694" rcid="641051612"
+                revid="593180528" timestamp="2014-03-05T11:57:21Z"
+                title="Bubastis" type="external" user="Chobot" userid="0"/>
+            <rc comment="Per [[WP:See also]]. Already has link" ns="0"
+                old_revid="592582842" pageid="127320" rcid="641051547"
+                revid="598244850" timestamp="2014-03-05T11:57:21Z"
+                title="Mastic, New York" type="edit" user="WilliamJE" userid="937448"/>
+            <rc anon="" comment="" ns="0" old_revid="592064185"
+                pageid="1452292" rcid="641051546" revid="598244849"
+                timestamp="2014-03-05T11:57:21Z"
+                title="Theophan Prokopovich" type="edit"
+                user="70.166.127.34" userid="0"/>
+            <rc comment="" ns="0" old_revid="597982482"
+                pageid="27946534" rcid="641051545" revid="598244848"
+                timestamp="2014-03-05T11:57:21Z"
+                title="Walpole, Suffolk" type="edit" user="Tpayne0607" userid="20668327"/>
+            <rc comment="" ns="14" old_revid="596053525"
+                pageid="41980444" rcid="641051544" revid="598244847"
+                timestamp="2014-03-05T11:57:20Z"
+                title="Category:Georgia (U.S. state) transportation stubs"
+                type="edit" user="Od Mishehu" userid="461626"/>
+            <rc
+                comment="/* Medals by summer sport */ medal table corrections"
+                minor="" ns="0" old_revid="597168248" pageid="13589945"
+                rcid="641051543" revid="598244846"
+                timestamp="2014-03-05T11:57:19Z"
+                title="Czech Republic at the Olympics" type="edit"
+                user="Mates" userid="14125014"/>
+            <rc anon="" comment="/* Wind turbines */" ns="0"
+                old_revid="592192019" pageid="12850203" rcid="641051542"
+                revid="598244845" timestamp="2014-03-05T11:57:19Z"
+                title="Nordex" type="edit" user="89.246.132.112" userid="0"/>
+            <rc
+                comment="Uploading a non-free logo using [[Wikipedia:File_Upload_Wizard|File Upload Wizard]]"
+                img_sha1="9drjh1wczj6t9ximy7umhn435xyiy3l"
+                img_timestamp="2014-03-05T11:57:19Z" logaction="upload"
+                logid="55200420" logtype="upload" ns="6" old_revid="0"
+                pageid="42118514" rcid="641051541" revid="0"
+                timestamp="2014-03-05T11:57:19Z"
+                title="File:Ignitee -To The New Logo.png" type="log"
+                user="Chaitanya1317" userid="20849792"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="588010969" pageid="19819368" rcid="641051565"
+                revid="588010969" timestamp="2014-03-05T11:57:18Z"
+                title="Balkenkreuz" type="external" user="Chobot" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="589010359"
+                pageid="182998" rcid="641051564" revid="589010359"
+                timestamp="2014-03-05T11:57:18Z" title="Hail Mary"
+                type="external" user="Sjsws1078" userid="0"/>
+            <rc comment="" ns="0" old_revid="598243811"
+                pageid="32438889" rcid="641051540" revid="598244843"
+                timestamp="2014-03-05T11:57:18Z"
+                title="Atrophaneura horishana" type="edit"
+                user="Notafly" userid="457080"/>
+            <rc comment="+ 1." ns="0" old_revid="597662117"
+                pageid="2065121" rcid="641051539" revid="598244842"
+                timestamp="2014-03-05T11:57:17Z" title="Theo Bos"
+                type="edit" user="Cs-wolves" userid="513060"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="563603529" pageid="7883321" rcid="641051563"
+                revid="563603529" timestamp="2014-03-05T11:57:16Z"
+                title="Category:People from Beirut" type="external"
+                user="Dexbot" userid="0"/>
+            <rc
+                comment="[[User:Ohconfucius/script|Script]]-assisted fixes per [[WP:TIES]], [[MOS:NUM]], [[MOS:CAPS]], [[MOS:LINK]]"
+                ns="0" old_revid="596836552" pageid="34475"
+                rcid="641051538" revid="598244841"
+                timestamp="2014-03-05T11:57:16Z" title="ZX81"
+                type="edit" user="Ohconfucius" userid="736651"/>
+            <rc anon="" comment="/* Shrink-fitting */" ns="4"
+                old_revid="598225275" pageid="2535910" rcid="641051537"
+                revid="598244840" timestamp="2014-03-05T11:57:16Z"
+                title="Wikipedia:Reference desk/Science" type="edit"
+                user="143.210.123.80" userid="0"/>
+            <rc anon="" comment="/* Plot */" ns="0"
+                old_revid="598244791" pageid="2528738" rcid="641051536"
+                revid="598244839" timestamp="2014-03-05T11:57:16Z"
+                title="Tooth and Claw (Doctor Who)" type="edit"
+                user="66.235.60.14" userid="0"/>
+            <rc anon="" comment="/* General duties */" ns="0"
+                old_revid="598244700" pageid="15998477" rcid="641051535"
+                revid="598244838" timestamp="2014-03-05T11:57:15Z"
+                title="Assistant referee (association football)"
+                type="edit" user="31.221.113.242" userid="0"/>
+            <rc comment="" logaction="create" logid="55200419"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="641051534" revid="0"
+                timestamp="2014-03-05T11:57:15Z" title="User:Stu32carr"
+                type="log" user="Stu32carr" userid="20913383"/>
+            <rc
+                comment="Replace quotation marks per [[WP:PUNC]] and format ellipses per [[WP:ELLIPSIS]]"
+                minor="" ns="0" old_revid="598244170" pageid="21722527"
+                rcid="641051532" revid="598244836"
+                timestamp="2014-03-05T11:57:15Z" title="Shadism"
+                type="edit" user="Mandarax" userid="191757"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="573378116" pageid="13754734" rcid="641051562"
+                revid="573378116" timestamp="2014-03-05T11:57:13Z"
+                title="TurÃ³w, Gmina PÄ™cÅ‚aw" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon=""
+                comment="/* Terrorism vs. national liberation */" ns="0"
+                old_revid="598244247" pageid="186319" rcid="641051531"
+                revid="598244835" timestamp="2014-03-05T11:57:13Z"
+                title="Boricua Popular Army" type="edit"
+                user="166.147.120.156" userid="0"/>
+            <rc comment="" ns="14" old_revid="595125740"
+                pageid="41920047" rcid="641051530" revid="598244834"
+                timestamp="2014-03-05T11:57:12Z"
+                title="Category:Florida transportation stubs"
+                type="edit" user="Od Mishehu" userid="461626"/>
+            <rc comment="" logaction="create" logid="55200418"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="641051529" revid="0"
+                timestamp="2014-03-05T11:57:12Z" title="User:Nyahbishop"
+                type="log" user="Nyahbishop" userid="20913382"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="548450678" pageid="7127982" rcid="641051561"
+                revid="548450678" timestamp="2014-03-05T11:57:11Z"
+                title="Category:Angers SCO players" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" comment="" minor="" ns="10"
+                old_revid="546637672" pageid="10639604" rcid="641051560"
+                revid="546637672" timestamp="2014-03-05T11:57:11Z"
+                title="Template:Cities and towns in Hermagor (district)"
+                type="external" user="Cycn" userid="0"/>
+            <rc bot=""
+                comment="Signing comment by [[User:Pushkar.np|Pushkar.np]] - &quot;/* Mesut Ozil Update */ new section&quot;"
+                minor="" ns="3" old_revid="598244746" pageid="39829889"
+                rcid="641051528" revid="598244833"
+                timestamp="2014-03-05T11:57:11Z"
+                title="User talk:Qed237" type="edit" user="SineBot" userid="4936590"/>
+            <rc comment="TWP parameters" minor="" ns="1"
+                old_revid="587583033" pageid="41453223" rcid="641051527"
+                revid="598244832" timestamp="2014-03-05T11:57:11Z"
+                title="Talk:Sajinqiao Station" type="edit" user="Slambo" userid="107930"/>
+            <rc
+                comment="Reverted to revision 596671250 by [[Special:Contributions/24.135.50.156|24.135.50.156]] ([[User talk:24.135.50.156|talk]]): Reverted vandalism. ([[WP:TW|TW]])"
+                ns="0" old_revid="598041077" pageid="25919456"
+                rcid="641051526" revid="598244831"
+                timestamp="2014-03-05T11:57:11Z"
+                title="Consulate-General of Russia in New York City"
+                type="edit" user="Gene93k" userid="5014595"/>
+            <rc
+                comment="[[Help:Reverting|Reverted]] edits by [[Special:Contributions/122.183.191.85|122.183.191.85]] ([[User talk:122.183.191.85|talk]]) to last version by Seaphoto"
+                minor="" ns="0" old_revid="598215712" pageid="4234236"
+                rcid="641051525" revid="598244830"
+                timestamp="2014-03-05T11:57:10Z"
+                title="Raadhika Sarathkumar" type="edit" user="Kanags" userid="1225654"/>
+            <rc comment="" ns="10" old_revid="598244043"
+                pageid="41829091" rcid="641051524" revid="598244829"
+                timestamp="2014-03-05T11:57:09Z"
+                title="Template:New Zealand general election, 1975"
+                type="edit" user="Hugo999" userid="3006008"/>
+            <rc bot=""
+                comment="Robot: Fixing double redirect to [[AAA Gaming industry]]"
+                minor="" ns="2" old_revid="592873031" pageid="41773550"
+                rcid="641051523" revid="598244828"
+                timestamp="2014-03-05T11:57:09Z"
+                title="User:Thyrn/sandbox/AAA Gaming industry"
+                type="edit" user="Xqbot" userid="8066546"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="544549344" pageid="7143785" rcid="641051559"
+                revid="544549344" timestamp="2014-03-05T11:57:06Z"
+                title="Category:People from Burbank, California"
+                type="external" user="Dexbot" userid="0"/>
+            <rc bot=""
+                comment="Dating maintenance tags: {{Citation needed}}"
+                minor="" ns="0" old_revid="598236743" pageid="24325138"
+                rcid="641051522" revid="598244827"
+                timestamp="2014-03-05T11:57:06Z"
+                title="Flywheel energy storage" type="edit"
+                user="AnomieBOT" userid="7611264"/>
+            <rc anon="" comment="/* Seventh Pay Commission */" ns="0"
+                old_revid="598244705" pageid="6044849" rcid="641051521"
+                revid="598244826" timestamp="2014-03-05T11:57:06Z"
+                title="Pay Commission" type="edit" user="14.140.46.36" userid="0"/>
+            <rc comment="" ns="14" old_revid="593134688"
+                pageid="41790006" rcid="641051520" revid="598244825"
+                timestamp="2014-03-05T11:57:06Z"
+                title="Category:Arkansas transportation stubs"
+                type="edit" user="Od Mishehu" userid="461626"/>
+            <rc comment="" ns="0" old_revid="598231227"
+                pageid="38467241" rcid="641051519" revid="598244824"
+                timestamp="2014-03-05T11:57:06Z" title="Shakir Hamzah"
+                type="edit" user="LRD NO" userid="20640736"/>
+            <rc anon="" comment="Corrected use of brandname" ns="0"
+                old_revid="598244725" pageid="15958911" rcid="641051518"
+                revid="598244823" timestamp="2014-03-05T11:57:05Z"
+                title="7digital" type="edit" user="84.45.16.4" userid="0"/>
+            <rc
+                comment="added {{who}} tag to advising... unsure if it's the right tag"
+                ns="0" old_revid="582840205" pageid="907335"
+                rcid="641051517" revid="598244822"
+                timestamp="2014-03-05T11:57:05Z" title="Robin Hahnel"
+                type="edit" user="Chriswaterguy" userid="386359"/>
+            <rc comment="" logaction="create" logid="55200417"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="641051516" revid="0"
+                timestamp="2014-03-05T11:57:05Z" title="User:MaffeiOne"
+                type="log" user="MaffeiOne" userid="20913381"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="577415468"
+                pageid="36222561" rcid="641051558" revid="577415468"
+                timestamp="2014-03-05T11:57:04Z"
+                title="Rothschild's Violin" type="external"
+                user="Sergey kudryavtsev" userid="0"/>
+            <rc
+                comment="English usage and logic. A route can't contaminate a hand"
+                minor="" ns="0" old_revid="597923238" pageid="14579421"
+                rcid="641051515" revid="598244821"
+                timestamp="2014-03-05T11:57:04Z"
+                title="Introduction to viruses" type="edit"
+                user="Captainbeefart" userid="727376"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="554374025" pageid="13754723" rcid="641051557"
+                revid="554374025" timestamp="2014-03-05T11:57:03Z"
+                title="Mileszyn" type="external" user="Dexbot" userid="0"/>
+            <rc comment="Updated the group visits" minor="" ns="0"
+                old_revid="594686735" pageid="38029831" rcid="641051514"
+                revid="598244820" timestamp="2014-03-05T11:57:03Z"
+                title="CarWale" type="edit" user="Sumankumarpatra" userid="19281975"/>
+            <rc comment="submission review report//" ns="5"
+                old_revid="595092854" pageid="41785367" rcid="641051513"
+                revid="598244819" timestamp="2014-03-05T11:57:02Z"
+                title="Wikipedia talk:Articles for creation/R.M. Wade &amp; Co."
+                type="edit" user="Anupmehra" userid="14086742"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="588456150" pageid="5793769" rcid="641051556"
+                revid="588456150" timestamp="2014-03-05T11:57:01Z"
+                title="Category:People from Nuremberg" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" comment="" ns="0" old_revid="598244723"
+                pageid="13953065" rcid="641051512" revid="598244818"
+                timestamp="2014-03-05T11:57:01Z"
+                title="Makhdoom Ali Khan" type="edit"
+                user="175.110.248.60" userid="0"/>
+            <rc comment="" ns="10" old_revid="598243266"
+                pageid="42118348" rcid="641051511" revid="598244817"
+                timestamp="2014-03-05T11:57:01Z"
+                title="Template:Guardian Fiction Prize" type="edit"
+                user="Quenhitran" userid="19211694"/>
+            <rc comment="updating link" ns="0" old_revid="598240697"
+                pageid="4037847" rcid="641051510" revid="598244816"
+                timestamp="2014-03-05T11:57:01Z"
+                title="Franciscan St. Elizabeth Health" type="edit"
+                user="Huwmanbeing" userid="586015"/>
+            <rc comment="added commons tag" ns="0" old_revid="597995053"
+                pageid="8036501" rcid="641051509" revid="598244815"
+                timestamp="2014-03-05T11:57:01Z" title="FranÃ§ois Steyn"
+                type="edit" user="StAnselm" userid="4007668"/>
+            <rc comment="" logaction="create" logid="55200416"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="641051508" revid="0"
+                timestamp="2014-03-05T11:57:00Z"
+                title="User:NatÃ¡lia pinto" type="log"
+                user="NatÃ¡lia pinto" userid="20913380"/>
+            <rc bot=""
+                comment="Robot: Adding missing &lt;references /> tag"
+                minor="" ns="0" old_revid="598199410" pageid="12714412"
+                rcid="641051507" revid="598244814"
+                timestamp="2014-03-05T11:56:59Z"
+                title="Let's Be Us Again" type="edit" user="Xqbot" userid="8066546"/>
+            <rc
+                comment="/* Potential resources */ add Air Photographic and Charting Service c.1962"
+                ns="119" old_revid="598226700" pageid="42098243"
+                rcid="641051506" revid="598244813"
+                timestamp="2014-03-05T11:56:58Z"
+                title="Draft talk:Lookout Mountain Air Force Station"
+                type="edit" user="Makyen" userid="853204"/>
+            <rc comment="" ns="14" old_revid="593129158"
+                pageid="41789694" rcid="641051505" revid="598244812"
+                timestamp="2014-03-05T11:56:58Z"
+                title="Category:Alabama transportation stubs"
+                type="edit" user="Od Mishehu" userid="461626"/>
+            <rc anon="" comment="" minor="" ns="14"
+                old_revid="545876677" pageid="26322070" rcid="641051555"
+                revid="545876677" timestamp="2014-03-05T11:56:57Z"
+                title="Category:1814 treaties" type="external"
+                user="Zdtrlik" userid="0"/>
+            <rc comment="/* Filmography */" minor="" ns="0"
+                old_revid="598239091" pageid="9195868" rcid="641051504"
+                revid="598244811" timestamp="2014-03-05T11:56:57Z"
+                title="Orlando Bloom" type="edit"
+                user="DasallmÃ¤chtigeJ" userid="8926256"/>
+            <rc
+                comment="medicine and disease, added [[Placebo]] and [[Chronic obstructive pulmonary disease]] per talk page"
+                ns="4" old_revid="598242579" pageid="21259405"
+                rcid="641051503" revid="598244810"
+                timestamp="2014-03-05T11:56:57Z"
+                title="Wikipedia:Vital articles/Expanded/Biology and health sciences"
+                type="edit" user="Carlwev" userid="1884307"/>
+            <rc
+                comment="/* Philanthropy */ per edit request on talk page."
+                ns="0" old_revid="597305575" pageid="211518"
+                rcid="641051502" revid="598244808"
+                timestamp="2014-03-05T11:56:57Z" title="Warren Buffett"
+                type="edit" user="Technical 13" userid="14450599"/>
+            <rc comment="/* Career */" minor="" ns="0"
+                old_revid="598091948" pageid="42040348" rcid="641051501"
+                revid="598244809" timestamp="2014-03-05T11:56:57Z"
+                title="James Cahill (art historian)" type="edit"
+                user="Zanhe" userid="10400497"/>
+            <rc comment="" logaction="create" logid="55200414"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="641051500" revid="0"
+                timestamp="2014-03-05T11:56:57Z"
+                title="User:Going 2 ohio" type="log" user="Going 2 ohio" userid="20913379"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="549501691" pageid="6246351" rcid="641051554"
+                revid="549501691" timestamp="2014-03-05T11:56:56Z"
+                title="Category:People from Southampton" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="" ns="0" old_revid="598205125"
+                pageid="42116054" rcid="641051499" revid="598244807"
+                timestamp="2014-03-05T11:56:56Z"
+                title="Poliosia pulverea" type="edit"
+                user="Ruigeroeland" userid="1294969"/>
+            <rc
+                comment="Logging speedy deletion nomination of [[Koto Bhoot! Ki Adbhut!]]. ([[WP:TW|Twinkle Twinkle...]])"
+                ns="2" old_revid="598130935" pageid="37703247"
+                rcid="641051498" revid="598244806"
+                timestamp="2014-03-05T11:56:56Z"
+                title="User:Titodutta/CSD log" type="edit"
+                user="Titodutta" userid="14365232"/>
+            <rc anon="" comment="/* Filmography */" ns="0"
+                old_revid="598244652" pageid="14934572" rcid="641051497"
+                revid="598244805" timestamp="2014-03-05T11:56:55Z"
+                title="Parvathi (actress)" type="edit"
+                user="198.134.56.84" userid="0"/>
+            <rc comment="/* Response and investigation */" ns="0"
+                old_revid="598244732" pageid="41228406" rcid="641051496"
+                revid="598244804" timestamp="2014-03-05T11:56:55Z"
+                title="LAM Mozambique Airlines Flight 470" type="edit"
+                user="Joakim NÃ¤zell" userid="20913159"/>
+            <rc comment="Remove broken link" ns="0"
+                old_revid="598122697" pageid="1421049" rcid="641051495"
+                revid="598244803" timestamp="2014-03-05T11:56:55Z"
+                title="List of funiculars in Switzerland" type="edit"
+                user="Chris j wood" userid="82307"/>
+            <rc
+                comment="Notification: speedy deletion nomination of [[Koto Bhoot! Ki Adbhut!]]. ([[WP:TW|Twinkle Twinkle...]])"
+                ns="3" old_revid="598237723" pageid="42109523"
+                rcid="641051494" revid="598244802"
+                timestamp="2014-03-05T11:56:54Z"
+                title="User talk:Suman Sen 303" type="edit"
+                user="Titodutta" userid="14365232"/>
+            <rc anon="" comment="/* Compilations */" ns="0"
+                old_revid="595118760" pageid="1691144" rcid="641051493"
+                revid="598244801" timestamp="2014-03-05T11:56:54Z"
+                title="Eikichi Yazawa" type="edit"
+                user="2A01:E35:2EC4:C650:90EE:55FE:3829:4E8" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="554371354" pageid="13754710" rcid="641051553"
+                revid="554371354" timestamp="2014-03-05T11:56:53Z"
+                title="Kaczyce, Lower Silesian Voivodeship"
+                type="external" user="Dexbot" userid="0"/>
+            <rc comment="/* Plot */" ns="0" old_revid="598244300"
+                pageid="3634311" rcid="641051492" revid="598244800"
+                timestamp="2014-03-05T11:56:53Z"
+                title="United 93 (film)" type="edit"
+                user="Illegitimate Barrister" userid="12006778"/>
+            <rc comment="" ns="0" old_revid="598244768" pageid="2895117"
+                rcid="641051491" revid="598244799"
+                timestamp="2014-03-05T11:56:53Z" title="Gus Greenlee"
+                type="edit" user="Marketdiamond" userid="367195"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="544416045" pageid="5551085" rcid="641051552"
+                revid="544416045" timestamp="2014-03-05T11:56:51Z"
+                title="Category:People from Cambridge" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="/* History */ Linked chamber opera" minor=""
+                ns="0" old_revid="590979806" pageid="6561414"
+                rcid="641051489" revid="598244797"
+                timestamp="2014-03-05T11:56:51Z"
+                title="Holy Trinity Church, Warsaw" type="edit"
+                user="Escottf" userid="672371"/>
+            <rc anon="" comment="/* Elections */" ns="0"
+                old_revid="597731948" pageid="1336913" rcid="641051488"
+                revid="598244796" timestamp="2014-03-05T11:56:51Z"
+                title="Double dissolution" type="edit"
+                user="131.227.225.94" userid="0"/>
+            <rc anon="" comment="" minor="" ns="14"
+                old_revid="543187766" pageid="1005360" rcid="641051551"
+                revid="543187766" timestamp="2014-03-05T11:56:50Z"
+                title="Category:1941 births" type="external"
+                user="HombreDHojalata" userid="0"/>
+            <rc comment="" ns="0" old_revid="598244661" pageid="160327"
+                rcid="641051487" revid="598244795"
+                timestamp="2014-03-05T11:56:50Z"
+                title="John Smith's Brewery" type="edit" user="Farrtj" userid="1519408"/>
+            <rc anon="" comment="" ns="0" old_revid="597114435"
+                pageid="34611039" rcid="641051486" revid="598244794"
+                timestamp="2014-03-05T11:56:49Z"
+                title="Artemis Fowl: The Last Guardian" type="edit"
+                user="2.108.99.66" userid="0"/>
+            <rc comment="/* Wealthiest People in Ghana? */ find outs"
+                ns="1" old_revid="598240704" pageid="17238613"
+                rcid="641051485" revid="598244793"
+                timestamp="2014-03-05T11:56:49Z" title="Talk:Ghana"
+                type="edit" user="Enock4seth" userid="18130100"/>
+            <rc anon="" comment="" ns="0" old_revid="597882714"
+                pageid="39630201" rcid="641051484" revid="598244792"
+                timestamp="2014-03-05T11:56:49Z" title="Studio 10"
+                type="edit" user="120.147.113.111" userid="0"/>
+            <rc anon="" comment="/* Plot */" ns="0"
+                old_revid="593840365" pageid="2528738" rcid="641051483"
+                revid="598244791" timestamp="2014-03-05T11:56:48Z"
+                title="Tooth and Claw (Doctor Who)" type="edit"
+                user="66.235.60.14" userid="0"/>
+            <rc comment="" ns="0" old_revid="595265957"
+                pageid="39058787" rcid="641051481" revid="598244789"
+                timestamp="2014-03-05T11:56:47Z"
+                title="Far Cry 3: Blood Dragon" type="edit"
+                user="TheDeviantPro" userid="13023844"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="545814273" pageid="25740448" rcid="641051550"
+                revid="545814273" timestamp="2014-03-05T11:56:46Z"
+                title="Category:People from Chaozhou" type="external"
+                user="Dexbot" userid="0"/>
+            <rc bot=""
+                comment="Robot: Adding missing &lt;references /> tag"
+                minor="" ns="0" old_revid="598227161" pageid="42114582"
+                rcid="641051480" revid="598244788"
+                timestamp="2014-03-05T11:56:45Z" title="DCM Sir"
+                type="edit" user="Xqbot" userid="8066546"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="548319332" pageid="13754676" rcid="641051549"
+                revid="548319332" timestamp="2014-03-05T11:56:43Z"
+                title="Golkowice, Lower Silesian Voivodeship"
+                type="external" user="Dexbot" userid="0"/>
+            <rc comment="+concern" ns="0" old_revid="598244571"
+                pageid="2325066" rcid="641051479" revid="598244787"
+                timestamp="2014-03-05T11:56:43Z" title="Powder shading"
+                type="edit" user="Be..anyone" userid="14216063"/>
+            <rc comment="/* Aftermath */" ns="0" old_revid="598244747"
+                pageid="31974" rcid="641051478" revid="598244786"
+                timestamp="2014-03-05T11:56:43Z"
+                title="United Airlines Flight 175" type="edit"
+                user="Illegitimate Barrister" userid="12006778"/>
+            <rc anon="" comment="" ns="0" old_revid="598020071"
+                pageid="26161590" rcid="641051477" revid="598244785"
+                timestamp="2014-03-05T11:56:42Z" title="Train station"
+                type="edit" user="99.252.166.70" userid="0"/>
+            <rc comment="/* Audio &amp; Video Analytics */" ns="5"
+                old_revid="598244558" pageid="41829011" rcid="641051476"
+                revid="598244784" timestamp="2014-03-05T11:56:40Z"
+                title="Wikipedia talk:Articles for creation/Comparison of enterprise search softwares"
+                type="edit" user="Pakec" userid="12110939"/>
+            <rc
+                comment="Reverted 1 [[WP:AGF|good faith]] edit by [[Special:Contributions/99.167.197.140|99.167.197.140]] using [[WP:STiki|STiki]]"
+                ns="0" old_revid="598215197" pageid="643649"
+                rcid="641051475" revid="598244783"
+                timestamp="2014-03-05T11:56:40Z"
+                title="List of most watched television broadcasts"
+                type="edit" user="Flyer22" userid="4293477"/>
+            <rc anon="" comment="/* Designer Progress */" ns="0"
+                old_revid="598244627" pageid="40019790" rcid="641051474"
+                revid="598244782" timestamp="2014-03-05T11:56:39Z"
+                title="Project Runway (season 12)" type="edit"
+                user="85.245.5.231" userid="0"/>
+            <rc comment="/* History */" ns="0" old_revid="598233199"
+                pageid="828687" rcid="641051454" revid="598244781"
+                timestamp="2014-03-05T11:56:37Z" title="Linfield F.C."
+                type="edit" user="Reddev87" userid="9073226"/>
+            <rc
+                comment="/* History */ indent and reformat long quotation; no need to include all the hesitations and false starts"
+                ns="0" old_revid="593141410" pageid="26682631"
+                rcid="641051453" revid="598244780"
+                timestamp="2014-03-05T11:56:37Z"
+                title="Silver Springs (song)" type="edit"
+                user="Psychonaut" userid="28478"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="544479208" pageid="6129341" rcid="641051473"
+                revid="544479208" timestamp="2014-03-05T11:56:36Z"
+                title="Category:People from Chennai" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="" logaction="create" logid="55200411"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="641051452" revid="0"
+                timestamp="2014-03-05T11:56:36Z"
+                title="User:TacoFlavouredKissed" type="log"
+                user="TacoFlavouredKissed" userid="20913376"/>
+            <rc comment="New Logo" ns="0" old_revid="598217394"
+                pageid="34249717" rcid="641051451" revid="598244779"
+                timestamp="2014-03-05T11:56:36Z" title="Oprah Prime"
+                type="edit" user="WillowFeldman" userid="16185665"/>
+            <rc comment="" ns="0" old_revid="598244710"
+                pageid="41327174" rcid="641051450" revid="598244778"
+                timestamp="2014-03-05T11:56:36Z" title="Dildar Ali Khan"
+                type="edit" user="Dildarswat" userid="20250662"/>
+            <rc
+                comment="Moved text to conservation. No need for separate heading"
+                ns="0" old_revid="597507335" pageid="145590"
+                rcid="641051449" revid="598244777"
+                timestamp="2014-03-05T11:56:36Z" title="River Wensum"
+                type="edit" user="Northmetpit" userid="2531307"/>
+            <rc comment="/* When Opportunity Knocks... */" minor=""
+                ns="0" old_revid="532170095" pageid="13419367"
+                rcid="641051448" revid="598244776"
+                timestamp="2014-03-05T11:56:34Z"
+                title="Suzanne Clarke McDonough" type="edit"
+                user="Whtsny" userid="15607134"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="591867529"
+                pageid="29303919" rcid="641051472" revid="591867529"
+                timestamp="2014-03-05T11:56:33Z"
+                title="1972 Grand Prix (tennis)" type="external"
+                user="Kxont" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="569372005" pageid="13754645" rcid="641051471"
+                revid="569372005" timestamp="2014-03-05T11:56:33Z"
+                title="BorkÃ³w, Lower Silesian Voivodeship"
+                type="external" user="Dexbot" userid="0"/>
+            <rc comment="" ns="0" old_revid="598243909"
+                pageid="42118382" rcid="641051447" revid="598244775"
+                timestamp="2014-03-05T11:56:32Z" title="T-46 (Tank)"
+                type="edit" user="Maxfiveland" userid="12528207"/>
+            <rc comment="/* Cranial nerve ready for GA review? */"
+                ns="5" old_revid="598188561" pageid="1918254"
+                rcid="641051446" revid="598244774"
+                timestamp="2014-03-05T11:56:32Z"
+                title="Wikipedia talk:WikiProject Anatomy" type="edit"
+                user="CFCF" userid="2387886"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="551312208" pageid="34175018" rcid="641051470"
+                revid="551312208" timestamp="2014-03-05T11:56:31Z"
+                title="Category:People from Kyoto" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="589010359"
+                pageid="182998" rcid="641051469" revid="589010359"
+                timestamp="2014-03-05T11:56:31Z" title="Hail Mary"
+                type="external" user="Sjsws1078" userid="0"/>
+            <rc bot=""
+                comment="Report created in [[Wikipedia:WikiProject_Spam/LinkReports/obispadodesanrafael.org.ar|obispadodesanrafael.org.ar]] - XWiki link additions by 151.84.121.237  - T: 0; X: 0; L: 0; R: 0; IP: 0; P: 0; M: 0; R: 0"
+                ns="4" old_revid="598244589" pageid="16927404"
+                rcid="641051445" revid="598244773"
+                timestamp="2014-03-05T11:56:31Z"
+                title="Wikipedia:WikiProject Spam/LinkReports"
+                type="edit" user="COIBot" userid="4048622"/>
+            <rc anon="" comment="" minor="" ns="14"
+                old_revid="545864074" pageid="26300427" rcid="641051468"
+                revid="545864074" timestamp="2014-03-05T11:56:30Z"
+                title="Category:1979 treaties" type="external"
+                user="Zdtrlik" userid="0"/>
+            <rc anon="" comment="" ns="0" old_revid="596193019"
+                pageid="657938" rcid="641051444" revid="598244772"
+                timestamp="2014-03-05T11:56:30Z" title="Viperidae"
+                type="edit" user="202.128.253.140" userid="0"/>
+            <rc anon="" comment="" ns="0" old_revid="598203086"
+                pageid="32374" rcid="641051443" revid="598244771"
+                timestamp="2014-03-05T11:56:29Z" title="Venezuela"
+                type="edit" user="112.206.52.135" userid="0"/>
+            <rc comment="" ns="0" old_revid="596914787" pageid="2729003"
+                rcid="641051442" revid="598244770"
+                timestamp="2014-03-05T11:56:29Z" title="Tic-Tac-Dough"
+                type="edit" user="ChrisP2K5" userid="279425"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="544782151" pageid="10944234" rcid="641051467"
+                revid="544782151" timestamp="2014-03-05T11:56:26Z"
+                title="Category:Amiens SC players" type="external"
+                user="Dexbot" userid="0"/>
+            <rc
+                comment="/* Early Life */ deleted original research; source cited does not mention Messalina"
+                ns="0" old_revid="598205984" pageid="59711"
+                rcid="641051441" revid="598244769"
+                timestamp="2014-03-05T11:56:25Z" title="Messalina"
+                type="edit" user="Mzilikazi1939" userid="11338326"/>
+            <rc comment="" ns="0" old_revid="598244729" pageid="2895117"
+                rcid="641051440" revid="598244768"
+                timestamp="2014-03-05T11:56:25Z" title="Gus Greenlee"
+                type="edit" user="Marketdiamond" userid="367195"/>
+            <rc comment="" ns="2" old_revid="598244402"
+                pageid="42118483" rcid="641051439" revid="598244767"
+                timestamp="2014-03-05T11:56:25Z"
+                title="User:Melanie bbqo/Books/Science" type="edit"
+                user="Melanie bbqo" userid="20913224"/>
+            <rc bot=""
+                comment="Robot: Fixing double redirect to [[Internet Regulation In Turkey]]"
+                minor="" ns="2" old_revid="598045609" pageid="42105123"
+                rcid="641051438" revid="598244766"
+                timestamp="2014-03-05T11:56:24Z"
+                title="User:Malikepolat/sandbox" type="edit"
+                user="Xqbot" userid="8066546"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="548438422" pageid="13754628" rcid="641051466"
+                revid="548438422" timestamp="2014-03-05T11:56:23Z"
+                title="Wojszyn, Lower Silesian Voivodeship"
+                type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="589476105" pageid="8050730" rcid="641051465"
+                revid="589476105" timestamp="2014-03-05T11:56:21Z"
+                title="Category:People from St. Louis, Missouri"
+                type="external" user="Dexbot" userid="0"/>
+            <rc comment="" logaction="create" logid="55200410"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="641051437" revid="0"
+                timestamp="2014-03-05T11:56:21Z" title="User:Ttubtac"
+                type="log" user="Ttubtac" userid="20913375"/>
+            <rc
+                comment="/* Second WIKISOO class starts soon! */ hi from fellow classmate"
+                ns="3" old_revid="598168395" pageid="36322869"
+                rcid="641051436" revid="598244765"
+                timestamp="2014-03-05T11:56:20Z"
+                title="User talk:EbbaOssiannilsson" type="edit"
+                user="Litjade" userid="12207655"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="501896178" pageid="36351620" rcid="641051464"
+                revid="501896178" timestamp="2014-03-05T11:56:19Z"
+                title="Megasemum asperum" type="external"
+                user="ReimannBot" userid="0"/>
+            <rc comment="Usage 12-13" ns="0" old_revid="584844393"
+                pageid="1683880" rcid="641051435" revid="598244764"
+                timestamp="2014-03-05T11:56:19Z"
+                title="North Sheen railway station" type="edit"
+                user="Likelife" userid="6455259"/>
+            <rc bot=""
+                comment="Report for obispadodesanrafael.org.ar (XWiki spam by 151.84.121.237 )"
+                new="" ns="4" old_revid="0" pageid="42118512"
+                rcid="641051434" revid="598244763"
+                timestamp="2014-03-05T11:56:19Z"
+                title="Wikipedia:WikiProject Spam/LinkReports/obispadodesanrafael.org.ar"
+                type="new" user="COIBot" userid="4048622"/>
+            <rc anon="" comment="" ns="3" old_revid="598154101"
+                pageid="3455294" rcid="641051433" revid="598244762"
+                timestamp="2014-03-05T11:56:19Z"
+                title="User talk:Derek R Bullamore" type="edit"
+                user="2.29.146.27" userid="0"/>
+            <rc comment="/* Course area's and course */" ns="0"
+                old_revid="598244352" pageid="27476755" rcid="641051432"
+                revid="598244761" timestamp="2014-03-05T11:56:19Z"
+                title="Sailing at the 1972 Summer Olympics â€“ Soling"
+                type="edit" user="NED33" userid="10018142"/>
+            <rc
+                comment="Declining submission: subject appears to be a non-notable person ([[WP:AFCH|AFCH]])"
+                ns="5" old_revid="596744695" pageid="42022822"
+                rcid="641051431" revid="598244760"
+                timestamp="2014-03-05T11:56:18Z"
+                title="Wikipedia talk:Articles for creation/Miriam Isa"
+                type="edit" user="Samwalton9" userid="15991542"/>
+            <rc
+                comment="Your submission at [[Wikipedia:Articles for creation|Articles for creation]]; adding invitation to the [[Wikipedia:Teahouse|Teahouse]]! ([[WP:AFCH|AFCH]])"
+                ns="3" old_revid="596851619" pageid="42029534"
+                rcid="641051430" revid="598244759"
+                timestamp="2014-03-05T11:56:18Z"
+                title="User talk:Moralinda82" type="edit"
+                user="Samwalton9" userid="15991542"/>
+            <rc comment="/* Hitchcock Casting Project */" ns="2"
+                old_revid="598244641" pageid="41976966" rcid="641051429"
+                revid="598244758" timestamp="2014-03-05T11:56:17Z"
+                title="User:Janetvandenbrand/sandbox" type="edit"
+                user="Janetvandenbrand" userid="20807271"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="571427143" pageid="6246122" rcid="641051463"
+                revid="571427143" timestamp="2014-03-05T11:56:16Z"
+                title="Category:People from Sheffield" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="" ns="5" old_revid="598244274"
+                pageid="41701946" rcid="641051428" revid="598244757"
+                timestamp="2014-03-05T11:56:16Z"
+                title="Wikipedia talk:Articles for creation/Florence Trevelyan Trevelyan"
+                type="edit" user="Gardengirl14" userid="20554390"/>
+            <rc comment="upd" minor="" ns="0" old_revid="598244698"
+                pageid="42099869" rcid="641051427" revid="598244756"
+                timestamp="2014-03-05T11:56:15Z"
+                title="Spirovo, Spirovsky District, Tver Oblast"
+                type="edit" user="Ymblanter" userid="14596827"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="598155882" pageid="56324" rcid="641051462"
+                revid="598155882" timestamp="2014-03-05T11:56:14Z"
+                title="Khat" type="external" user="SuccuBot" userid="0"/>
+            <rc anon="" comment="/* Current squad */" ns="0"
+                old_revid="598244715" pageid="830728" rcid="641051426"
+                revid="598244755" timestamp="2014-03-05T11:56:14Z"
+                title="FC Gomel" type="edit" user="109.93.89.87" userid="0"/>
+            <rc comment="fix" minor="" ns="0" old_revid="598244462"
+                pageid="42118490" rcid="641051425" revid="598244754"
+                timestamp="2014-03-05T11:56:14Z"
+                title="Sons of the Sea (album)" type="edit" user="Karst" userid="145620"/>
+            <rc anon=""
+                comment="/* Recent results and forthcoming fixtures */ upd"
+                ns="0" old_revid="598234575" pageid="362466"
+                rcid="641051424" revid="598244753"
+                timestamp="2014-03-05T11:56:14Z"
+                title="Italy national football team" type="edit"
+                user="195.191.109.191" userid="0"/>
+            <rc comment="/* March 2014 */ new section" new="" ns="3"
+                old_revid="0" pageid="42118511" rcid="641051423"
+                revid="598244752" timestamp="2014-03-05T11:56:14Z"
+                title="User talk:188.48.35.170" type="new"
+                user="GiantSnowman" userid="1005449"/>
+            <rc
+                comment="[[WP:AES|â†�]]Created page with '{{subst:AFC submission/draftnew}} &lt;!--- Important, do not remove this line before article has been created. ---> '''How should recycling be encouraged in develop...'"
+                new="" ns="5" old_revid="0" pageid="42118510"
+                rcid="641051422" revid="598244751"
+                timestamp="2014-03-05T11:56:13Z"
+                title="Wikipedia talk:Articles for creation/How should recycling be encouraged in diveloping countries"
+                type="new" user="Bjdealwis" userid="20908000"/>
+            <rc comment="" ns="0" old_revid="586159953"
+                pageid="26069307" rcid="641051421" revid="598244750"
+                timestamp="2014-03-05T11:56:13Z"
+                title="Shaan filmography" type="edit"
+                user="Samshersinghbeniyaaz" userid="20878624"/>
+            <rc comment="" logaction="create" logid="55200407"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="641051420" revid="0"
+                timestamp="2014-03-05T11:56:13Z"
+                title="User:Hamdi hamdushi" type="log"
+                user="Hamdi hamdushi" userid="20913374"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="546293463" pageid="13754612" rcid="641051461"
+                revid="546293463" timestamp="2014-03-05T11:56:12Z"
+                title="Wietszyce" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="544734441" pageid="10137843" rcid="641051460"
+                revid="544734441" timestamp="2014-03-05T11:56:11Z"
+                title="Category:People from Cremona" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="539437192"
+                pageid="28809869" rcid="641051459" revid="539437192"
+                timestamp="2014-03-05T11:56:10Z" title="KjÃ¸len i Lesja"
+                type="external" user="Geanixx" userid="0"/>
+            <rc anon="" comment="" ns="0" old_revid="598244629"
+                pageid="25253895" rcid="641051419" revid="598244749"
+                timestamp="2014-03-05T11:56:07Z"
+                title="Artemis Fowl: The Atlantis Complex" type="edit"
+                user="2.108.99.66" userid="0"/>
+            <rc
+                comment="General note: Adding unreferenced controversial information about living persons on [[Walter Raleigh]]. ([[WP:TW|TW]])"
+                new="" ns="3" old_revid="0" pageid="42118509"
+                rcid="641051418" revid="598244748"
+                timestamp="2014-03-05T11:56:07Z"
+                title="User talk:110.20.115.250" type="new" user="K6ka" userid="11801436"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="546275043" pageid="34173193" rcid="641051458"
+                revid="546275043" timestamp="2014-03-05T11:56:06Z"
+                title="Category:People from Genoa" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="/* Nationalities of people on the plane */"
+                ns="0" old_revid="598244712" pageid="31974"
+                rcid="641051417" revid="598244747"
+                timestamp="2014-03-05T11:56:06Z"
+                title="United Airlines Flight 175" type="edit"
+                user="Illegitimate Barrister" userid="12006778"/>
+            <rc comment="/* Mesut Ozil Update */ new section" ns="3"
+                old_revid="598168714" pageid="39829889" rcid="641051416"
+                revid="598244746" timestamp="2014-03-05T11:56:05Z"
+                title="User talk:Qed237" type="edit" user="Pushkar.np" userid="5422853"/>
+            <rc anon="" comment="/* World War I */ Link" ns="0"
+                old_revid="598244640" pageid="9998177" rcid="641051415"
+                revid="598244745" timestamp="2014-03-05T11:56:05Z"
+                title="Rafael de Nogales MÃ©ndez" type="edit"
+                user="212.174.190.23" userid="0"/>
+            <rc comment="" ns="0" old_revid="575738168" pageid="3861537"
+                rcid="641051414" revid="598244744"
+                timestamp="2014-03-05T11:56:05Z"
+                title="Virgin Stripped Bare by Her Bachelors"
+                type="edit" user="Sunuraju" userid="11362766"/>
+            <rc comment="/* Life and career */ add links" ns="0"
+                old_revid="598244471" pageid="42118291" rcid="641051413"
+                revid="598244743" timestamp="2014-03-05T11:56:05Z"
+                title="Tessa Prendergast" type="edit" user="Tomseattle" userid="14107395"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="491694172" pageid="28309037" rcid="641051457"
+                revid="491694172" timestamp="2014-03-05T11:56:03Z"
+                title="Moraea collina" type="external" user="SuccuBot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="545000546" pageid="13754594" rcid="641051456"
+                revid="545000546" timestamp="2014-03-05T11:56:03Z"
+                title="Wierzchownia, Lower Silesian Voivodeship"
+                type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="570901633" pageid="5563640" rcid="641051455"
+                revid="570901633" timestamp="2014-03-05T11:56:01Z"
+                title="Category:People from St. Petersburg, Florida"
+                type="external" user="Dexbot" userid="0"/>
+            <rc comment="" ns="4" old_revid="592524264" pageid="351628"
+                rcid="641051412" revid="598244742"
+                timestamp="2014-03-05T11:56:01Z"
+                title="Wikipedia:WikiProject Computing" type="edit"
+                user="Teknoloji29" userid="20913242"/>
+            <rc comment="" ns="0" old_revid="597759428"
+                pageid="42052578" rcid="641051394" revid="598244741"
+                timestamp="2014-03-05T11:55:59Z"
+                title="Makhanlal Chaturvedi National University of Journalism and Communication"
+                type="edit" user="Chowdhary747" userid="20863442"/>
+            <rc anon="" comment="/* Filmography */" ns="0"
+                old_revid="595526857" pageid="39106170" rcid="641051393"
+                revid="598244740" timestamp="2014-03-05T11:55:59Z"
+                title="Aritra Dutta Banik" type="edit"
+                user="203.99.211.19" userid="0"/>
+            <rc anon="" comment="" ns="2" old_revid="598070126"
+                pageid="42098201" rcid="641051392" revid="598244739"
+                timestamp="2014-03-05T11:55:57Z"
+                title="User:Kieferceltic" type="edit"
+                user="78.148.24.75" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="557814562" pageid="8693148" rcid="641051411"
+                revid="557814562" timestamp="2014-03-05T11:55:56Z"
+                title="Category:People from Seville" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="" minor="" ns="10" old_revid="598244387"
+                pageid="41829260" rcid="641051391" revid="598244738"
+                timestamp="2014-03-05T11:55:56Z"
+                title="Template:New Zealand general election, 1978"
+                type="edit" user="Hugo999" userid="3006008"/>
+            <rc anon="" comment="" ns="0" old_revid="597734557"
+                pageid="26970" rcid="641051390" revid="598244737"
+                timestamp="2014-03-05T11:55:56Z" title="Å koda Auto"
+                type="edit" user="109.104.24.9" userid="0"/>
+            <rc
+                comment="Reverted 2 edits by [[Special:Contributions/110.20.115.250|110.20.115.250]] ([[User talk:110.20.115.250|talk]]): Unsourced. ([[WP:TW|TW]])"
+                ns="0" old_revid="598241061" pageid="33703"
+                rcid="641051389" revid="598244736"
+                timestamp="2014-03-05T11:55:55Z" title="Walter Raleigh"
+                type="edit" user="K6ka" userid="11801436"/>
+            <rc comment="" ns="2" old_revid="598244425"
+                pageid="38811666" rcid="641051388" revid="598244735"
+                timestamp="2014-03-05T11:55:55Z"
+                title="User:Patkoscsaba/sandbox" type="edit"
+                user="Patkoscsaba" userid="7071357"/>
+            <rc bot=""
+                comment="Robot: Fixing double redirect to [[Gerson GuimarÃ£es]]"
+                minor="" ns="0" old_revid="596419543" pageid="34713427"
+                rcid="641051387" revid="598244734"
+                timestamp="2014-03-05T11:55:55Z"
+                title="Gerson Guimaraes Junior" type="edit"
+                user="AvicBot" userid="11952314"/>
+            <rc comment="/* Notable residents */" ns="0"
+                old_revid="592582848" pageid="127323" rcid="641051386"
+                revid="598244733" timestamp="2014-03-05T11:55:54Z"
+                title="Medford, New York" type="edit" user="WilliamJE" userid="937448"/>
+            <rc comment="/* Response and investigation */" ns="0"
+                old_revid="598244611" pageid="41228406" rcid="641051385"
+                revid="598244732" timestamp="2014-03-05T11:55:54Z"
+                title="LAM Mozambique Airlines Flight 470" type="edit"
+                user="Joakim NÃ¤zell" userid="20913159"/>
+            <rc comment="/* Cmts moved from user talk page */ format"
+                ns="1" old_revid="598244650" pageid="2662862"
+                rcid="641051384" revid="598244731"
+                timestamp="2014-03-05T11:55:54Z"
+                title="Talk:Battle of Long Tan" type="edit"
+                user="Anotherclown" userid="8567476"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="545000530" pageid="13754581" rcid="641051410"
+                revid="545000530" timestamp="2014-03-05T11:55:53Z"
+                title="Piersna" type="external" user="Dexbot" userid="0"/>
+            <rc comment="/* Writing and composition */ [[WP:OVERLINK]]"
+                minor="" ns="0" old_revid="598244669" pageid="41732738"
+                rcid="641051383" revid="598244730"
+                timestamp="2014-03-05T11:55:53Z"
+                title="Invisible (U2 song)" type="edit" user="Lopifalko" userid="11116033"/>
+            <rc comment="/* Sources */" ns="0" old_revid="562238532"
+                pageid="2895117" rcid="641051382" revid="598244729"
+                timestamp="2014-03-05T11:55:52Z" title="Gus Greenlee"
+                type="edit" user="Marketdiamond" userid="367195"/>
+            <rc comment="" ns="0" old_revid="598243839"
+                pageid="19640501" rcid="641051381" revid="598244728"
+                timestamp="2014-03-05T11:55:52Z" title="Poliosia"
+                type="edit" user="Ruigeroeland" userid="1294969"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="546074824" pageid="30204096" rcid="641051409"
+                revid="546074824" timestamp="2014-03-05T11:55:51Z"
+                title="Category:People from Ayeyarwady Region"
+                type="external" user="Dexbot" userid="0"/>
+            <rc comment="" logaction="create" logid="55200406"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="641051380" revid="0"
+                timestamp="2014-03-05T11:55:51Z" title="User:Mtt.zorzan"
+                type="log" user="Mtt.zorzan" userid="20913373"/>
+            <rc bot=""
+                comment="Robot: Fixing double redirect to [[User talk:Bjenks/Archive4]]"
+                minor="" ns="2" old_revid="598238288" pageid="42118101"
+                rcid="641051379" revid="598244727"
+                timestamp="2014-03-05T11:55:51Z"
+                title="User:Bjenks/Archive4" type="edit" user="Xqbot" userid="8066546"/>
+            <rc anon=""
+                comment="corrected syntax (latex) errors that prevented display of formulas"
+                ns="0" old_revid="583503404" pageid="28304158"
+                rcid="641051378" revid="598244726"
+                timestamp="2014-03-05T11:55:51Z"
+                title="Fourier amplitude sensitivity testing"
+                type="edit" user="156.18.44.28" userid="0"/>
+            <rc anon="" comment="Updated corporate URLs" ns="0"
+                old_revid="596919974" pageid="15958911" rcid="641051377"
+                revid="598244725" timestamp="2014-03-05T11:55:51Z"
+                title="7digital" type="edit" user="84.45.16.4" userid="0"/>
+            <rc
+                comment="Fix [[Help:CS1_errors#deprecated_params|CS1 deprecated coauthor parameter errors]] using [[Project:AWB|AWB]]"
+                minor="" ns="0" old_revid="597860329" pageid="9535016"
+                rcid="641051376" revid="598244724"
+                timestamp="2014-03-05T11:55:50Z"
+                title="Acinetobacter baumannii" type="edit"
+                user="Trappist the monk" userid="10289486"/>
+            <rc anon="" comment="" ns="0" old_revid="598244678"
+                pageid="13953065" rcid="641051375" revid="598244723"
+                timestamp="2014-03-05T11:55:49Z"
+                title="Makhdoom Ali Khan" type="edit"
+                user="175.110.248.60" userid="0"/>
+            <rc anon="" comment="" ns="0" old_revid="598226752"
+                pageid="14141235" rcid="641051374" revid="598244722"
+                timestamp="2014-03-05T11:55:48Z" title="12 (2007 film)"
+                type="edit" user="123.243.242.213" userid="0"/>
+            <rc anon="" comment="/* Reception */" ns="0"
+                old_revid="598241251" pageid="33930403" rcid="641051373"
+                revid="598244721" timestamp="2014-03-05T11:55:48Z"
+                title="South Park: The Stick of Truth" type="edit"
+                user="182.239.148.144" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="589010359"
+                pageid="182998" rcid="641051408" revid="589010359"
+                timestamp="2014-03-05T11:55:47Z" title="Hail Mary"
+                type="external" user="Sjsws1078" userid="0"/>
+            <rc anon="" comment="/* Box office */" ns="0"
+                old_revid="589597740" pageid="611432" rcid="641051372"
+                revid="598244720" timestamp="2014-03-05T11:55:47Z"
+                title="Yodha" type="edit" user="61.95.179.194" userid="0"/>
+            <rc
+                comment="[[Help:Reverting|Reverted]] edits by [[Special:Contributions/188.48.35.170|188.48.35.170]] ([[User talk:188.48.35.170|talk]]) to last version by Philippe (WMF)"
+                minor="" ns="4" old_revid="598243647" pageid="6768170"
+                rcid="641051371" revid="598244719"
+                timestamp="2014-03-05T11:55:47Z"
+                title="Wikipedia:Biographies of living persons/Noticeboard"
+                type="edit" user="GiantSnowman" userid="1005449"/>
+            <rc anon="" comment="" minor="" ns="14"
+                old_revid="545855934" pageid="26303384" rcid="641051407"
+                revid="545855934" timestamp="2014-03-05T11:55:46Z"
+                title="Category:1969 treaties" type="external"
+                user="Zdtrlik" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="545601397" pageid="21968055" rcid="641051406"
+                revid="545601397" timestamp="2014-03-05T11:55:46Z"
+                title="Category:People from Ningxia" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="" ns="1" old_revid="598077036"
+                pageid="42107124" rcid="641051370" revid="598244718"
+                timestamp="2014-03-05T11:55:46Z" title="Talk:Moy House"
+                type="edit" user="The Banner" userid="8144267"/>
+            <rc comment="/* Seeds */" ns="0" old_revid="598244302"
+                pageid="41603433" rcid="641051369" revid="598244717"
+                timestamp="2014-03-05T11:55:46Z"
+                title="2014 BNP Paribas Open" type="edit"
+                user="Yimingbao" userid="9128333"/>
+            <rc bot=""
+                comment="Robot: Fixing double redirect to [[Gerson GuimarÃ£es]]"
+                minor="" ns="0" old_revid="596411895" pageid="42002526"
+                rcid="641051368" revid="598244716"
+                timestamp="2014-03-05T11:55:45Z"
+                title="Gerson GuimarÃ£es Junior" type="edit"
+                user="AvicBot" userid="11952314"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="573323656" pageid="13754562" rcid="641051405"
+                revid="573323656" timestamp="2014-03-05T11:55:43Z"
+                title="PÄ™cÅ‚aw, Lower Silesian Voivodeship"
+                type="external" user="Dexbot" userid="0"/>
+            <rc anon="" comment="/* Current squad */" ns="0"
+                old_revid="598244468" pageid="830728" rcid="641051367"
+                revid="598244715" timestamp="2014-03-05T11:55:43Z"
+                title="FC Gomel" type="edit" user="109.93.89.87" userid="0"/>
+            <rc comment="" ns="3" old_revid="595017467"
+                pageid="41521039" rcid="641051366" revid="598244714"
+                timestamp="2014-03-05T11:55:43Z"
+                title="User talk:94.173.47.23" type="edit"
+                user="SchroCat" userid="14419815"/>
+            <rc comment="/* Cranial nerve GA review */ new section"
+                ns="5" old_revid="598205196" pageid="21093109"
+                rcid="641051365" revid="598244713"
+                timestamp="2014-03-05T11:55:42Z"
+                title="Wikipedia talk:WikiProject Medicine" type="edit"
+                user="CFCF" userid="2387886"/>
+            <rc comment="/* Nationalities of people on the plane */"
+                ns="0" old_revid="598244684" pageid="31974"
+                rcid="641051364" revid="598244712"
+                timestamp="2014-03-05T11:55:42Z"
+                title="United Airlines Flight 175" type="edit"
+                user="Illegitimate Barrister" userid="12006778"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="544868478" pageid="12329878" rcid="641051404"
+                revid="544868478" timestamp="2014-03-05T11:55:41Z"
+                title="Category:People from Xinjiang" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="fix link" ns="0" old_revid="598244667"
+                pageid="41328992" rcid="641051363" revid="598244711"
+                timestamp="2014-03-05T11:55:41Z" title="Tintignac"
+                type="edit" user="Chienlit" userid="3132789"/>
+            <rc comment="" ns="0" old_revid="598244622"
+                pageid="41327174" rcid="641051362" revid="598244710"
+                timestamp="2014-03-05T11:55:40Z" title="Dildar Ali Khan"
+                type="edit" user="Dildarswat" userid="20250662"/>
+            <rc anon="" comment="/* Club */" ns="0"
+                old_revid="597899305" pageid="4901752" rcid="641051361"
+                revid="598244709" timestamp="2014-03-05T11:55:39Z"
+                title="Mirko VuÄ�iniÄ‡" type="edit"
+                user="213.123.215.250" userid="0"/>
+            <rc comment="/* References */ Add reference" ns="0"
+                old_revid="598244465" pageid="145569" rcid="641051360"
+                revid="598244708" timestamp="2014-03-05T11:55:38Z"
+                title="Kenya Airways" type="edit" user="Jetstreamer" userid="1902526"/>
+            <rc comment="Welcome to Wikipedia! ([[WP:TW|TW]])" new=""
+                ns="3" old_revid="0" pageid="42118508" rcid="641051359"
+                revid="598244707" timestamp="2014-03-05T11:55:38Z"
+                title="User talk:20130603hej" type="new"
+                user="The Bushranger" userid="7291611"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="594892974"
+                pageid="39710014" rcid="641051403" revid="594892974"
+                timestamp="2014-03-05T11:55:37Z"
+                title="Biophytum sensitivum" type="external"
+                user="MILEPRI" userid="0"/>
+            <rc
+                comment="Undid revision 598093590 by [[Special:Contributions/112.207.38.97|112.207.38.97]] ([[User talk:112.207.38.97|talk]]) Not part of the name"
+                ns="0" old_revid="598120385" pageid="184334"
+                rcid="641051358" revid="598244706"
+                timestamp="2014-03-05T11:55:37Z" title="Manila"
+                type="edit" user="Chipmunkdavis" userid="11015197"/>
+            <rc anon="" comment="/* Controversy */" ns="0"
+                old_revid="598009382" pageid="6044849" rcid="641051357"
+                revid="598244705" timestamp="2014-03-05T11:55:37Z"
+                title="Pay Commission" type="edit" user="14.140.46.36" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="544466717" pageid="5994849" rcid="641051402"
+                revid="544466717" timestamp="2014-03-05T11:55:36Z"
+                title="Category:People from Guangxi" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="" logaction="create" logid="55200401"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="641051356" revid="0"
+                timestamp="2014-03-05T11:55:36Z" title="User:Sanya.G"
+                type="log" user="Sanya.G" userid="20913369"/>
+            <rc
+                comment="/* Early modernism */Typo fixing, replaced: pursing â†’ pursuing using [[Project:AWB|AWB]]"
+                minor="" ns="0" old_revid="594646164" pageid="37880788"
+                rcid="641051355" revid="598244704"
+                timestamp="2014-03-05T11:55:36Z"
+                title="Architecture in modern Scotland" type="edit"
+                user="John of Reading" userid="11308236"/>
+            <rc comment="/* Languages */ table align left" ns="0"
+                old_revid="598244671" pageid="6987696" rcid="641051354"
+                revid="598244703" timestamp="2014-03-05T11:55:35Z"
+                title="Medzev" type="edit" user="Agentxp22" userid="16013091"/>
+            <rc anon="" comment="" ns="0" old_revid="594827148"
+                pageid="1788428" rcid="641051353" revid="598244702"
+                timestamp="2014-03-05T11:55:34Z"
+                title="Indiana Jones and the Infernal Machine"
+                type="edit" user="75.97.102.145" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="545000417" pageid="13754540" rcid="641051401"
+                revid="545000417" timestamp="2014-03-05T11:55:33Z"
+                title="Leszkowice, Lower Silesian Voivodeship"
+                type="external" user="Dexbot" userid="0"/>
+            <rc comment="/* Biography */  death date for Sophie Jane"
+                minor="" ns="0" old_revid="595009982" pageid="842686"
+                rcid="641051352" revid="598244701"
+                timestamp="2014-03-05T11:55:33Z" title="Gwen Raverat"
+                type="edit" user="Mabalu" userid="6530726"/>
+            <rc anon="" comment="/* General duties */" ns="0"
+                old_revid="598244498" pageid="15998477" rcid="641051351"
+                revid="598244700" timestamp="2014-03-05T11:55:33Z"
+                title="Assistant referee (association football)"
+                type="edit" user="31.221.113.242" userid="0"/>
+            <rc anon="" comment="" ns="0" old_revid="598153667"
+                pageid="40001381" rcid="641051350" revid="598244699"
+                timestamp="2014-03-05T11:55:32Z"
+                title="Wake Up (TV program)" type="edit"
+                user="120.147.113.111" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="544144580" pageid="2805189" rcid="641051400"
+                revid="544144580" timestamp="2014-03-05T11:55:31Z"
+                title="Category:People from Inner Mongolia"
+                type="external" user="Dexbot" userid="0"/>
+            <rc comment="added infobox" ns="0" old_revid="598231181"
+                pageid="42099869" rcid="641051349" revid="598244698"
+                timestamp="2014-03-05T11:55:31Z"
+                title="Spirovo, Spirovsky District, Tver Oblast"
+                type="edit" user="Ymblanter" userid="14596827"/>
+            <rc anon="" comment="/* Yachiru Kusajishi */" ns="0"
+                old_revid="597032704" pageid="11995813" rcid="641051348"
+                revid="598244697" timestamp="2014-03-05T11:55:31Z"
+                title="List of Soul Reapers in Bleach" type="edit"
+                user="91.179.187.152" userid="0"/>
+            <rc
+                comment="[[WP:AES|â†�]]Created page with 'The Universe is a complicated place. While weâ€™re closer to understanding a few of the many mysteries of the Universe, there are still many that we will never f...'"
+                new="" ns="0" old_revid="0" pageid="42118507"
+                rcid="641051347" revid="598244696"
+                timestamp="2014-03-05T11:55:31Z"
+                title="Universal theories" type="new" user="Johnes500" userid="20911382"/>
+            <rc comment="Avoid using thumbnails in infoboxes" minor=""
+                ns="0" old_revid="598116916" pageid="20289193"
+                rcid="641051346" revid="598244695"
+                timestamp="2014-03-05T11:55:30Z" title="Tom Bakk"
+                type="edit" user="1ForTheMoney" userid="5932223"/>
+            <rc comment="Spelling corrected" minor="" ns="0"
+                old_revid="598207730" pageid="1787680" rcid="641051345"
+                revid="598244693" timestamp="2014-03-05T11:55:29Z"
+                title="Christ myth theory" type="edit"
+                user="Doctor Sapiens" userid="19950316"/>
+            <rc comment="oops" ns="0" old_revid="598244659"
+                pageid="27660054" rcid="641051343" revid="598244692"
+                timestamp="2014-03-05T11:55:27Z" title="April Kepner"
+                type="edit" user="Meryam90" userid="14744300"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="546074855" pageid="30204139" rcid="641051399"
+                revid="546074855" timestamp="2014-03-05T11:55:26Z"
+                title="Category:People from Mandalay Region"
+                type="external" user="Dexbot" userid="0"/>
+            <rc comment="" ns="100" old_revid="598243807"
+                pageid="30504717" rcid="641051342" revid="598244691"
+                timestamp="2014-03-05T11:55:26Z"
+                title="Portal:Pittsburgh/On this day/March 5"
+                type="edit" user="Marketdiamond" userid="367195"/>
+            <rc comment="This works better as an EL" ns="0"
+                old_revid="598239953" pageid="29058369" rcid="641051341"
+                revid="598244690" timestamp="2014-03-05T11:55:26Z"
+                title="LeVier Cosmic Wind" type="edit"
+                user="The Bushranger" userid="7291611"/>
+            <rc
+                comment="[[Help:Reverting|Reverted]] edits by [[Special:Contributions/83.41.35.99|83.41.35.99]] ([[User talk:83.41.35.99|talk]]) to last version by Afasmit"
+                minor="" ns="0" old_revid="595767149" pageid="19019019"
+                rcid="641051340" revid="598244689"
+                timestamp="2014-03-05T11:55:25Z"
+                title="Emanuela de Paula" type="edit"
+                user="Billinghurst" userid="3596390"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="554541369" pageid="18292616" rcid="641051398"
+                revid="554541369" timestamp="2014-03-05T11:55:23Z"
+                title="Saint Lambertchurch (Rosmalen)" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="573202377" pageid="13754524" rcid="641051397"
+                revid="573202377" timestamp="2014-03-05T11:55:23Z"
+                title="Kotowice, GÅ‚ogÃ³w County" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="400771029" pageid="12871737" rcid="641051396"
+                revid="400771029" timestamp="2014-03-05T11:55:22Z"
+                title="Cassine viburnifolia" type="external"
+                user="SuccuBot" userid="0"/>
+            <rc
+                comment="User warning for unconstructive editing found using [[WP:STiki|STiki]]"
+                new="" ns="3" old_revid="0" pageid="42118505"
+                rcid="641051338" revid="598244687"
+                timestamp="2014-03-05T11:55:22Z"
+                title="User talk:99.240.187.229" type="new" user="K6ka" userid="11801436"/>
+            <rc anon="" comment="/* Contestants */" ns="0"
+                old_revid="598237662" pageid="41299879" rcid="641051337"
+                revid="598244686" timestamp="2014-03-05T11:55:22Z"
+                title="RuPaul's Drag Race (season 6)" type="edit"
+                user="124.190.133.162" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="545586807" pageid="21761227" rcid="641051395"
+                revid="545586807" timestamp="2014-03-05T11:55:21Z"
+                title="Category:People from Khanty-Mansi Autonomous Okrug"
+                type="external" user="Dexbot" userid="0"/>
+            <rc
+                comment="Reverted 1 edit by [[Special:Contributions/99.240.187.229|99.240.187.229]] identified as test/vandalism using [[WP:STiki|STiki]]"
+                minor="" ns="0" old_revid="598203312" pageid="22948865"
+                rcid="641051336" revid="598244685"
+                timestamp="2014-03-05T11:55:21Z" title="Elliott Price"
+                type="edit" user="K6ka" userid="11801436"/>
+            <rc comment="/* Nationalities of people on the plane */"
+                ns="0" old_revid="598244651" pageid="31974"
+                rcid="641051323" revid="598244684"
+                timestamp="2014-03-05T11:55:20Z"
+                title="United Airlines Flight 175" type="edit"
+                user="Illegitimate Barrister" userid="12006778"/>
+            <rc comment="" ns="0" old_revid="594883731" pageid="1844996"
+                rcid="641051322" revid="598244683"
+                timestamp="2014-03-05T11:55:20Z"
+                title="The Secret Life of a Satanist" type="edit"
+                user="St.HocusPocus" userid="14151659"/>
+            <rc anon="" comment="/* Nishant Mahamaniya */" ns="2"
+                old_revid="593093077" pageid="41786683" rcid="641051321"
+                revid="598244682" timestamp="2014-03-05T11:55:17Z"
+                title="User:Nishantmahamaniya" type="edit"
+                user="1.187.196.224" userid="0"/>
+            <rc comment="" ns="0" old_revid="598244648"
+                pageid="42118468" rcid="641051320" revid="598244681"
+                timestamp="2014-03-05T11:55:17Z"
+                title="Laurentian's Atoll" type="edit"
+                user="Slimjimmery" userid="20913264"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="563603596" pageid="5948135" rcid="641051335"
+                revid="563603596" timestamp="2014-03-05T11:55:16Z"
+                title="Category:People from Cape Town" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="content3 formatting" ns="10"
+                old_revid="598244532" pageid="38282475" rcid="641051319"
+                revid="598244680" timestamp="2014-03-05T11:55:16Z"
+                title="Template:Islam and other religions" type="edit"
+                user="Sardanaphalus" userid="427947"/>
+            <rc comment="" ns="2" old_revid="598244332"
+                pageid="42118476" rcid="641051318" revid="598244679"
+                timestamp="2014-03-05T11:55:15Z"
+                title="User:Matusa 166/sandbox" type="edit"
+                user="Matusa 166" userid="20856253"/>
+            <rc anon="" comment="" ns="0" old_revid="598244624"
+                pageid="13953065" rcid="641051317" revid="598244678"
+                timestamp="2014-03-05T11:55:14Z"
+                title="Makhdoom Ali Khan" type="edit"
+                user="175.110.248.60" userid="0"/>
+            <rc bot=""
+                comment="Removing links to deleted file [[:File:Manchester Gazette Logo.png]]"
+                ns="0" old_revid="598175456" pageid="42113480"
+                rcid="641051316" revid="598244677"
+                timestamp="2014-03-05T11:55:13Z"
+                title="The Manchester Gazette" type="edit"
+                user="ImageRemovalBot" userid="4851336"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="545000339" pageid="13754511" rcid="641051334"
+                revid="545000339" timestamp="2014-03-05T11:55:12Z"
+                title="Droglowice" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="544417245" pageid="5562267" rcid="641051333"
+                revid="544417245" timestamp="2014-03-05T11:55:11Z"
+                title="Category:People from Hartford, Connecticut"
+                type="external" user="Dexbot" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="545651046"
+                pageid="23180438" rcid="641051332" revid="545651046"
+                timestamp="2014-03-05T11:55:10Z"
+                title="Dominique Tilmans" type="external"
+                user="Evil berry" userid="0"/>
+            <rc
+                comment="Declining submission: subject appears to be a non-notable musical performer or work ([[WP:AFCH|AFCH]])"
+                ns="5" old_revid="596737849" pageid="42022502"
+                rcid="641051315" revid="598244676"
+                timestamp="2014-03-05T11:55:10Z"
+                title="Wikipedia talk:Articles for creation/Ryan Bennett"
+                type="edit" user="Samwalton9" userid="15991542"/>
+            <rc
+                comment="Your submission at [[Wikipedia:Articles for creation|Articles for creation]]; adding invitation to the [[Wikipedia:Teahouse|Teahouse]]! ([[WP:AFCH|AFCH]])"
+                new="" ns="3" old_revid="0" pageid="42118504"
+                rcid="641051314" revid="598244675"
+                timestamp="2014-03-05T11:55:09Z"
+                title="User talk:Livinginsanity1" type="new"
+                user="Samwalton9" userid="15991542"/>
+            <rc comment="" ns="0" old_revid="598128687" pageid="1490376"
+                rcid="641051313" revid="598244674"
+                timestamp="2014-03-05T11:55:09Z" title="Sundarbans"
+                type="edit" user="Sakib14" userid="20831081"/>
+            <rc comment="" ns="0" old_revid="598204943"
+                pageid="42116039" rcid="641051312" revid="598244673"
+                timestamp="2014-03-05T11:55:08Z"
+                title="Poliosia marginata" type="edit"
+                user="Ruigeroeland" userid="1294969"/>
+            <rc comment="/* Biographies */" ns="0" old_revid="598244367"
+                pageid="57570" rcid="641051311" revid="598244672"
+                timestamp="2014-03-05T11:55:08Z"
+                title="Sachin Tendulkar" type="edit" user="Sakib14" userid="20831081"/>
+            <rc comment="" logaction="create" logid="55200397"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="641051310" revid="0"
+                timestamp="2014-03-05T11:55:08Z" title="User:Arupks"
+                type="log" user="Arupks" userid="20913366"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="546273958" pageid="34175644" rcid="641051331"
+                revid="546273958" timestamp="2014-03-05T11:55:07Z"
+                title="Category:People from Hiroshima" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="/* Nationalities */" ns="0"
+                old_revid="598164093" pageid="6987696" rcid="641051309"
+                revid="598244671" timestamp="2014-03-05T11:55:07Z"
+                title="Medzev" type="edit" user="Agentxp22" userid="16013091"/>
+            <rc comment="/* Silken Thomas */ names" ns="0"
+                old_revid="598244597" pageid="31797583" rcid="641051308"
+                revid="598244670" timestamp="2014-03-05T11:55:07Z"
+                title="John Alan" type="edit" user="Chrisdoyleorwell" userid="13494966"/>
+            <rc
+                comment="/* Music video */ These wikilinks do not directly relate to the subject matter"
+                ns="0" old_revid="598237204" pageid="41732738"
+                rcid="641051307" revid="598244669"
+                timestamp="2014-03-05T11:55:07Z"
+                title="Invisible (U2 song)" type="edit" user="Lopifalko" userid="11116033"/>
+            <rc
+                comment="Fix [[Help:CS1_errors#deprecated_params|CS1 deprecated coauthor parameter errors]] using [[Project:AWB|AWB]]"
+                minor="" ns="0" old_revid="596985982" pageid="584598"
+                rcid="641051306" revid="598244668"
+                timestamp="2014-03-05T11:55:06Z" title="Acidobacteria"
+                type="edit" user="Trappist the monk" userid="10289486"/>
+            <rc comment="oops, typo - fix caption" ns="0"
+                old_revid="598244559" pageid="41328992" rcid="641051305"
+                revid="598244667" timestamp="2014-03-05T11:55:03Z"
+                title="Tintignac" type="edit" user="Chienlit" userid="3132789"/>
+            <rc bot=""
+                comment="Rescuing orphaned refs (&quot;appellate&quot; from rev 598235892)"
+                ns="0" old_revid="598236263" pageid="1142736"
+                rcid="641051304" revid="598244666"
+                timestamp="2014-03-05T11:55:03Z"
+                title="Same-sex marriage in California" type="edit"
+                user="AnomieBOT" userid="7611264"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="589010359"
+                pageid="182998" rcid="641051330" revid="589010359"
+                timestamp="2014-03-05T11:55:02Z" title="Hail Mary"
+                type="external" user="Sjsws1078" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="545167916" pageid="15966781" rcid="641051329"
+                revid="545167916" timestamp="2014-03-05T11:55:01Z"
+                title="Category:Alianza Lima footballers"
+                type="external" user="Dexbot" userid="0"/>
+            <rc
+                comment="Undid revision 458517897 by [[Special:Contributions/98.212.90.73|98.212.90.73]] ([[User talk:98.212.90.73|talk]]) dosen't work"
+                ns="0" old_revid="598244391" pageid="12564"
+                rcid="641051303" revid="598244665"
+                timestamp="2014-03-05T11:55:01Z" title="Grappling"
+                type="edit" user="Nate1481" userid="333315"/>
+            <rc anon="" comment="/* Season 1 (2013â€“2014) */" ns="0"
+                old_revid="598235016" pageid="40381426" rcid="641051302"
+                revid="598244664" timestamp="2014-03-05T11:55:00Z"
+                title="List of Uncle Grandpa episodes" type="edit"
+                user="50.154.143.212" userid="0"/>
+            <rc
+                comment="Typo/[[WP:AWB/GF|general]] fixing, replaced: Pavillion â†’ Pavilion (per source), pre-cursor â†’ precursor using [[Project:AWB|AWB]]"
+                minor="" ns="0" old_revid="594282906" pageid="1051871"
+                rcid="641051301" revid="598244663"
+                timestamp="2014-03-05T11:54:59Z"
+                title="Architectural Association School of Architecture"
+                type="edit" user="John of Reading" userid="11308236"/>
+            <rc comment="" logaction="create" logid="55200396"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="641051300" revid="0"
+                timestamp="2014-03-05T11:54:59Z" title="User:Sernetfspl"
+                type="log" user="Sernetfspl" userid="20913365"/>
+            <rc comment="" ns="0" old_revid="597991032" pageid="6595614"
+                rcid="641051299" revid="598244662"
+                timestamp="2014-03-05T11:54:58Z" title="Craig Hignett"
+                type="edit" user="Clicriffhard" userid="9818630"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="545274293" pageid="16480306" rcid="641051328"
+                revid="545274293" timestamp="2014-03-05T11:54:56Z"
+                title="Category:Olympique AlÃ¨s players" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="/* Early years */" ns="0" old_revid="598244564"
+                pageid="160327" rcid="641051298" revid="598244661"
+                timestamp="2014-03-05T11:54:56Z"
+                title="John Smith's Brewery" type="edit" user="Farrtj" userid="1519408"/>
+            <rc
+                comment="/* India */ [[Wikipedia:Articles for deletion/Qutbi Bohra (2nd nomination)"
+                ns="4" old_revid="598215054" pageid="2451657"
+                rcid="641051297" revid="598244660"
+                timestamp="2014-03-05T11:54:55Z"
+                title="Wikipedia:WikiProject Deletion sorting/India"
+                type="edit" user="Thryduulf" userid="157530"/>
+            <rc
+                comment="added her family's name for her as syated in 10x11 + her reception in season 10 has changed from whrn the lead was written"
+                ns="0" old_revid="598222062" pageid="27660054"
+                rcid="641051296" revid="598244659"
+                timestamp="2014-03-05T11:54:55Z" title="April Kepner"
+                type="edit" user="Meryam90" userid="14744300"/>
+            <rc comment="[[WP:AES|â†�]]Blanked the page" ns="2"
+                old_revid="598243831" pageid="42109161" rcid="641051295"
+                revid="598244658" timestamp="2014-03-05T11:54:55Z"
+                title="User:FlashLight Creative/sandbox" type="edit"
+                user="FlashLight Creative" userid="20899943"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="544584989" pageid="7805180" rcid="641051327"
+                revid="544584989" timestamp="2014-03-05T11:54:51Z"
+                title="Category:UD AlmerÃ­a footballers" type="external"
+                user="Dexbot" userid="0"/>
+            <rc
+                comment="User warning for unconstructive editing found using [[WP:STiki|STiki]]"
+                new="" ns="3" old_revid="0" pageid="42118503"
+                rcid="641051294" revid="598244657"
+                timestamp="2014-03-05T11:54:51Z"
+                title="User talk:96.255.61.20" type="new" user="K6ka" userid="11801436"/>
+            <rc
+                comment="Uploading a piece of non-free cover art using [[Wikipedia:File_Upload_Wizard|File Upload Wizard]]"
+                img_sha1="t5ncx6s3c72s9n6i164zaogqwldhas6"
+                img_timestamp="2014-03-05T11:54:51Z" logaction="upload"
+                logid="55200394" logtype="upload" ns="6" old_revid="0"
+                pageid="42118502" rcid="641051293" revid="0"
+                timestamp="2014-03-05T11:54:51Z"
+                title="File:Oprah Prime Logo.jpg" type="log"
+                user="WillowFeldman" userid="16185665"/>
+            <rc anon="" comment="/* International albums */" ns="0"
+                old_revid="597995201" pageid="22098459" rcid="641051292"
+                revid="598244655" timestamp="2014-03-05T11:54:51Z"
+                title="Anggun discography" type="edit"
+                user="95.250.99.187" userid="0"/>
+            <rc
+                comment="Reverted 1 edit by [[Special:Contributions/96.255.61.20|96.255.61.20]] identified as test/vandalism using [[WP:STiki|STiki]]"
+                minor="" ns="0" old_revid="598243010" pageid="6193738"
+                rcid="641051291" revid="598244654"
+                timestamp="2014-03-05T11:54:50Z"
+                title="History of figure skating" type="edit"
+                user="K6ka" userid="11801436"/>
+            <rc
+                comment="/* Snottites */Fix [[Help:CS1_errors#deprecated_params|CS1 deprecated coauthor parameter errors]] using [[Project:AWB|AWB]]"
+                minor="" ns="0" old_revid="596982867" pageid="40864864"
+                rcid="641051290" revid="598244653"
+                timestamp="2014-03-05T11:54:50Z"
+                title="Acidithiobacillus thiooxidans" type="edit"
+                user="Trappist the monk" userid="10289486"/>
+            <rc anon="" comment="/* Filmography */" ns="0"
+                old_revid="598244430" pageid="14934572" rcid="641051289"
+                revid="598244652" timestamp="2014-03-05T11:54:50Z"
+                title="Parvathi (actress)" type="edit"
+                user="198.134.56.84" userid="0"/>
+            <rc comment="" logaction="create" logid="55200393"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="641051288" revid="0"
+                timestamp="2014-03-05T11:54:50Z"
+                title="User:Jessegao1993" type="log" user="Jessegao1993" userid="20913364"/>
+            <rc comment="/* Nationalities of people on the plane */"
+                ns="0" old_revid="598040281" pageid="31974"
+                rcid="641051287" revid="598244651"
+                timestamp="2014-03-05T11:54:48Z"
+                title="United Airlines Flight 175" type="edit"
+                user="Illegitimate Barrister" userid="12006778"/>
+            <rc comment="/* Battle of Long tan */ resp" ns="1"
+                old_revid="598244314" pageid="2662862" rcid="641051286"
+                revid="598244650" timestamp="2014-03-05T11:54:47Z"
+                title="Talk:Battle of Long Tan" type="edit"
+                user="Anotherclown" userid="8567476"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="544351916" pageid="4797392" rcid="641051326"
+                revid="544351916" timestamp="2014-03-05T11:54:46Z"
+                title="Category:Alemannia Aachen players"
+                type="external" user="Dexbot" userid="0"/>
+            <rc
+                comment="Warning [[Special:Contributions/108.20.175.39|108.20.175.39]] - #1"
+                new="" ns="3" old_revid="0" pageid="42118501"
+                rcid="641051285" revid="598244649"
+                timestamp="2014-03-05T11:54:46Z"
+                title="User talk:108.20.175.39" type="new"
+                user="ClueBot NG" userid="13286072"/>
+            <rc comment="" ns="0" old_revid="598244626"
+                pageid="42118468" rcid="641051284" revid="598244648"
+                timestamp="2014-03-05T11:54:46Z"
+                title="Laurentian's Atoll" type="edit"
+                user="Slimjimmery" userid="20913264"/>
+            <rc comment="Wording edits" minor="" ns="0"
+                old_revid="597490826" pageid="17091561" rcid="641051283"
+                revid="598244647" timestamp="2014-03-05T11:54:46Z"
+                title="Sophia Bekele" type="edit" user="Sandilenat" userid="20765679"/>
+            <rc
+                comment="Reverting possible vandalism by [[Special:Contributions/108.20.175.39|108.20.175.39]] to version by Yunshui. False positive? [[User:ClueBot NG/FalsePositives|Report it]]. Thanks, [[User:ClueBot NG|ClueBot NG]]. (1729450) (Bot)"
+                minor="" ns="0" old_revid="598244645" pageid="3193951"
+                rcid="641051282" revid="598244646"
+                timestamp="2014-03-05T11:54:45Z"
+                title="Early American currency" type="edit"
+                user="ClueBot NG" userid="13286072"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="573394721" pageid="13754384" rcid="641051325"
+                revid="573394721" timestamp="2014-03-05T11:54:43Z"
+                title="ZakrzÃ³w, GÅ‚ogÃ³w County" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" comment="" ns="0" old_revid="598155521"
+                pageid="3193951" rcid="641051281" revid="598244645"
+                timestamp="2014-03-05T11:54:43Z"
+                title="Early American currency" type="edit"
+                user="108.20.175.39" userid="0"/>
+            <rc anon="" comment="" ns="0" old_revid="596318905"
+                pageid="6169399" rcid="641051280" revid="598244644"
+                timestamp="2014-03-05T11:54:43Z"
+                title="Wings of Forever" type="edit"
+                user="118.107.237.72" userid="0"/>
+            <rc bot="" comment="Dating maintenance tags: {{Fact}}"
+                minor="" ns="0" old_revid="598236545" pageid="1894535"
+                rcid="641051266" revid="598244643"
+                timestamp="2014-03-05T11:54:42Z"
+                title="Sleeping Dogs (film)" type="edit"
+                user="AnomieBOT" userid="7611264"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="544359899" pageid="4902579" rcid="641051324"
+                revid="544359899" timestamp="2014-03-05T11:54:41Z"
+                title="Category:Vicenza Calcio players" type="external"
+                user="Dexbot" userid="0"/>
+            <rc
+                comment="/* History */Fix [[Help:CS1_errors#deprecated_params|CS1 deprecated coauthor parameter errors]] using [[Project:AWB|AWB]]"
+                minor="" ns="0" old_revid="598215143" pageid="30862640"
+                rcid="641051265" revid="598244642"
+                timestamp="2014-03-05T11:54:40Z" title="Acid throwing"
+                type="edit" user="Trappist the monk" userid="10289486"/>
+            <rc comment="/* Hitchcock Casting Project */" ns="2"
+                old_revid="598243803" pageid="41976966" rcid="641051264"
+                revid="598244641" timestamp="2014-03-05T11:54:40Z"
+                title="User:Janetvandenbrand/sandbox" type="edit"
+                user="Janetvandenbrand" userid="20807271"/>
+            <rc anon=""
+                comment="WWI was a war between the Great Powers of Europe, although one was sick (from inside)"
+                ns="0" old_revid="598244474" pageid="9998177"
+                rcid="641051263" revid="598244640"
+                timestamp="2014-03-05T11:54:39Z"
+                title="Rafael de Nogales MÃ©ndez" type="edit"
+                user="212.174.190.23" userid="0"/>
+            <rc anon="" comment="" ns="0" old_revid="597812116"
+                pageid="3593767" rcid="641051262" revid="598244639"
+                timestamp="2014-03-05T11:54:37Z" title="Proddatur"
+                type="edit" user="202.79.203.91" userid="0"/>
+            <rc
+                comment="/* Islam */ [[Wikipedia:Articles for deletion/Qutbi Bohra (2nd nomination)]]"
+                ns="4" old_revid="597947581" pageid="7753372"
+                rcid="641051261" revid="598244638"
+                timestamp="2014-03-05T11:54:37Z"
+                title="Wikipedia:WikiProject Deletion sorting/Islam"
+                type="edit" user="Thryduulf" userid="157530"/>
+            <rc
+                comment="User warning for unconstructive editing found using [[WP:STiki|STiki]]"
+                ns="3" old_revid="597083529" pageid="40870983"
+                rcid="641051260" revid="598244637"
+                timestamp="2014-03-05T11:54:37Z"
+                title="User talk:212.219.8.125" type="edit" user="K6ka" userid="11801436"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="548177622" pageid="1710434" rcid="641051279"
+                revid="548177622" timestamp="2014-03-05T11:54:36Z"
+                title="Category:Aston Villa F.C. players"
+                type="external" user="Dexbot" userid="0"/>
+            <rc
+                comment="Reverted 1 edit by [[Special:Contributions/212.219.8.125|212.219.8.125]] identified as test/vandalism using [[WP:STiki|STiki]]"
+                minor="" ns="0" old_revid="598240617" pageid="59908"
+                rcid="641051258" revid="598244635"
+                timestamp="2014-03-05T11:54:35Z" title="Swindon"
+                type="edit" user="K6ka" userid="11801436"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="595360070"
+                pageid="47498" rcid="641051278" revid="595360070"
+                timestamp="2014-03-05T11:54:32Z"
+                title="All your base are belong to us" type="external"
+                user="Wizzard" userid="0"/>
+            <rc
+                comment="/* Definitions */Fix [[Help:CS1_errors#deprecated_params|CS1 deprecated coauthor parameter errors]] using [[Project:AWB|AWB]]"
+                minor="" ns="0" old_revid="596982463" pageid="57555"
+                rcid="641051257" revid="598244634"
+                timestamp="2014-03-05T11:54:32Z"
+                title="Acid dissociation constant" type="edit"
+                user="Trappist the monk" userid="10289486"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="544101561" pageid="2507396" rcid="641051277"
+                revid="544101561" timestamp="2014-03-05T11:54:31Z"
+                title="Category:Arminia Bielefeld players"
+                type="external" user="Dexbot" userid="0"/>
+            <rc comment="/* Let's change WP:LQ */ reply" ns="5"
+                old_revid="598243338" pageid="75321" rcid="641051256"
+                revid="598244633" timestamp="2014-03-05T11:54:31Z"
+                title="Wikipedia talk:Manual of Style" type="edit"
+                user="Mitch Ames" userid="6326132"/>
+            <rc anon="" comment="" ns="0" old_revid="598219995"
+                pageid="39607081" rcid="641051255" revid="598244632"
+                timestamp="2014-03-05T11:54:31Z"
+                title="The Daily Edition (Australian TV program)"
+                type="edit" user="120.147.113.111" userid="0"/>
+            <rc comment="/* European settlement */" ns="0"
+                old_revid="598244443" pageid="1525239" rcid="641051254"
+                revid="598244631" timestamp="2014-03-05T11:54:31Z"
+                title="Paddington, New South Wales" type="edit"
+                user="Iantomferry" userid="20370354"/>
+            <rc anon="" comment="/* Waste management */" ns="0"
+                old_revid="592944122" pageid="2704720" rcid="641051253"
+                revid="598244630" timestamp="2014-03-05T11:54:29Z"
+                title="Sustainable architecture" type="edit"
+                user="197.35.205.110" userid="0"/>
+            <rc anon="" comment="" ns="0" old_revid="594219591"
+                pageid="25253895" rcid="641051252" revid="598244629"
+                timestamp="2014-03-05T11:54:29Z"
+                title="Artemis Fowl: The Atlantis Complex" type="edit"
+                user="2.108.99.66" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="578030352"
+                pageid="34309274" rcid="641051276" revid="578030352"
+                timestamp="2014-03-05T11:54:28Z"
+                title="1973 Men's Grand Prix (tennis)" type="external"
+                user="Kxont" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="544573539" pageid="7600642" rcid="641051275"
+                revid="544573539" timestamp="2014-03-05T11:54:26Z"
+                title="Category:AC Ajaccio players" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" comment="/* Designer Progress */" ns="0"
+                old_revid="598105503" pageid="40019790" rcid="641051251"
+                revid="598244627" timestamp="2014-03-05T11:54:26Z"
+                title="Project Runway (season 12)" type="edit"
+                user="85.245.5.231" userid="0"/>
+            <rc comment="spambot" logaction="block" logid="55200391"
+                logtype="block" ns="2" old_revid="0" pageid="0"
+                rcid="641051250" revid="0"
+                timestamp="2014-03-05T11:54:25Z"
+                title="User:BernieceValenti" type="log" user="DoRD" userid="11250185">
+                <block duration="indefinite" flags="nocreate"/>
+            </rc>
+            <rc comment="spambot" logaction="block" logid="55200390"
+                logtype="block" ns="2" old_revid="0" pageid="0"
+                rcid="641051249" revid="0"
+                timestamp="2014-03-05T11:54:25Z"
+                title="User:JosefinaJoiner" type="log" user="DoRD" userid="11250185">
+                <block duration="indefinite" flags="nocreate"/>
+            </rc>
+            <rc comment="spambot" logaction="block" logid="55200389"
+                logtype="block" ns="2" old_revid="0" pageid="0"
+                rcid="641051248" revid="0"
+                timestamp="2014-03-05T11:54:25Z"
+                title="User:YongTruecpzhnz" type="log" user="DoRD" userid="11250185">
+                <block duration="indefinite" flags="nocreate"/>
+            </rc>
+            <rc comment="spambot" logaction="block" logid="55200388"
+                logtype="block" ns="2" old_revid="0" pageid="0"
+                rcid="641051247" revid="0"
+                timestamp="2014-03-05T11:54:25Z"
+                title="User:LeoraKrischock" type="log" user="DoRD" userid="11250185">
+                <block duration="indefinite" flags="nocreate"/>
+            </rc>
+            <rc comment="spambot" logaction="block" logid="55200387"
+                logtype="block" ns="2" old_revid="0" pageid="0"
+                rcid="641051246" revid="0"
+                timestamp="2014-03-05T11:54:25Z"
+                title="User:BrigetteStein" type="log" user="DoRD" userid="11250185">
+                <block duration="indefinite" flags="nocreate"/>
+            </rc>
+            <rc comment="spambot" logaction="block" logid="55200386"
+                logtype="block" ns="2" old_revid="0" pageid="0"
+                rcid="641051245" revid="0"
+                timestamp="2014-03-05T11:54:25Z"
+                title="User:LatashiaPerkin" type="log" user="DoRD" userid="11250185">
+                <block duration="indefinite" flags="nocreate"/>
+            </rc>
+            <rc comment="spambot" logaction="block" logid="55200385"
+                logtype="block" ns="2" old_revid="0" pageid="0"
+                rcid="641051244" revid="0"
+                timestamp="2014-03-05T11:54:25Z"
+                title="User:AnnelieseRanson" type="log" user="DoRD" userid="11250185">
+                <block duration="indefinite" flags="nocreate"/>
+            </rc>
+            <rc comment="spambot" logaction="block" logid="55200384"
+                logtype="block" ns="2" old_revid="0" pageid="0"
+                rcid="641051243" revid="0"
+                timestamp="2014-03-05T11:54:25Z"
+                title="User:Myrna11Bjld" type="log" user="DoRD" userid="11250185">
+                <block duration="indefinite" flags="nocreate"/>
+            </rc>
+            <rc comment="spambot" logaction="block" logid="55200383"
+                logtype="block" ns="2" old_revid="0" pageid="0"
+                rcid="641051242" revid="0"
+                timestamp="2014-03-05T11:54:24Z"
+                title="User:DaleneBergman" type="log" user="DoRD" userid="11250185">
+                <block duration="indefinite" flags="nocreate"/>
+            </rc>
+            <rc comment="spambot" logaction="block" logid="55200382"
+                logtype="block" ns="2" old_revid="0" pageid="0"
+                rcid="641051241" revid="0"
+                timestamp="2014-03-05T11:54:24Z"
+                title="User:FUQChetszfyof" type="log" user="DoRD" userid="11250185">
+                <block duration="indefinite" flags="nocreate"/>
+            </rc>
+            <rc comment="spambot" logaction="block" logid="55200381"
+                logtype="block" ns="2" old_revid="0" pageid="0"
+                rcid="641051240" revid="0"
+                timestamp="2014-03-05T11:54:24Z"
+                title="User:JacquelineN13" type="log" user="DoRD" userid="11250185">
+                <block duration="indefinite" flags="nocreate"/>
+            </rc>
+            <rc comment="spambot" logaction="block" logid="55200380"
+                logtype="block" ns="2" old_revid="0" pageid="0"
+                rcid="641051239" revid="0"
+                timestamp="2014-03-05T11:54:24Z"
+                title="User:WalterBjtlz" type="log" user="DoRD" userid="11250185">
+                <block duration="indefinite" flags="nocreate"/>
+            </rc>
+            <rc comment="spambot" logaction="block" logid="55200379"
+                logtype="block" ns="2" old_revid="0" pageid="0"
+                rcid="641051238" revid="0"
+                timestamp="2014-03-05T11:54:24Z"
+                title="User:HildegardeRingl" type="log" user="DoRD" userid="11250185">
+                <block duration="indefinite" flags="nocreate"/>
+            </rc>
+            <rc comment="spambot" logaction="block" logid="55200378"
+                logtype="block" ns="2" old_revid="0" pageid="0"
+                rcid="641051237" revid="0"
+                timestamp="2014-03-05T11:54:24Z"
+                title="User:RalphWillmott" type="log" user="DoRD" userid="11250185">
+                <block duration="indefinite" flags="nocreate"/>
+            </rc>
+            <rc comment="spambot" logaction="block" logid="55200377"
+                logtype="block" ns="2" old_revid="0" pageid="0"
+                rcid="641051236" revid="0"
+                timestamp="2014-03-05T11:54:24Z" title="User:CelsaBmrof"
+                type="log" user="DoRD" userid="11250185">
+                <block duration="indefinite" flags="nocreate"/>
+            </rc>
+            <rc comment="spambot" logaction="block" logid="55200376"
+                logtype="block" ns="2" old_revid="0" pageid="0"
+                rcid="641051235" revid="0"
+                timestamp="2014-03-05T11:54:24Z"
+                title="User:SherrillBarden" type="log" user="DoRD" userid="11250185">
+                <block duration="indefinite" flags="nocreate"/>
+            </rc>
+            <rc comment="spambot" logaction="block" logid="55200375"
+                logtype="block" ns="2" old_revid="0" pageid="0"
+                rcid="641051234" revid="0"
+                timestamp="2014-03-05T11:54:24Z"
+                title="User:CorazonJett" type="log" user="DoRD" userid="11250185">
+                <block duration="indefinite" flags="nocreate"/>
+            </rc>
+            <rc comment="" ns="0" old_revid="598244547"
+                pageid="42118468" rcid="641051233" revid="598244626"
+                timestamp="2014-03-05T11:54:23Z"
+                title="Laurentian's Atoll" type="edit"
+                user="Slimjimmery" userid="20913264"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="589010359"
+                pageid="182998" rcid="641051274" revid="589010359"
+                timestamp="2014-03-05T11:54:22Z" title="Hail Mary"
+                type="external" user="Sjsws1078" userid="0"/>
+            <rc anon="" comment="" ns="0" old_revid="598181566"
+                pageid="18309" rcid="641051232" revid="598244625"
+                timestamp="2014-03-05T11:54:22Z" title="Lucifer"
+                type="edit" user="89.106.26.18" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="546425576" pageid="37824296" rcid="641051273"
+                revid="546425576" timestamp="2014-03-05T11:54:21Z"
+                title="Category:Atlante F.C. footballers"
+                type="external" user="Dexbot" userid="0"/>
+            <rc comment="" logaction="create" logid="55200374"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="641051231" revid="0"
+                timestamp="2014-03-05T11:54:21Z"
+                title="User:Abdullah Elarabi" type="log"
+                user="Abdullah Elarabi" userid="20913363"/>
+            <rc anon="" comment="" ns="0" old_revid="598244491"
+                pageid="13953065" rcid="641051230" revid="598244624"
+                timestamp="2014-03-05T11:54:20Z"
+                title="Makhdoom Ali Khan" type="edit"
+                user="175.110.248.60" userid="0"/>
+            <rc
+                comment="/* States */ wikilink [[Queensland]] and [[Western Australia]]; rm second wikilink for &quot;Queen Victoria&quot; per [[WP:OVERLINK]]"
+                ns="0" old_revid="598030644" pageid="233701"
+                rcid="641051229" revid="598244623"
+                timestamp="2014-03-05T11:54:20Z"
+                title="List of etymologies of country subdivision names"
+                type="edit" user="Sroc" userid="3189656"/>
+            <rc comment="" ns="0" old_revid="598244590"
+                pageid="41327174" rcid="641051228" revid="598244622"
+                timestamp="2014-03-05T11:54:20Z" title="Dildar Ali Khan"
+                type="edit" user="Dildarswat" userid="20250662"/>
+            <rc bot=""
+                comment="Bot updating unblock request table ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                ns="2" old_revid="598244001" pageid="41200321"
+                rcid="641051227" revid="598244621"
+                timestamp="2014-03-05T11:54:19Z"
+                title="User:Cyberbot I/Requests for unblock report"
+                type="edit" user="Cyberbot I" userid="16266655"/>
+            <rc
+                comment="General note: Introducing factual errors on [[Simon Kunz]]. ([[WP:TW|TW]])"
+                ns="3" old_revid="597048736" pageid="42043189"
+                rcid="641051226" revid="598244620"
+                timestamp="2014-03-05T11:54:19Z"
+                title="User talk:96.241.68.209" type="edit" user="K6ka" userid="11801436"/>
+            <rc
+                comment="Uploading a file from a free published source using [[Wikipedia:File_Upload_Wizard|File Upload Wizard]]"
+                img_sha1="bkmum0omsk9kqr5bzdalsw7nor46mvk"
+                img_timestamp="2014-03-05T11:54:18Z" logaction="upload"
+                logid="55200372" logtype="upload" ns="6" old_revid="0"
+                pageid="42118499" rcid="641051225" revid="0"
+                timestamp="2014-03-05T11:54:18Z"
+                title="File:Makhanlal Chaturvedi National University of Journalism and Communication Logo.jpg"
+                type="log" user="Chowdhary747" userid="20863442"/>
+            <rc
+                comment="Warning [[Special:Contributions/Picenzo56|Picenzo56]] - #1"
+                new="" ns="3" old_revid="0" pageid="42118498"
+                rcid="641051224" revid="598244618"
+                timestamp="2014-03-05T11:54:18Z"
+                title="User talk:Picenzo56" type="new" user="ClueBot NG" userid="13286072"/>
+            <rc
+                comment="/* Cross-Cultural Differences */Fix [[Help:CS1_errors#deprecated_params|CS1 deprecated coauthor parameter errors]] using [[Project:AWB|AWB]]"
+                minor="" ns="0" old_revid="596981956" pageid="41067254"
+                rcid="641051223" revid="598244617"
+                timestamp="2014-03-05T11:54:17Z"
+                title="Achievement Orientation" type="edit"
+                user="Trappist the monk" userid="10289486"/>
+            <rc comment="" ns="2" old_revid="598244233"
+                pageid="42074438" rcid="641051222" revid="598244616"
+                timestamp="2014-03-05T11:54:17Z" title="User:Tim198NY"
+                type="edit" user="Tim198NY" userid="20793345"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="547596831" pageid="12550423" rcid="641051272"
+                revid="547596831" timestamp="2014-03-05T11:54:16Z"
+                title="Category:PSV Eindhoven players" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="596566058"
+                pageid="17578625" rcid="641051271" revid="596566058"
+                timestamp="2014-03-05T11:54:16Z" title="Club-Mate"
+                type="external" user="Wizzard" userid="0"/>
+            <rc
+                comment="Reverting possible vandalism by [[Special:Contributions/Picenzo56|Picenzo56]] to version by Hellotherealex. False positive? [[User:ClueBot NG/FalsePositives|Report it]]. Thanks, [[User:ClueBot NG|ClueBot NG]]. (1729449) (Bot)"
+                minor="" ns="0" old_revid="598244606" pageid="98356"
+                rcid="641051221" revid="598244615"
+                timestamp="2014-03-05T11:54:16Z" title="Tesco"
+                type="edit" user="ClueBot NG" userid="13286072"/>
+            <rc comment="/* Literature */ added Michael Byers' novel"
+                ns="0" old_revid="596827759" pageid="4446977"
+                rcid="641051220" revid="598244614"
+                timestamp="2014-03-05T11:54:16Z"
+                title="Pluto in fiction" type="edit" user="Smoore3" userid="11606107"/>
+            <rc comment="corrected usage data + 12-13" ns="0"
+                old_revid="589837813" pageid="349440" rcid="641051219"
+                revid="598244613" timestamp="2014-03-05T11:54:15Z"
+                title="Richmond station (London)" type="edit"
+                user="Likelife" userid="6455259"/>
+            <rc anon="" comment="/* External links */" ns="0"
+                old_revid="598242392" pageid="41366463" rcid="641051218"
+                revid="598244612" timestamp="2014-03-05T11:54:13Z"
+                title="Christopher Kippenberger" type="edit"
+                user="87.162.7.220" userid="0"/>
+            <rc comment="/* Response and investigation */" ns="0"
+                old_revid="598244362" pageid="41228406" rcid="641051217"
+                revid="598244611" timestamp="2014-03-05T11:54:13Z"
+                title="LAM Mozambique Airlines Flight 470" type="edit"
+                user="Joakim NÃ¤zell" userid="20913159"/>
+            <rc anon="" comment="" ns="0" old_revid="598220962"
+                pageid="9032377" rcid="641051216" revid="598244610"
+                timestamp="2014-03-05T11:54:13Z"
+                title="Hangzhou Greentown F.C." type="edit"
+                user="85.164.25.143" userid="0"/>
+            <rc comment="/* alt text */ new section" ns="11"
+                old_revid="571951782" pageid="14499648" rcid="641051215"
+                revid="598244609" timestamp="2014-03-05T11:54:12Z"
+                title="Template talk:Verdi operas" type="edit"
+                user="Tim riley" userid="724850"/>
+            <rc bot=""
+                comment="Report for afrobohemia.cz (XWiki Regenerate - Autoclosed: none left )"
+                ns="4" old_revid="598239268" pageid="42117944"
+                rcid="641051214" revid="598244608"
+                timestamp="2014-03-05T11:54:12Z"
+                title="Wikipedia:WikiProject Spam/LinkReports/afrobohemia.cz"
+                type="edit" user="COIBot" userid="4048622"/>
+            <rc comment="Avoid using thumbnails in infoboxes" minor=""
+                ns="0" old_revid="597508981" pageid="735970"
+                rcid="641051213" revid="598244607"
+                timestamp="2014-03-05T11:54:12Z" title="BahÃ­a Blanca"
+                type="edit" user="1ForTheMoney" userid="5932223"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="588763932" pageid="18538462" rcid="641051270"
+                revid="588763932" timestamp="2014-03-05T11:54:11Z"
+                title="Category:People from Hanoi" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="" ns="0" old_revid="598121958" pageid="98356"
+                rcid="641051212" revid="598244606"
+                timestamp="2014-03-05T11:54:11Z" title="Tesco"
+                type="edit" user="Picenzo56" userid="20898753"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="594890099"
+                pageid="2126012" rcid="641051269" revid="594890099"
+                timestamp="2014-03-05T11:54:09Z" title="Oudenbosch"
+                type="external" user="Michiel1972" userid="0"/>
+            <rc comment="/* External links */" ns="0"
+                old_revid="598244345" pageid="706798" rcid="641051211"
+                revid="598244605" timestamp="2014-03-05T11:54:09Z"
+                title="Romeo Miller" type="edit" user="ChadCur24" userid="20911856"/>
+            <rc anon="" comment="/* Personal life */" ns="0"
+                old_revid="597895126" pageid="3153324" rcid="641051210"
+                revid="598244604" timestamp="2014-03-05T11:54:09Z"
+                title="Joey Castillo" type="edit" user="92.37.120.45" userid="0"/>
+            <rc anon="" comment="/* Hosts */  add Mageia" ns="0"
+                old_revid="592716896" pageid="590852" rcid="641051209"
+                revid="598244603" timestamp="2014-03-05T11:54:09Z"
+                title="Xen" type="edit" user="93.9.33.123" userid="0"/>
+            <rc comment="" logaction="create" logid="55200371"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="641051208" revid="0"
+                timestamp="2014-03-05T11:54:08Z"
+                title="User:Justinbooby" type="log" user="Justinbooby" userid="20913362"/>
+            <rc anon="" comment="" ns="0" old_revid="598244550"
+                pageid="8710283" rcid="641051207" revid="598244602"
+                timestamp="2014-03-05T11:54:07Z"
+                title="Artemis Fowl: The Time Paradox" type="edit"
+                user="2.108.99.66" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="544271875" pageid="3806572" rcid="641051268"
+                revid="544271875" timestamp="2014-03-05T11:54:06Z"
+                title="Category:People from Quezon City" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" comment="" ns="0" old_revid="598244565"
+                pageid="6411986" rcid="641051206" revid="598244601"
+                timestamp="2014-03-05T11:54:06Z" title="Farhad Majidi"
+                type="edit" user="2.179.220.200" userid="0"/>
+            <rc
+                comment="/* Cross-Cultural Differences */Fix [[Help:CS1_errors#deprecated_params|CS1 deprecated coauthor parameter errors]] using [[Project:AWB|AWB]]"
+                minor="" ns="0" old_revid="596981771" pageid="41067068"
+                rcid="641051205" revid="598244600"
+                timestamp="2014-03-05T11:54:06Z"
+                title="Achievement orientation" type="edit"
+                user="Trappist the monk" userid="10289486"/>
+            <rc
+                comment="Reverted 1 edit by [[Special:Contributions/96.241.68.209|96.241.68.209]] ([[User talk:96.241.68.209|talk]]): No, he didn't. ([[WP:TW|TW]])"
+                ns="0" old_revid="598238902" pageid="33443317"
+                rcid="641051204" revid="598244599"
+                timestamp="2014-03-05T11:54:05Z" title="Simon Kunz"
+                type="edit" user="K6ka" userid="11801436"/>
+            <rc comment="TWP parameters" minor="" ns="11"
+                old_revid="596335855" pageid="41997682" rcid="641051203"
+                revid="598244598" timestamp="2014-03-05T11:54:05Z"
+                title="Template talk:Railway stations in the Punjab, India"
+                type="edit" user="Slambo" userid="107930"/>
+            <rc comment="links" ns="0" old_revid="598166212"
+                pageid="31797583" rcid="641051202" revid="598244597"
+                timestamp="2014-03-05T11:54:05Z" title="John Alan"
+                type="edit" user="Chrisdoyleorwell" userid="13494966"/>
+            <rc comment="I add photo" ns="0" old_revid="576491505"
+                pageid="1435309" rcid="641051201" revid="598244596"
+                timestamp="2014-03-05T11:54:04Z"
+                title="Assabu, Hokkaido" type="edit" user="ã‚¢ãƒ©ãƒ„ã‚¯" userid="11188037"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="550286508" pageid="9681894" rcid="641051267"
+                revid="550286508" timestamp="2014-03-05T11:54:01Z"
+                title="Category:People from Indianapolis, Indiana"
+                type="external" user="Dexbot" userid="0"/>
+            <rc
+                comment="/* Gaining Grounds for a Prince-Archbishopric of Imperial Immediacy */Typo fixing, replaced: partioned â†’ partitioned using [[Project:AWB|AWB]]"
+                minor="" ns="0" old_revid="590322340" pageid="255372"
+                rcid="641051166" revid="598244594"
+                timestamp="2014-03-05T11:53:57Z"
+                title="Archbishopric of Bremen" type="edit"
+                user="John of Reading" userid="11308236"/>
+            <rc anon="" comment="/* Cast */" ns="0"
+                old_revid="598244434" pageid="2687106" rcid="641051165"
+                revid="598244593" timestamp="2014-03-05T11:53:57Z"
+                title="Bollywood/Hollywood" type="edit"
+                user="72.14.231.193" userid="0"/>
+            <rc comment="/* Military flag */" ns="0"
+                old_revid="598244156" pageid="7262794" rcid="641051164"
+                revid="598244592" timestamp="2014-03-05T11:53:57Z"
+                title="List of flags of Ukraine" type="edit"
+                user="Andrew J.Kurbiko" userid="20106661"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="544733178"
+                pageid="10144838" rcid="641051200" revid="544733178"
+                timestamp="2014-03-05T11:53:56Z" title="TÃ¼rkenfeld"
+                type="external" user="FelixReimann" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="544488036" pageid="6244898" rcid="641051199"
+                revid="544488036" timestamp="2014-03-05T11:53:56Z"
+                title="Category:People from Oxford" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="544733107"
+                pageid="10144801" rcid="641051198" revid="544733107"
+                timestamp="2014-03-05T11:53:56Z" title="SchÃ¶ngeising"
+                type="external" user="FelixReimann" userid="0"/>
+            <rc
+                comment="Fix [[Help:CS1_errors#deprecated_params|CS1 deprecated coauthor parameter errors]] using [[Project:AWB|AWB]]"
+                minor="" ns="0" old_revid="590276670" pageid="38469380"
+                rcid="641051163" revid="598244591"
+                timestamp="2014-03-05T11:53:56Z"
+                title="Acheiropoietos Monastery" type="edit"
+                user="Trappist the monk" userid="10289486"/>
+            <rc comment="" ns="0" old_revid="598244540"
+                pageid="41327174" rcid="641051162" revid="598244590"
+                timestamp="2014-03-05T11:53:56Z" title="Dildar Ali Khan"
+                type="edit" user="Dildarswat" userid="20250662"/>
+            <rc bot=""
+                comment="Report created in [[Wikipedia:WikiProject_Spam/LinkReports/museo.certosadipavia.beniculturali.it|museo.certosadipavia.beniculturali.it]] - XWiki link additions by Mauriziomarzano  - T: 2; X: 2; L: 0; R: 0; IP: 0; P: 0; M: 0; R: 0"
+                ns="4" old_revid="598244420" pageid="16927404"
+                rcid="641051161" revid="598244589"
+                timestamp="2014-03-05T11:53:55Z"
+                title="Wikipedia:WikiProject Spam/LinkReports"
+                type="edit" user="COIBot" userid="4048622"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="597628258"
+                pageid="1402818" rcid="641051197" revid="597628258"
+                timestamp="2014-03-05T11:53:54Z" title="Puchheim"
+                type="external" user="FelixReimann" userid="0"/>
+            <rc
+                comment="/* Mew Gull */ see also Wikipedia_talk:WikiProject_Birds#Pvmoutside"
+                ns="3" old_revid="598166975" pageid="41117332"
+                rcid="641051160" revid="598244588"
+                timestamp="2014-03-05T11:53:54Z"
+                title="User talk:BD2412" type="edit" user="Snowmanradio" userid="626138"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="596193569"
+                pageid="5409281" rcid="641051196" revid="596193569"
+                timestamp="2014-03-05T11:53:53Z" title="Olching"
+                type="external" user="FelixReimann" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="597438917"
+                pageid="29303892" rcid="641051195" revid="597438917"
+                timestamp="2014-03-05T11:53:53Z"
+                title="1973 Grand Prix (tennis)" type="external"
+                user="Kxont" userid="0"/>
+            <rc
+                comment="/* American editions */ wikilink first mention of Lea &amp; Febiger, not second."
+                ns="0" old_revid="597395802" pageid="168205"
+                rcid="641051159" revid="598244587"
+                timestamp="2014-03-05T11:53:53Z" title="Gray's Anatomy"
+                type="edit" user="Snalwibma" userid="423633"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="544733057"
+                pageid="10144771" rcid="641051194" revid="544733057"
+                timestamp="2014-03-05T11:53:52Z" title="Oberschweinbach"
+                type="external" user="FelixReimann" userid="0"/>
+            <rc comment="removed a bit of trivia." ns="0"
+                old_revid="598235980" pageid="78024" rcid="641051158"
+                revid="598244586" timestamp="2014-03-05T11:53:52Z"
+                title="Big East Conference (1979â€“2013)" type="edit"
+                user="Jayron32" userid="1623918"/>
+            <rc comment="rm whitespace" minor="" ns="0"
+                old_revid="598244562" pageid="41966134" rcid="641051157"
+                revid="598244585" timestamp="2014-03-05T11:53:52Z"
+                title="Million Puppet March" type="edit"
+                user="Samwalton9" userid="15991542"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="539746516"
+                pageid="10144733" rcid="641051193" revid="539746516"
+                timestamp="2014-03-05T11:53:51Z" title="Moorenweis"
+                type="external" user="FelixReimann" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="588456067" pageid="6241834" rcid="641051192"
+                revid="588456067" timestamp="2014-03-05T11:53:51Z"
+                title="Category:People from Hanover" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="/* See also */ Added metathesis" ns="0"
+                old_revid="598121366" pageid="28543" rcid="641051156"
+                revid="598244584" timestamp="2014-03-05T11:53:51Z"
+                title="Spoonerism" type="edit" user="Knyght27" userid="299744"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="561996964"
+                pageid="10144693" rcid="641051191" revid="561996964"
+                timestamp="2014-03-05T11:53:50Z" title="Mittelstetten"
+                type="external" user="FelixReimann" userid="0"/>
+            <rc bot=""
+                comment="Signing comment by [[Special:Contributions/82.138.204.29|82.138.204.29]] - &quot;/* Over-zealous bots */&quot;"
+                minor="" ns="3" old_revid="598244493" pageid="6531400"
+                rcid="641051155" revid="598244583"
+                timestamp="2014-03-05T11:53:50Z"
+                title="User talk:Kathovo" type="edit" user="SineBot" userid="4936590"/>
+            <rc comment="image." ns="0" old_revid="598244305"
+                pageid="4102992" rcid="641051154" revid="598244582"
+                timestamp="2014-03-05T11:53:50Z" title="Tillo"
+                type="edit" user="Maurice07" userid="15630315"/>
+            <rc comment="" ns="1" old_revid="598215682"
+                pageid="42109595" rcid="641051153" revid="598244581"
+                timestamp="2014-03-05T11:53:49Z" title="Talk:Yeezus/GA1"
+                type="edit" user="Prism" userid="6667088"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="544665321"
+                pageid="9145577" rcid="641051190" revid="544665321"
+                timestamp="2014-03-05T11:53:48Z" title="Mammendorf"
+                type="external" user="FelixReimann" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="583125843"
+                pageid="2304809" rcid="641051189" revid="583125843"
+                timestamp="2014-03-05T11:53:48Z" title="Jules VallÃ¨s"
+                type="external" user="Pyb" userid="0"/>
+            <rc comment="/* Invasion of Kuwait (1990) */" ns="0"
+                old_revid="598225751" pageid="16692" rcid="641051152"
+                revid="598244580" timestamp="2014-03-05T11:53:48Z"
+                title="Military of Kuwait" type="edit" user="OJOM" userid="20319104"/>
+            <rc anon="" comment="removed dead links" ns="0"
+                old_revid="575016195" pageid="7896257" rcid="641051151"
+                revid="598244579" timestamp="2014-03-05T11:53:48Z"
+                title="Controllerâ€“pilot data link communications"
+                type="edit" user="217.169.228.212" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="562004613"
+                pageid="5601622" rcid="641051188" revid="562004613"
+                timestamp="2014-03-05T11:53:47Z" title="Maisach"
+                type="external" user="FelixReimann" userid="0"/>
+            <rc comment="/* Playback singer */" ns="0"
+                old_revid="598244546" pageid="11672962" rcid="641051150"
+                revid="598244578" timestamp="2014-03-05T11:53:47Z"
+                title="Roop Kumar Rathod" type="edit"
+                user="Samshersinghbeniyaaz" userid="20878624"/>
+            <rc comment="" logaction="create" logid="55200370"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="641051149" revid="0"
+                timestamp="2014-03-05T11:53:47Z"
+                title="User:Jeremysionfire" type="log"
+                user="Jeremysionfire" userid="20913361"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="544736286"
+                pageid="10144666" rcid="641051187" revid="544736286"
+                timestamp="2014-03-05T11:53:46Z" title="Landsberied"
+                type="external" user="FelixReimann" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="573288006" pageid="11292519" rcid="641051186"
+                revid="573288006" timestamp="2014-03-05T11:53:46Z"
+                title="Category:People from Allahabad" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="544736173"
+                pageid="10144643" rcid="641051185" revid="544736173"
+                timestamp="2014-03-05T11:53:45Z" title="Kottgeisering"
+                type="external" user="FelixReimann" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="544736080"
+                pageid="10144606" rcid="641051184" revid="544736080"
+                timestamp="2014-03-05T11:53:44Z" title="Jesenwang"
+                type="external" user="FelixReimann" userid="0"/>
+            <rc comment="/* Qutbi Bohra */ comment and deletion sorting"
+                ns="4" old_revid="598232643" pageid="42117799"
+                rcid="641051148" revid="598244577"
+                timestamp="2014-03-05T11:53:44Z"
+                title="Wikipedia:Articles for deletion/Qutbi Bohra (2nd nomination)"
+                type="edit" user="Thryduulf" userid="157530"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="539704530"
+                pageid="11433635" rcid="641051183" revid="539704530"
+                timestamp="2014-03-05T11:53:43Z"
+                title="Hattenhofen, Bavaria" type="external"
+                user="FelixReimann" userid="0"/>
+            <rc
+                comment="Received is better as we're talking not just of wins but nominations in one sentence."
+                ns="0" old_revid="598225966" pageid="213163"
+                rcid="641051147" revid="598244576"
+                timestamp="2014-03-05T11:53:43Z" title="Gary Oldman"
+                type="edit" user="Largetrope" userid="20789005"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="544263927"
+                pageid="3723898" rcid="641051182" revid="544263927"
+                timestamp="2014-03-05T11:53:42Z" title="GrÃ¶benzell"
+                type="external" user="FelixReimann" userid="0"/>
+            <rc bot=""
+                comment="Report for museo.certosadipavia.beniculturali.it (XWiki spam by Mauriziomarzano )"
+                ns="4" old_revid="598243324" pageid="42118381"
+                rcid="641051146" revid="598244575"
+                timestamp="2014-03-05T11:53:42Z"
+                title="Wikipedia:WikiProject Spam/LinkReports/museo.certosadipavia.beniculturali.it"
+                type="edit" user="COIBot" userid="4048622"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="539698956"
+                pageid="2695908" rcid="641051181" revid="539698956"
+                timestamp="2014-03-05T11:53:41Z" title="Grafrath"
+                type="external" user="FelixReimann" userid="0"/>
+            <rc anon="" comment="/* Tags */" ns="0"
+                old_revid="597945294" pageid="689527" rcid="641051145"
+                revid="598244574" timestamp="2014-03-05T11:53:41Z"
+                title="BBCode" type="edit" user="99.49.1.194" userid="0"/>
+            <rc comment="Project banners" new="" ns="1" old_revid="0"
+                pageid="42118496" rcid="641051144" revid="598244573"
+                timestamp="2014-03-05T11:53:41Z"
+                title="Talk:National Restoration Party (Costa Rica)"
+                type="new" user="O'Dea" userid="78380"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="544600062" pageid="8081086" rcid="641051180"
+                revid="544600062" timestamp="2014-03-05T11:53:40Z"
+                title="Category:People from Wuhan" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="589555083"
+                pageid="5353514" rcid="641051179" revid="589555083"
+                timestamp="2014-03-05T11:53:39Z" title="Germering"
+                type="external" user="FelixReimann" userid="0"/>
+            <rc comment="" minor="" ns="0" old_revid="597216994"
+                pageid="25764092" rcid="641051143" revid="598244572"
+                timestamp="2014-03-05T11:53:39Z"
+                title="2010 Green Bay Packers season" type="edit"
+                user="Schik8337" userid="17810000"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="587271342"
+                pageid="999233" rcid="641051178" revid="587271342"
+                timestamp="2014-03-05T11:53:38Z"
+                title="FÃ¼rstenfeldbruck" type="external"
+                user="FelixReimann" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="544812297"
+                pageid="11433586" rcid="641051177" revid="544812297"
+                timestamp="2014-03-05T11:53:37Z"
+                title="Emmering, FÃ¼rstenfeldbruck" type="external"
+                user="FelixReimann" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="586585478"
+                pageid="5651568" rcid="641051176" revid="586585478"
+                timestamp="2014-03-05T11:53:36Z" title="Eichenau"
+                type="external" user="FelixReimann" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="545342760" pageid="17761179" rcid="641051175"
+                revid="545342760" timestamp="2014-03-05T11:53:36Z"
+                title="Category:People from Irkutsk Oblast"
+                type="external" user="Dexbot" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="544735505"
+                pageid="10144360" rcid="641051174" revid="544735505"
+                timestamp="2014-03-05T11:53:34Z" title="Egenhofen"
+                type="external" user="FelixReimann" userid="0"/>
+            <rc
+                comment="two relevant incoming links replaced, proposed deletion"
+                ns="0" old_revid="580820964" pageid="2325066"
+                rcid="641051142" revid="598244571"
+                timestamp="2014-03-05T11:53:34Z" title="Powder shading"
+                type="edit" user="Be..anyone" userid="14216063"/>
+            <rc anon="" comment="/* Anger rape */" ns="0"
+                old_revid="595103626" pageid="17617486" rcid="641051141"
+                revid="598244570" timestamp="2014-03-05T11:53:34Z"
+                title="Causes of sexual violence" type="edit"
+                user="180.149.3.189" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="551718266"
+                pageid="10144307" rcid="641051173" revid="551718266"
+                timestamp="2014-03-05T11:53:33Z" title="Althegnenberg"
+                type="external" user="FelixReimann" userid="0"/>
+            <rc anon="" comment="/* Current squad */" ns="0"
+                old_revid="598244395" pageid="5747191" rcid="641051140"
+                revid="598244569" timestamp="2014-03-05T11:53:33Z"
+                title="Kosovo national football team" type="edit"
+                user="82.114.71.90" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="561988170"
+                pageid="10144258" rcid="641051172" revid="561988170"
+                timestamp="2014-03-05T11:53:32Z" title="Alling"
+                type="external" user="FelixReimann" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="544735722"
+                pageid="10144457" rcid="641051171" revid="544735722"
+                timestamp="2014-03-05T11:53:31Z"
+                title="Adelshofen, Upper Bavaria" type="external"
+                user="FelixReimann" userid="0"/>
         </recentchanges>
     </query>
 </api>
