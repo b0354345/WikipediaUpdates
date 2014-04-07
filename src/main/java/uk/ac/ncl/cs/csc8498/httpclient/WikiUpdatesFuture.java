@@ -21,7 +21,7 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 
-public class HttpClient {
+public class WikiUpdatesFuture {
 
 	public static void main(String[] args) {	    
 		try {
@@ -63,7 +63,7 @@ public class HttpClient {
 						nameValuePairs.add(new BasicNameValuePair("list",
 								"recentchanges"));
 						nameValuePairs.add(new BasicNameValuePair("rcprop",
-								"title|user|timestamp"));
+								"title|user|timestamp|comment|userid|ids|flags|loginfo"));
 						nameValuePairs.add(new BasicNameValuePair("format", "xml"));
 						nameValuePairs
 								.add(new BasicNameValuePair("rclimit", "max"));
@@ -104,7 +104,7 @@ public class HttpClient {
 						System.out.println(JDOMXMLParser.getCount());
 						Thread.sleep(2000);
 						
-							if (JDOMXMLParser.getCount() >50) {
+							if (JDOMXMLParser.getCount() >100) {
 								//System.out.println(JDOMXMLParser.getCount());
 								System.out.println("Application Terminates");
 								System.exit(0);
@@ -128,7 +128,7 @@ public class HttpClient {
 						httpClient.getConnectionManager().shutdown();
 					}
 				}
-			}, 0, 12000);
+			}, 0, 5000);
 	}
 	
 	public static void doGetHttpRequest() throws Exception

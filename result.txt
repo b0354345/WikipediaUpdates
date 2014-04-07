@@ -1,52 +1,6 @@
 <api>
     <limits recentchanges="500"/>
     <query>
-        <recentchanges>
-            <rc ns="2" timestamp="2014-03-03T08:39:13Z"
-                title="User:HYGREE" type="log" user="Gogo Dodo"/>
-            <rc anon="" ns="0" timestamp="2014-03-03T08:39:13Z"
-                title="Akis Samiotis" type="edit" user="87.202.90.228"/>
-            <rc anon="" ns="0" timestamp="2014-03-03T08:39:12Z"
-                title="Pterostegia" type="external" user="SuccuBot"/>
-            <rc ns="2" timestamp="2014-03-03T08:39:12Z"
-                title="User:Giulyvolusia" type="log" user="Giulyvolusia"/>
-            <rc anon="" ns="0" timestamp="2014-03-03T08:39:11Z"
-                title="Feldkirch District" type="external" user="Dexbot"/>
-            <rc ns="1" timestamp="2014-03-03T08:39:11Z"
-                title="Talk:Deuce 7" type="edit" user="Christian75"/>
-            <rc anon="" ns="0" timestamp="2014-03-03T08:39:11Z"
-                title="2014 Asia Cup" type="edit" user="124.30.7.34"/>
-            <rc anon="" ns="0" timestamp="2014-03-03T08:39:11Z"
-                title="Vehicle registration plates of the Philippines"
-                type="edit" user="112.208.107.248"/>
-            <rc ns="0" timestamp="2014-03-03T08:39:11Z"
-                title="Ian Sangalang" type="edit" user="BG19bot"/>
-            <rc ns="0" timestamp="2014-03-03T08:39:10Z"
-                title="Battle of Ambon" type="edit" user="Anotherclown"/>
-            <rc ns="1" timestamp="2014-03-03T08:39:08Z"
-                title="Talk:Paracone" type="edit" user="Animalparty"/>
-            <rc ns="0" timestamp="2014-03-03T08:39:08Z"
-                title="Ghostbusters" type="edit" user="AndyFielding"/>
-            <rc ns="0" timestamp="2014-03-03T08:39:08Z"
-                title="Hydrogen thioperoxide" type="edit" user="DMacks"/>
-            <rc ns="4" timestamp="2014-03-03T08:39:08Z"
-                title="Wikipedia:Village pump (proposals)" type="edit" user="ClueBot III"/>
-            <rc anon="" ns="0" timestamp="2014-03-03T08:39:07Z"
-                title="Sidwaya" type="external" user="JVbot"/>
-            <rc ns="0" timestamp="2014-03-03T08:39:07Z"
-                title="IRrelevant Astronomy" type="edit" user="BG19bot"/>
-            <rc ns="0" timestamp="2014-03-03T08:39:06Z"
-                title="MEMEnomics" type="edit" user="Behug"/>
-            <rc anon="" ns="0" timestamp="2014-03-03T08:39:06Z"
-                title="DAM (band)" type="edit" user="213.130.123.30"/>
-            <rc ns="0" timestamp="2014-03-03T08:39:05Z"
-                title="Pagal Nilavu" type="edit" user="Aspects"/>
-            <rc anon="" ns="0" timestamp="2014-03-03T08:39:05Z"
-                title="Sagareshwar Wildlife Sanctuary" type="edit" user="223.30.95.145"/>
-            <rc anon="" ns="0" timestamp="2014-03-03T08:39:05Z"
-                title="List of companies of Ahmedabad" type="edit" user="122.169.33.89"/>
-            <rc anon="" ns="0" timestamp="2014-03-03T08:39:04Z"
-                title="L'Observateur Paalga" type="external" user="JVbot"/>
-        </recentchanges>
+        <recentchanges/>
     </query>
 </api>

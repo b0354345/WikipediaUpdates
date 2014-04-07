@@ -1,6 +1,9 @@
+uk\ac\ncl\cs\csc8498\httpclient\XmlFormatter.class
 uk\ac\ncl\cs\csc8498\httpclient\TestClass.class
 uk\ac\ncl\cs\csc8498\httpclient\JDOMXMLParser.class
-uk\ac\ncl\cs\csc8498\httpclient\HttpClient$1.class
-uk\ac\ncl\cs\csc8498\httpclient\XmlFormatter.class
-uk\ac\ncl\cs\csc8498\httpclient\HttpClient.class
 uk\ac\ncl\cs\csc8498\httpclient\DateFormatter.class
+uk\ac\ncl\cs\csc8498\httpclient\WikiUpdatesFuture$1.class
+uk\ac\ncl\cs\csc8498\httpclient\TotalEditsPerPage.class
+uk\ac\ncl\cs\csc8498\httpclient\WikiUpdatesFuture.class
+uk\ac\ncl\cs\csc8498\httpclient\WikiUpdateHistoric.class
+uk\ac\ncl\cs\csc8498\httpclient\CassandraCluster.class
