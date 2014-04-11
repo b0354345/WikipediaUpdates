@@ -13,11 +13,11 @@ import com.datastax.driver.core.ResultSetFuture;
 import com.datastax.driver.core.Row;
 import com.datastax.driver.core.Session;
 
-public class TotalEditsPerPage {
+public class TotalEditsPerUser {
 	private static Cluster cluster;
     private static Session session;
     
-    public TotalEditsPerPage()
+    public TotalEditsPerUser()
     { 
     	 cluster = new Cluster.Builder().addContactPoint("127.0.0.1").build(); 
 		 final int numberOfConnections = 1;
@@ -31,7 +31,7 @@ public class TotalEditsPerPage {
 		 bootstrapSession.shutdown();		
 		 session = cluster.connect("wikiproject");
 		
-		 session.execute("CREATE TABLE IF NOT EXISTS edits_per_page (title text, hits counter, PRIMARY KEY (title));");	
+		 session.execute("CREATE TABLE IF NOT EXISTS edits_per_user (user text, hits counter, PRIMARY KEY (user));");	
     }
     
     /**
@@ -39,25 +39,25 @@ public class TotalEditsPerPage {
      * @throws InterruptedException
      */
     public void writeToDB() throws InterruptedException {
-		String psString = "SELECT title FROM user_edit;";
+		String psString = "SELECT user FROM user_edit;";
 
 		final int maxOutstandingFutures = 4;
 		final BlockingQueue<ResultSetFuture> outstandingFutures = new LinkedBlockingQueue<>(
 				maxOutstandingFutures);
 		// prepared statement for inserting records into the table
 		final PreparedStatement updatePS = session
-				.prepare("UPDATE edits_per_page SET hits = hits + ? WHERE title = ?;");
+				.prepare("UPDATE edits_per_user SET hits = hits + ? WHERE user = ?;");
 
-		String title = "";
+		String user = "";
 	
 		// iterate through the result set and print the results on the console
 		final ResultSetFuture queryFuture = session.executeAsync(psString);
 		ResultSet resultSet = queryFuture.getUninterruptibly();
 		int count = 0;
 		for (Row row : resultSet) {
-			title = row.getString(0);
+			user = row.getString(0);
 			BoundStatement boundState = new BoundStatement(updatePS).bind(1L,
-					title);
+					user);
 			System.out.println(count++);
 
 			// when the batch is full, execute asynchronously
@@ -81,14 +81,14 @@ public class TotalEditsPerPage {
     public void totalAccessRead() 
    	{	
 	    	// sample titles for the query
-	    	String title1 = "Xunlei";
-	    	String title2 = "Wikipedia:WikiProject Antarctica Highways";
-	    	String title3 = "Talk:Spanish aircraft carrier Principe de Asturias";
+	    	String user1 = "Hebrides";
+	    	String user2 = "67.162.79.125";
+	    	String user3 = "Mpiramooni";
 	    
-	    	String psString = "SELECT title, hits FROM edits_per_page WHERE title in (?, ?, ?);";
+	    	String psString = "SELECT user, hits FROM edits_per_user WHERE user in (?, ?, ?);";
 	    	// prepared statement for querying the DB
 	   		final PreparedStatement selectPS = session.prepare(psString);	
-	   		BoundStatement bs = new BoundStatement(selectPS).bind(title1, title2, title3);
+	   		BoundStatement bs = new BoundStatement(selectPS).bind(user1, user2, user3);
 	   		System.out.println(bs);
 	   		
 	    	// iterate through the result set and print the results on the console

@@ -17,14 +17,18 @@ public class TestClass extends TimerTask {
 	}
 
 	public static void main(String args[]) throws InterruptedException {
-		TotalEditsPerPage ed = new TotalEditsPerPage();
-		try {
-			ed.writeToDB();
-			//ed.totalAccessRead("[04/Apr/2014:10]", "[01/Mar/2014:10]");
-			
-		} catch (ParseException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		
+		TotalEditsPerPage edu = new TotalEditsPerPage();
+		//edu.writeToDB();
+		edu.totalAccessRead();
+//		TotalEditsPerPage ed = new TotalEditsPerPage();
+//		try {
+//			ed.writeToDB();
+//			//ed.totalAccessRead("[04/Apr/2014:10]", "[01/Mar/2014:10]");
+//			
+//		} catch (ParseException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 	}
 }
