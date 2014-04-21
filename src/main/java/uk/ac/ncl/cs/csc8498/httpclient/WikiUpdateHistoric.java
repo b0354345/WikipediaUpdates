@@ -19,8 +19,8 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
 
 public class WikiUpdateHistoric {
-	private static long START_MILLI = System.currentTimeMillis() + 300000L;
-	private static long END_MILL = START_MILLI - 300000L;
+	private static long START_MILLI = System.currentTimeMillis() + 300000L; //System.currentTimeMillis() + 300000L;
+	private static long END_MILL = START_MILLI - 300000L; // 5 minute window
 
 	public static void main(String[] args) {
 		try {
@@ -32,10 +32,10 @@ public class WikiUpdateHistoric {
 	}
 
 	public static void doPostHttpRequestHistoric() {
-		long count = 0;
 		DefaultHttpClient httpClient = new DefaultHttpClient();
-
-		while (JDOMXMLParser.getCount() < 50) {
+		//long count = JDOMXMLParser.getCount();
+		while (JDOMXMLParser.getCount() < 1000000000) {
+			
 			START_MILLI -= 300000L;
 			END_MILL = START_MILLI - 300000L;
 
@@ -94,16 +94,16 @@ public class WikiUpdateHistoric {
 				wr.close();
 				rd.close();
 				JDOMXMLParser.parseXML("result.txt");
-				System.out.println(JDOMXMLParser.getCount());
+				System.out.println(START_MILLI);
 			} catch (UnsupportedEncodingException e) {
 				// TODO Auto-generated catch block
-				e.printStackTrace();
+				System.out.println(START_MILLI);
 			} catch (IllegalStateException e) {
 				// TODO Auto-generated catch block
-				e.printStackTrace();
+				System.out.println(START_MILLI);
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
-				e.printStackTrace();
+				System.out.println(START_MILLI);
 			} 
 				
 			

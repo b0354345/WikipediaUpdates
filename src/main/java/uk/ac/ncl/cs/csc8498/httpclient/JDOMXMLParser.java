@@ -32,35 +32,49 @@ public class JDOMXMLParser {
       
         //getting root element from XML document
         Element root = xml.getRootElement();
-        Element queryNode = root.getChild("query");
-        Element rcNode = queryNode.getChild("recentchanges");
-        
-        List<Element> rcList = rcNode.getChildren();
-        
-       
-      
-        //Iterating over all childs in XML
-        Iterator<Element> itr = rcList.iterator();
-        while(itr.hasNext()){
-        	Element rc = itr.next();
-        	String user = rc.getAttributeValue("user");
-        	String title = rc.getAttributeValue("title");
-        	String timestamp = rc.getAttributeValue("timestamp");
-        	String comments = rc.getAttributeValue("comment");
-        	
-        	 //reading attribute from Element using JDOM
-            System.out.println("User: " + user + " | Title: " + title + " | Timestamp: " + timestamp + " | Comment: " + comments);  
-            count++;
-        	
-        	try {
-				cluster.writeWikiResults(user, timestamp, title, comments);
-			} catch (ParseException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+        if (root != null)
+        {
+	        Element queryNode = root.getChild("query");
+	        if (queryNode != null)
+	        {
+		        Element rcNode = queryNode.getChild("recentchanges");
+		        
+		        List<Element> rcList = rcNode.getChildren();
+		        
+		       
+		      
+		        //Iterating over all childs in XML
+		        Iterator<Element> itr = rcList.iterator();
+		        while(itr.hasNext()){
+		        	Element rc = itr.next();
+		        	String user = rc.getAttributeValue("user");
+		        	String userId = rc.getAttributeValue("userid");
+		        	String pageId = rc.getAttributeValue("pageid");
+		        	String title = rc.getAttributeValue("title");
+		        	String timestamp = rc.getAttributeValue("timestamp");
+		        	String comments = rc.getAttributeValue("comment");
+		        	String type = rc.getAttributeValue("type");
+		        	String oldRevId = rc.getAttributeValue("old_revid");
+		        	String newRevId = rc.getAttributeValue("revid");
+		        	String recentChangeId = rc.getAttributeValue("rcid");
+		        	
+		//        	 //reading attribute from Element using JDOM
+		//            System.out.println("User: " + user + " | User_ID: " + userId + " | Page_ID: " + pageId + 
+		//            		" | Title: " + title + " | Timestamp: " + timestamp + " | Recent_Change_ID: " + recentChangeId + " | Old_Rev_ID: " + oldRevId + 
+		//            		" | New_Rev_ID: " + newRevId + " | Type: " + type);  
+		       	
+		        	try {
+						cluster.writeWikiResults(user, userId, timestamp, pageId, title, recentChangeId, oldRevId, newRevId, type);
+						 System.out.println(count++);
+					} catch (ParseException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+		        }
+	        }
         }        
     }
     

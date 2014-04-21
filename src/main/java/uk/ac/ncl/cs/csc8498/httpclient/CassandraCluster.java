@@ -1,13 +1,9 @@
 package uk.ac.ncl.cs.csc8498.httpclient;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.InputStreamReader;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Locale;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
@@ -54,7 +50,8 @@ public class CassandraCluster {
 
 		session = cluster.connect("wikiproject");
 
-		session.execute("CREATE TABLE IF NOT EXISTS user_edit (user text, edit_time timestamp, title text, comments text, PRIMARY KEY ((user, edit_time), title));");				
+		session.execute("CREATE TABLE IF NOT EXISTS user_edit (user text, userId text, edit_time timestamp, pageId text, title text, "
+				+ "recentChangeId text, oldRevId text, newRevId text, type text, PRIMARY KEY ((user, edit_time, title), recentChangeId));");				
 	}
 
 	/**
@@ -62,25 +59,25 @@ public class CassandraCluster {
 	 * @throws InterruptedException 
 	 * 
 	 */
-	public void writeWikiResults(String user, String time, String title, String comments) throws ParseException, InterruptedException
+	public void writeWikiResults(String user, String userId, String time, String pageId, String title, String recentChangeId, String oldRevId, String newRevId, String type) throws ParseException, InterruptedException
 	{
 		
 		final int maxOutstandingFutures = 4;
 		final BlockingQueue<ResultSetFuture> outstandingFutures = new LinkedBlockingQueue<ResultSetFuture>(maxOutstandingFutures);
 		// prepared statement for inserting records into the table
-		final PreparedStatement insertPS = session.prepare("INSERT INTO user_edit (user, edit_time, title, comments) "
-											+ "VALUES (?, ?, ?, ?)");	
+		final PreparedStatement insertPS = session.prepare("INSERT INTO user_edit (user, userId, edit_time, pageId, title, recentChangeId, oldRevId, newRevId, type) "
+											+ "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");	
 		final BatchStatement batchStatement = new BatchStatement(BatchStatement.Type.UNLOGGED);
 		
 		String timestamp = time.replace('T', ' ').replace('-', '/');
 		timestamp = timestamp.substring(0, time.length() - 1);
-		System.out.println("**** " + timestamp);
+		//System.out.println("**** " + timestamp);
 		Date date = dateFormat.parse(timestamp);
-		System.out.println("**** " + date);
+		//System.out.println("**** " + date);
 	  
         int itemsPerBatch = 0;
         while (itemsPerBatch < 100) {			
-			batchStatement.add(new BoundStatement(insertPS).bind(user, date, title, comments));
+			batchStatement.add(new BoundStatement(insertPS).bind(user, userId, date, pageId, title, recentChangeId, oldRevId, newRevId, type));
 			itemsPerBatch++;						
 		}
 		outstandingFutures.put(session.executeAsync(batchStatement));
