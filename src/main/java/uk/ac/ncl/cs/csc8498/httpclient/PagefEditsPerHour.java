@@ -63,6 +63,8 @@ public class PagefEditsPerHour {
 		int count = 0;
 		for (Row row : resultSet) {
 			title = row.getString(0);
+			if (title.startsWith("User") || title.startsWith("Wikipedia") || title.startsWith("File") || title.startsWith("Talk"))
+				continue;
 			hour = dateFormat.format(row.getDate(1));
 			Date timeStamp = (Date) dateFormat.parse(hour);
 			BoundStatement boundState = new BoundStatement(updatePS).bind(1L,
@@ -132,4 +134,16 @@ public class PagefEditsPerHour {
 	   		}
 	   		cluster.shutdown();
    	}	
+    
+    public static void main(String[] args)
+    {
+    	PagefEditsPerHour edu = new PagefEditsPerHour();
+		try {
+			edu.writeToDB();
+		} catch (InterruptedException | ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//edu.totalAccessRead();
+    }
 }

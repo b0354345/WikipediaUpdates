@@ -1,4 +1,4 @@
-<api>
+<api
     <query-continue>
         <recentchanges rccontinue="2014-04-15T10:56:04Z|649225196"/>
     </query-continue>
@@ -2653,6 +2653,7 @@
                 pageid="42496749" rcid="649225160" revid="604284384"
                 timestamp="2014-04-15T10:56:05Z" title="Talk:Paalai"
                 type="new" user="Bovineboy2008" userid="3107162"/>
+   
         </recentchanges>
     </query>
 </api>

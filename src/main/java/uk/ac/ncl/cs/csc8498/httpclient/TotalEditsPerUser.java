@@ -39,7 +39,7 @@ public class TotalEditsPerUser {
      * @throws InterruptedException
      */
     public void writeToDB() throws InterruptedException {
-		String psString = "SELECT user FROM user_edit;";
+		String psString = "SELECT user, title FROM user_edit;";
 
 		final int maxOutstandingFutures = 4;
 		final BlockingQueue<ResultSetFuture> outstandingFutures = new LinkedBlockingQueue<>(
@@ -49,6 +49,7 @@ public class TotalEditsPerUser {
 				.prepare("UPDATE edits_per_user SET hits = hits + ? WHERE user = ?;");
 
 		String user = "";
+		String title = "";
 	
 		// iterate through the result set and print the results on the console
 		final ResultSetFuture queryFuture = session.executeAsync(psString);
@@ -56,6 +57,10 @@ public class TotalEditsPerUser {
 		int count = 0;
 		for (Row row : resultSet) {
 			user = row.getString(0);
+			title = row.getString(1);
+			
+			if (title.startsWith("User") || title.startsWith("Wikipedia") || title.startsWith("File") || title.startsWith("Talk"))
+				continue;
 			BoundStatement boundState = new BoundStatement(updatePS).bind(1L,
 					user);
 			System.out.println(count++);
@@ -100,4 +105,16 @@ public class TotalEditsPerUser {
 	   		}
 	   		cluster.shutdown();
    	}	
+    
+    public static void main(String[] args)
+    {
+    	TotalEditsPerUser edu = new TotalEditsPerUser();
+		try {
+			edu.writeToDB();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//edu.totalAccessRead();
+    }
 }

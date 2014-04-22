@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+C:\Users\Saleh\Documents\Stage4\project\WikipediaUpdates\src\main\java\uk\ac\ncl\cs\csc8498\httpclient\CassandraCluster.java
+C:\Users\Saleh\Documents\Stage4\project\WikipediaUpdates\src\main\java\uk\ac\ncl\cs\csc8498\httpclient\WikiUpdateHistoric.java
+C:\Users\Saleh\Documents\Stage4\project\WikipediaUpdates\src\main\java\uk\ac\ncl\cs\csc8498\httpclient\WikiUpdatesFuture.java
+C:\Users\Saleh\Documents\Stage4\project\WikipediaUpdates\src\main\java\uk\ac\ncl\cs\csc8498\httpclient\DateFormatter.java
+C:\Users\Saleh\Documents\Stage4\project\WikipediaUpdates\src\main\java\uk\ac\ncl\cs\csc8498\httpclient\JDOMXMLParser.java
+C:\Users\Saleh\Documents\Stage4\project\WikipediaUpdates\src\main\java\uk\ac\ncl\cs\csc8498\httpclient\TestClass.java
+C:\Users\Saleh\Documents\Stage4\project\WikipediaUpdates\src\main\java\uk\ac\ncl\cs\csc8498\httpclient\XmlFormatter.java
+=======
 H:\Stage 4\CSC8498\WikipediaUpdates\src\main\java\uk\ac\ncl\cs\csc8498\httpclient\CassandraCluster.java
 H:\Stage 4\CSC8498\WikipediaUpdates\src\main\java\uk\ac\ncl\cs\csc8498\httpclient\XmlFormatter.java
 H:\Stage 4\CSC8498\WikipediaUpdates\src\main\java\uk\ac\ncl\cs\csc8498\httpclient\WikiUpdateHistoric.java
@@ -6,3 +15,4 @@ H:\Stage 4\CSC8498\WikipediaUpdates\src\main\java\uk\ac\ncl\cs\csc8498\httpclien
 H:\Stage 4\CSC8498\WikipediaUpdates\src\main\java\uk\ac\ncl\cs\csc8498\httpclient\TestClass.java
 H:\Stage 4\CSC8498\WikipediaUpdates\src\main\java\uk\ac\ncl\cs\csc8498\httpclient\DateFormatter.java
 H:\Stage 4\CSC8498\WikipediaUpdates\src\main\java\uk\ac\ncl\cs\csc8498\httpclient\WikiUpdatesFuture.java
+>>>>>>> 78c1220fd71d46e9215526242d6ba4d40f4d1f4f

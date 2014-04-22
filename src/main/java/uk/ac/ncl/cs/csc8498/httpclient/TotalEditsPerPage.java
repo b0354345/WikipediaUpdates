@@ -56,6 +56,8 @@ public class TotalEditsPerPage {
 		int count = 0;
 		for (Row row : resultSet) {
 			title = row.getString(0);
+			if (title.startsWith("User") || title.startsWith("Wikipedia") || title.startsWith("File") || title.startsWith("Talk"))
+				continue;
 			BoundStatement boundState = new BoundStatement(updatePS).bind(1L,
 					title);
 			System.out.println(count++);
@@ -100,4 +102,16 @@ public class TotalEditsPerPage {
 	   		}
 	   		cluster.shutdown();
    	}	
+    
+    public static void main(String[] args)
+    {
+    	TotalEditsPerPage edu = new TotalEditsPerPage();
+		try {
+			edu.writeToDB();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//edu.totalAccessRead();
+    }
 }
