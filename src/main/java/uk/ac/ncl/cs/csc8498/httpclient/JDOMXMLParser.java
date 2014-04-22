@@ -11,6 +11,8 @@ import org.jdom2.Element;
 import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
 
+import uk.ac.ncl.cs.csc8498.cassandra_model.CassandraCluster;
+
 
 
 public class JDOMXMLParser {

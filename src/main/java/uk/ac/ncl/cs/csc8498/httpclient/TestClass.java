@@ -6,6 +6,8 @@ import java.text.ParseException;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import uk.ac.ncl.cs.csc8498.cassandra_model.PageEditsPerHour;
+
 public class TestClass extends TimerTask {
 	static long now;
 	static int count = 0;
@@ -16,19 +18,21 @@ public class TestClass extends TimerTask {
 		
 	}
 
-	public static void main(String args[]) throws InterruptedException {
+	public static void main(String args[]) {
 		
-		TotalEditsPerPage edu = new TotalEditsPerPage();
+		PageEditsPerHour edu = new PageEditsPerHour();
+		
 		//edu.writeToDB();
-		edu.totalAccessRead();
+		//edu.totalAccessRead();
 //		TotalEditsPerPage ed = new TotalEditsPerPage();
-//		try {
-//			ed.writeToDB();
-//			//ed.totalAccessRead("[04/Apr/2014:10]", "[01/Mar/2014:10]");
-//			
-//		} catch (ParseException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
+		try {
+			//edu.writeToDB();
+			//edu.pageEditsBetweenHours("[04/Apr/2014:10]", "[01/Mar/2014:10]");
+			edu.allEditsBetweenHours("[10/Apr/2014:10]", "[09/Apr/2014:10]");
+			
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }
