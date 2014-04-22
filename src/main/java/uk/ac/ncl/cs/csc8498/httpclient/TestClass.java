@@ -21,15 +21,10 @@ public class TestClass extends TimerTask {
 	public static void main(String args[]) {
 		
 		PageEditsPerHour edu = new PageEditsPerHour();
+
 		
-<<<<<<< HEAD
-		//edu.writeToDB();
-		//edu.totalAccessRead();
-=======
-		TotalEditsPerPage edu = new TotalEditsPerPage();
-		edu.writeToDB();
+
 //		edu.totalAccessRead();
->>>>>>> 3d157a4bf1bf8c636ddcbb332201a43352716214
 //		TotalEditsPerPage ed = new TotalEditsPerPage();
 		try {
 			//edu.writeToDB();
