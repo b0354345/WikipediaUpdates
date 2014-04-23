@@ -88,13 +88,13 @@ public class UserEditFrequency {
     public static void main(String[] args)
     {
     	UserEditFrequency pg = new UserEditFrequency();
-//    	try {
-//			pg.writeToDB();
-//		} catch (InterruptedException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-    	pg.testUserEditFrequency();
+    	try {
+			pg.writeToDB();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    	//pg.testUserEditFrequency();
     }
 
 }

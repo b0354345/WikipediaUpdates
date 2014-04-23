@@ -26,6 +26,9 @@ public class MapEntry {
 	private static Cluster cluster;
     private static Session session;
     private static DateFormat dateFormat;
+    final PreparedStatement insertPSNew;
+    final PreparedStatement insertPSUpdate;
+    final PreparedStatement selectPS;
    
     public MapEntry()
     { 
@@ -43,7 +46,9 @@ public class MapEntry {
 		 session = cluster.connect("wikiproject");
 		
 		 session.execute("CREATE TABLE IF NOT EXISTS map_test (day timestamp, mymap map<text, int>, PRIMARY KEY (day));");	
-		 
+		 insertPSNew = session.prepare("INSERT INTO map_test (day, mymap) VALUES (?, ?)");
+		 insertPSUpdate = session.prepare("UPDATE wikiproject.map_test SET mymap = ? WHERE day = ?");
+		 selectPS = session.prepare("SELECT mymap FROM wikiproject.map_test WHERE day = ?");
     }
     
 	public void writeToDB() throws ParseException {
@@ -74,14 +79,14 @@ public class MapEntry {
     	map.put(key,  1);
     	
     	Date day = dateFormat.parse(time);
-    	final PreparedStatement insertPS = session.prepare("INSERT INTO map_test (day, mymap) VALUES (?, ?)");
-		ResultSet result = session.execute(new BoundStatement(insertPS).bind(day, map));
+    	//final PreparedStatement insertPS = session.prepare("INSERT INTO map_test (day, mymap) VALUES (?, ?)");
+		ResultSet result = session.execute(new BoundStatement(insertPSNew).bind(day, map));
     }
     
     public void updateEntry(String time, String key) throws ParseException
     {
     	Date day = dateFormat.parse(time);
-    	final PreparedStatement selectPS = session.prepare("SELECT mymap FROM wikiproject.map_test WHERE day = ?");
+    	//final PreparedStatement selectPS = session.prepare("SELECT mymap FROM wikiproject.map_test WHERE day = ?");
     	ResultSet selectResult = session.execute(new BoundStatement(selectPS).bind(day));
     	Row row = selectResult.one();
     	if (row == null)
@@ -98,8 +103,8 @@ public class MapEntry {
     		 	rMap.put(key,  value + 1);
     		
     		Map<String, Integer> sorted = sortByValues(rMap);
-        	final PreparedStatement insertPS = session.prepare("UPDATE wikiproject.map_test SET mymap = ? WHERE day = ?");	        	
-    		ResultSet result = session.execute(new BoundStatement(insertPS).bind(sorted, day));	
+        	//final PreparedStatement insertPS = session.prepare("UPDATE wikiproject.map_test SET mymap = ? WHERE day = ?");	        	
+    		ResultSet result = session.execute(new BoundStatement(insertPSUpdate).bind(sorted, day));	
     	}
     	// create new map	
     }
