@@ -103,12 +103,12 @@ public class PageEditFrequency {
     public static void main(String[] args)
     {
     	PageEditFrequency pg = new PageEditFrequency();
-//    	try {
-//			pg.writeToDB();
-//		} catch (InterruptedException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-    	pg.testPageEditFrequency();
+    	try {
+			pg.writeToDB();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    	//pg.testPageEditFrequency();
     }
 }

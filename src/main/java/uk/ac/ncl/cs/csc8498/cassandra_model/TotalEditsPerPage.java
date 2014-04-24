@@ -62,6 +62,7 @@ public class TotalEditsPerPage {
 		int count = 0;
 		for (Row row : resultSet) {
 			title = row.getString(0);
+
 			if (title.startsWith("User") || title.startsWith("Wikipedia") || title.startsWith("File") || title.startsWith("Template"))
 				continue;
 			BoundStatement boundState = new BoundStatement(updatePS).bind(1L,

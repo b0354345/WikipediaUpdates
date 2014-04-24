@@ -1,12 +1,2585 @@
 <api>
+    <query-continue>
+        <recentchanges rccontinue="2014-04-09T04:43:20Z|648004300"/>
+    </query-continue>
     <limits recentchanges="500"/>
     <query>
         <recentchanges>
-            <rc comment="Bot: Automatic update of variables" minor=""
-                ns="10" old_revid="604666618" pageid="22736805"
-                rcid="649709486" revid="604672789"
-                timestamp="2014-04-18T01:01:29Z"
-                title="Template:NUMBEROF/data" type="edit" user="Acebot" userid="12405872"/>
+            <rc comment="" minor="" ns="5" old_revid="603382059"
+                pageid="2191102" rcid="648004817" revid="603403538"
+                timestamp="2014-04-09T04:47:29Z"
+                title="Wikipedia talk:WikiProject National Basketball Association"
+                type="edit" user="Robert4565" userid="18799293"/>
+            <rc anon="" comment="" ns="4" old_revid="603403395"
+                pageid="11005908" rcid="648004816" revid="603403537"
+                timestamp="2014-04-09T04:47:29Z"
+                title="Wikipedia:Tutorial/Editing/sandbox" type="edit"
+                user="134.7.248.130" userid="0"/>
+            <rc anon="" comment="/* Availability */" ns="0"
+                old_revid="601836489" pageid="3229263" rcid="648004815"
+                revid="603403536" timestamp="2014-04-09T04:47:28Z"
+                title="Toonsylvania" type="edit" user="160.7.248.147" userid="0"/>
+            <rc
+                comment="Reverted edits by [[Special:Contribs/183.171.162.169|183.171.162.169]] ([[User talk:183.171.162.169|talk]]) to last version by 1.9.99.84"
+                minor="" ns="0" old_revid="603259388" pageid="10484740"
+                rcid="648004814" revid="603403535"
+                timestamp="2014-04-09T04:47:28Z" title="Francis Doe"
+                type="edit" user="Bgwhite" userid="264323"/>
+            <rc comment="/* Portal:Carnatic music */update" minor=""
+                ns="3" old_revid="603402930" pageid="32612367"
+                rcid="648004813" revid="603403534"
+                timestamp="2014-04-09T04:47:27Z"
+                title="User talk:Uksharma3" type="edit"
+                user="Selvasivagurunathan m" userid="13761707"/>
+            <rc bot="" comment="Bot updating DYK nominated hook stats"
+                ns="4" old_revid="603400929" pageid="20785911"
+                rcid="648004812" revid="603403533"
+                timestamp="2014-04-09T04:47:27Z"
+                title="Wikipedia:Did you know/DYK hook count"
+                type="edit" user="DYKHousekeepingBot" userid="9698374"/>
+            <rc
+                comment="/* Discussion */ ===Discussion (statue of liberty) ==="
+                ns="1" old_revid="603403462" pageid="3433959"
+                rcid="648004811" revid="603403532"
+                timestamp="2014-04-09T04:47:27Z"
+                title="Talk:United States" type="edit"
+                user="Victor falk" userid="418835"/>
+            <rc anon="" comment="" ns="0" old_revid="602575643"
+                pageid="25699987" rcid="648004810" revid="603403531"
+                timestamp="2014-04-09T04:47:25Z" title="Oliwa Cathedral"
+                type="edit" user="173.55.135.5" userid="0"/>
+            <rc anon="" comment="Updates to page." ns="0"
+                old_revid="581839138" pageid="15599558" rcid="648004809"
+                revid="603403530" timestamp="2014-04-09T04:47:25Z"
+                title="SunWater" type="edit" user="117.120.16.132" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="596746637" pageid="41984077" rcid="648004850"
+                revid="596746637" timestamp="2014-04-09T04:47:24Z"
+                title="French corvette Griffon (1806)" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc
+                comment="Undid revision 603359896 by [[Special:Contributions/90.225.73.102|90.225.73.102]] ([[User talk:90.225.73.102|talk]]), unsourced"
+                ns="0" old_revid="603359896" pageid="31490562"
+                rcid="648004808" revid="603403529"
+                timestamp="2014-04-09T04:47:23Z"
+                title="Swedish general election, 2014" type="edit"
+                user="Sjö" userid="202394"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="602385112" pageid="25849296" rcid="648004849"
+                revid="602385112" timestamp="2014-04-09T04:47:22Z"
+                title="Anaida" type="external" user="RobotMichiel1972" userid="0"/>
+            <rc
+                comment="Added {{[[Template:third-party|third-party]]}} tag to article ([[WP:TW|TW]])"
+                ns="0" old_revid="603393543" pageid="42442378"
+                rcid="648004807" revid="603403528"
+                timestamp="2014-04-09T04:47:22Z"
+                title="Traders Point Christian Church" type="edit"
+                user="Comatmebro" userid="16399165"/>
+            <rc comment="refs" ns="0" old_revid="603403093"
+                pageid="40851162" rcid="648004806" revid="603403527"
+                timestamp="2014-04-09T04:47:22Z"
+                title="Molybdenum diselenide" type="edit"
+                user="Lfstevens" userid="1686264"/>
+            <rc bot="" comment="Copying assessment table to wiki" ns="2"
+                old_revid="603256070" pageid="34410893" rcid="648004805"
+                revid="603403526" timestamp="2014-04-09T04:47:22Z"
+                title="User:WP 1.0 bot/Tables/Project/Internet culture"
+                type="edit" user="WP 1.0 bot" userid="3455093"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="602895141"
+                pageid="36424180" rcid="648004848" revid="602895141"
+                timestamp="2014-04-09T04:47:21Z"
+                title="Piotr Nowakowski" type="external" user="Paydar93" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="603138824" pageid="144870" rcid="648004847"
+                revid="603138824" timestamp="2014-04-09T04:47:20Z"
+                title="Charlie Chan" type="external" user="Dexbot" userid="0"/>
+            <rc bot="" comment="Dating maintenance tags: {{Advert}}"
+                minor="" ns="0" old_revid="603392979" pageid="42441191"
+                rcid="648004804" revid="603403525"
+                timestamp="2014-04-09T04:47:20Z"
+                title="Scott J. Shapiro" type="edit" user="AnomieBOT" userid="7611264"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="599482500" pageid="1170080" rcid="648004846"
+                revid="599482500" timestamp="2014-04-09T04:47:19Z"
+                title="Charlie Brooker" type="external" user="Dexbot" userid="0"/>
+            <rc
+                comment="/* Professional wrestling career */ MOS date fixes"
+                ns="0" old_revid="603403468" pageid="684397"
+                rcid="648004803" revid="603403524"
+                timestamp="2014-04-09T04:47:19Z"
+                title="The Ultimate Warrior" type="edit" user="Gloss" userid="4885781"/>
+            <rc bot=""
+                comment="[[WP:CHECKWIKI]] error fix. Section heading problem. Violates [[WP:MOSHEAD]]."
+                minor="" ns="0" old_revid="603256050" pageid="36756876"
+                rcid="648004802" revid="603403523"
+                timestamp="2014-04-09T04:47:18Z"
+                title="University College of Medicine and Dentistry"
+                type="edit" user="BG19bot" userid="14508071"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="593345067" pageid="1016848" rcid="648004845"
+                revid="593345067" timestamp="2014-04-09T04:47:17Z"
+                title="Yuko Anai" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="596889920" pageid="12111728" rcid="648004844"
+                revid="596889920" timestamp="2014-04-09T04:47:17Z"
+                title="Charlie Bartlett" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" comment="" ns="0" old_revid="603403083"
+                pageid="89074" rcid="648004801" revid="603403522"
+                timestamp="2014-04-09T04:47:17Z" title="Kakapo"
+                type="edit" user="222.153.18.189" userid="0"/>
+            <rc bot="" comment="Dating maintenance tags: {{Fact}}"
+                minor="" ns="0" old_revid="603401747" pageid="29038323"
+                rcid="648004800" revid="603403521"
+                timestamp="2014-04-09T04:47:16Z"
+                title="One Nation Working Together rally" type="edit"
+                user="AnomieBOT" userid="7611264"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="454311300" pageid="23942666" rcid="648004843"
+                revid="454311300" timestamp="2014-04-09T04:47:15Z"
+                title="Jarb al-Fiqr" type="external" user="Shuaib-bot" userid="0"/>
+            <rc anon="" comment="" ns="0" old_revid="603403202"
+                pageid="1398170" rcid="648004768" revid="603403520"
+                timestamp="2014-04-09T04:47:15Z" title="Tuguegarao"
+                type="edit" user="49.145.140.78" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="600201211" pageid="342692" rcid="648004799"
+                revid="600201211" timestamp="2014-04-09T04:47:14Z"
+                title="Charlie's Angels (film)" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="584363702" pageid="25208285" rcid="648004798"
+                revid="584363702" timestamp="2014-04-09T04:47:13Z"
+                title="Gabriel Thomas (aviator)" type="external"
+                user="AyackBot" userid="0"/>
+            <rc anon="" comment="/* Current programming */" ns="0"
+                old_revid="603403434" pageid="745350" rcid="648004767"
+                revid="603403519" timestamp="2014-04-09T04:47:13Z"
+                title="WLVQ" type="edit" user="67.149.189.194" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="597397574" pageid="41972238" rcid="648004797"
+                revid="597397574" timestamp="2014-04-09T04:47:12Z"
+                title="SS Empire Flame" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="454311300" pageid="23942666" rcid="648004796"
+                revid="454311300" timestamp="2014-04-09T04:47:11Z"
+                title="Jarb al-Fiqr" type="external" user="Shuaib-bot" userid="0"/>
+            <rc bot="" comment="Copying assessment table to wiki" ns="2"
+                old_revid="603256059" pageid="35408673" rcid="648004766"
+                revid="603403518" timestamp="2014-04-09T04:47:11Z"
+                title="User:WP 1.0 bot/Tables/Project/Cryptography"
+                type="edit" user="WP 1.0 bot" userid="3455093"/>
+            <rc comment="/* Auction and scrapping */" ns="0"
+                old_revid="602709993" pageid="15442" rcid="648004765"
+                revid="603403517" timestamp="2014-04-09T04:47:10Z"
+                title="INS Vikrant (R11)" type="edit" user="Sayowais" userid="11277152"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="598497365" pageid="256337" rcid="648004795"
+                revid="598497365" timestamp="2014-04-09T04:47:09Z"
+                title="Charlie's Angels: Full Throttle" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="552986586" pageid="39262829" rcid="648004794"
+                revid="552986586" timestamp="2014-04-09T04:47:09Z"
+                title="Marcel Thibaud" type="external" user="AyackBot" userid="0"/>
+            <rc comment="/* Discussion */ r" ns="1"
+                old_revid="603395041" pageid="28683810" rcid="648004764"
+                revid="603403516" timestamp="2014-04-09T04:47:09Z"
+                title="Talk:Insurrection of 31 May — 2 June 1793"
+                type="edit" user="BDD" userid="146242"/>
+            <rc comment="promoted to prep area 3, using alt 1" ns="10"
+                old_revid="603401795" pageid="42414053" rcid="648004763"
+                revid="603403515" timestamp="2014-04-09T04:47:09Z"
+                title="Template:Did you know nominations/Benjamín Galván Gómez"
+                type="edit" user="Sven Manguard" userid="13098761"/>
+            <rc comment="/* Subsequent popularity */ crazy tenses"
+                ns="0" old_revid="603372999" pageid="7719059"
+                rcid="648004762" revid="603403514"
+                timestamp="2014-04-09T04:47:09Z" title="Merry Mount"
+                type="edit" user="Markhh" userid="2423558"/>
+            <rc bot=""
+                comment="[[WP:CHECKWIKI]] error fix. Section heading problem. Violates [[WP:MOSHEAD]]."
+                minor="" ns="0" old_revid="603328533" pageid="31280935"
+                rcid="648004761" revid="603403513"
+                timestamp="2014-04-09T04:47:09Z"
+                title="Pakistan–Qatar relations" type="edit"
+                user="BG19bot" userid="14508071"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="480956470" pageid="15777535" rcid="648004793"
+                revid="480956470" timestamp="2014-04-09T04:47:08Z"
+                title="Mogura Anagura" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc comment="/* Narrowing by exclusion of values */" ns="1"
+                old_revid="603403494" pageid="42325675" rcid="648004760"
+                revid="603403512" timestamp="2014-04-09T04:47:07Z"
+                title="Talk:Let expression" type="edit" user="Thepigdog" userid="13865689"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="589526313" pageid="2632644" rcid="648004792"
+                revid="589526313" timestamp="2014-04-09T04:47:06Z"
+                title="Charley Reese" type="external" user="Dexbot" userid="0"/>
+            <rc comment="" logaction="move" logid="55836812"
+                logtype="move" ns="1" old_revid="0" pageid="42443158"
+                rcid="648004759" revid="0"
+                timestamp="2014-04-09T04:47:05Z"
+                title="Talk:Hata Model for Suburban Areas" type="log"
+                user="Tony1" userid="332841">
+                <move new_ns="1" new_title="Talk:Hata model for suburban areas"/>
+            </rc>
+            <rc
+                comment="This is the latest Logo of Arise India Ltd, (http://ariseindialtd.com&#xa;This is intended for use on the Wiki page for Arise India Ltd.&#xa;Source: The website of Arise India"
+                img_sha1="jbl18oyntchewqovwat6pb7kwk62osm"
+                img_timestamp="2014-04-09T04:47:05Z" logaction="upload"
+                logid="55836811" logtype="upload" ns="6" old_revid="0"
+                pageid="42443157" rcid="648004758" revid="0"
+                timestamp="2014-04-09T04:47:05Z"
+                title="File:AriseIndia.jpg" type="log"
+                user="Willonthemove" userid="13640472"/>
+            <rc anon=""
+                comment="Baylor was the only team to win 40 straight games to start a season before UConn matched it tonite."
+                ns="0" old_revid="603403373" pageid="25156314"
+                rcid="648004757" revid="603403509"
+                timestamp="2014-04-09T04:47:05Z"
+                title="2012 NCAA Women's Division I Basketball Tournament"
+                type="edit" user="172.4.53.191" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="545889978" pageid="26895710" rcid="648004791"
+                revid="545889978" timestamp="2014-04-09T04:47:04Z"
+                title="Dimitris Anagnostopoulos" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc comment="" logaction="move" logid="55836810"
+                logtype="move" ns="0" old_revid="0" pageid="42443156"
+                rcid="648004756" revid="0"
+                timestamp="2014-04-09T04:47:04Z"
+                title="Hata Model for Suburban Areas" type="log"
+                user="Tony1" userid="332841">
+                <move new_ns="0" new_title="Hata model for suburban areas"/>
+            </rc>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="591612866" pageid="423915" rcid="648004790"
+                revid="591612866" timestamp="2014-04-09T04:47:03Z"
+                title="Charles de Lint" type="external" user="Dexbot" userid="0"/>
+            <rc
+                comment="See http://unknownmisandry.blogspot.com/2013/11/murder-by-wholesale-female-serial.html?m=1 . Again contemporary sources note majority of victims were husbands"
+                ns="0" old_revid="603361639" pageid="4058246"
+                rcid="648004755" revid="603403505"
+                timestamp="2014-04-09T04:47:03Z"
+                title="Angel Makers of Nagyrév" type="edit"
+                user="Obiwankenobi" userid="1593681"/>
+            <rc comment="/* About our blog assignment */" ns="447"
+                old_revid="603292096" pageid="42071608" rcid="648004754"
+                revid="603403504" timestamp="2014-04-09T04:47:03Z"
+                title="Education Program talk:Hanyang University/Collective Intelligence in Practice (2014)"
+                type="edit" user="Hayeon lee" userid="20898271"/>
+            <rc comment="" ns="0" old_revid="603403447"
+                pageid="40526047" rcid="648004753" revid="603403503"
+                timestamp="2014-04-09T04:47:03Z" title="Charitha Herath"
+                type="edit" user="Dissaa" userid="18777887"/>
+            <rc comment="" logaction="create" logid="55836809"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="648004752" revid="0"
+                timestamp="2014-04-09T04:47:02Z"
+                title="User:Goerge strait sr." type="log"
+                user="Goerge strait sr." userid="21153763"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="596355503" pageid="41955444" rcid="648004789"
+                revid="596355503" timestamp="2014-04-09T04:47:01Z"
+                title="French corvette Bacchante (1795)" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="578708382" pageid="10429928" rcid="648004788"
+                revid="578708382" timestamp="2014-04-09T04:47:01Z"
+                title="Category:Luxembourgian people" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="" ns="0" old_revid="603403491"
+                pageid="39799584" rcid="648004751" revid="603403502"
+                timestamp="2014-04-09T04:47:01Z"
+                title="Hoplunnis similis" type="edit"
+                user="Wilhelmina Will" userid="4649642"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="602394976" pageid="51255" rcid="648004787"
+                revid="602394976" timestamp="2014-04-09T04:47:00Z"
+                title="Charles de Gaulle" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" comment="/* Early life and family */" ns="0"
+                old_revid="603084026" pageid="439161" rcid="648004750"
+                revid="603403501" timestamp="2014-04-09T04:47:00Z"
+                title="Kelly Slater" type="edit" user="119.225.221.154" userid="0"/>
+            <rc bot=""
+                comment="[[WP:CHECKWIKI]] error fix. Section heading problem. Violates [[WP:MOSHEAD]]."
+                minor="" ns="0" old_revid="603356265" pageid="3999350"
+                rcid="648004749" revid="603403499"
+                timestamp="2014-04-09T04:46:59Z"
+                title="Monsignor McClancy Memorial High School"
+                type="edit" user="BG19bot" userid="14508071"/>
+            <rc anon="" comment="" ns="0" old_revid="602519720"
+                pageid="112351" rcid="648004748" revid="603403498"
+                timestamp="2014-04-09T04:46:59Z"
+                title="Huntington, Indiana" type="edit"
+                user="66.244.126.95" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="543852422" pageid="1028459" rcid="648004786"
+                revid="543852422" timestamp="2014-04-09T04:46:58Z"
+                title="Category:Libyan people" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="579436399" pageid="736698" rcid="648004785"
+                revid="579436399" timestamp="2014-04-09T04:46:57Z"
+                title="Category:Lebanese people" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="565149129" pageid="12068190" rcid="648004784"
+                revid="565149129" timestamp="2014-04-09T04:46:56Z"
+                title="Anagnorisis (Sariola)" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="579519465" pageid="691590" rcid="648004783"
+                revid="579519465" timestamp="2014-04-09T04:46:55Z"
+                title="Category:Japanese people" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="544152748" pageid="2854754" rcid="648004782"
+                revid="544152748" timestamp="2014-04-09T04:46:55Z"
+                title="Alexis Tendil" type="external" user="AyackBot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="597517001" pageid="41943491" rcid="648004781"
+                revid="597517001" timestamp="2014-04-09T04:46:55Z"
+                title="HMS Crescent (1784)" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc comment="/* Books and journals */" ns="0"
+                old_revid="603403275" pageid="6037917" rcid="648004747"
+                revid="603403497" timestamp="2014-04-09T04:46:55Z"
+                title="Islam" type="edit" user="KConWiki" userid="1994682"/>
+            <rc anon="" comment="" minor="" ns="14"
+                old_revid="546493354" pageid="1042130" rcid="648004780"
+                revid="546493354" timestamp="2014-04-09T04:46:54Z"
+                title="Category:Television stubs" type="external"
+                user="Gareth" userid="0"/>
+            <rc comment="Punctuation in infobox" ns="0"
+                old_revid="603383712" pageid="13828397" rcid="648004746"
+                revid="603403496" timestamp="2014-04-09T04:46:54Z"
+                title="Janelle Monáe" type="edit" user="Bonnie13J" userid="14938006"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="547047034" pageid="28085500" rcid="648004779"
+                revid="547047034" timestamp="2014-04-09T04:46:53Z"
+                title="Victor-Mugurel Anagnastopol" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc anon="" comment="" ns="0" old_revid="600245644"
+                pageid="10779146" rcid="648004745" revid="603403495"
+                timestamp="2014-04-09T04:46:52Z"
+                title="List of radio stations in Michigan" type="edit"
+                user="76.27.198.89" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="545662051" pageid="23464402" rcid="648004778"
+                revid="545662051" timestamp="2014-04-09T04:46:51Z"
+                title="Maurice Tellier" type="external" user="AyackBot" userid="0"/>
+            <rc comment="/* Narrowing */" ns="1" old_revid="603370970"
+                pageid="42325675" rcid="648004744" revid="603403494"
+                timestamp="2014-04-09T04:46:51Z"
+                title="Talk:Let expression" type="edit" user="Thepigdog" userid="13865689"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="550564038" pageid="36589222" rcid="648004777"
+                revid="550564038" timestamp="2014-04-09T04:46:50Z"
+                title="Tumua Anae" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="589572706" pageid="19303836" rcid="648004776"
+                revid="589572706" timestamp="2014-04-09T04:46:48Z"
+                title="Jarayotar, Kosi" type="external"
+                user="Shuaib-bot" userid="0"/>
+            <rc bot=""
+                comment="[[WP:CHECKWIKI]] error fix. Section heading problem. Violates [[WP:MOSHEAD]]."
+                minor="" ns="0" old_revid="603332372" pageid="1400667"
+                rcid="648004743" revid="603403493"
+                timestamp="2014-04-09T04:46:48Z"
+                title="Minorities at Risk" type="edit" user="BG19bot" userid="14508071"/>
+            <rc comment="" ns="0" old_revid="603403426"
+                pageid="42443120" rcid="648004742" revid="603403492"
+                timestamp="2014-04-09T04:46:47Z" title="Heartbleed Bug"
+                type="edit" user="Abdulwrites" userid="21153525"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="541187148" pageid="749991" rcid="648004775"
+                revid="541187148" timestamp="2014-04-09T04:46:46Z"
+                title="Charles Wolfe" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="601750585" pageid="8875610" rcid="648004774"
+                revid="601750585" timestamp="2014-04-09T04:46:46Z"
+                title="Robert Anae" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc comment="" ns="0" old_revid="561926853"
+                pageid="39799584" rcid="648004741" revid="603403491"
+                timestamp="2014-04-09T04:46:45Z"
+                title="Hoplunnis similis" type="edit"
+                user="Wilhelmina Will" userid="4649642"/>
+            <rc comment="/* Comics and cartoons */" ns="0"
+                old_revid="603387881" pageid="10619519" rcid="648004740"
+                revid="603403490" timestamp="2014-04-09T04:46:45Z"
+                title="Alchemy in art and entertainment" type="edit"
+                user="Car Henkel" userid="14592934"/>
+            <rc comment="Updated prize money" ns="0"
+                old_revid="603403138" pageid="13016998" rcid="648004739"
+                revid="603403489" timestamp="2014-04-09T04:46:44Z"
+                title="Jamie O'Neill (snooker player)" type="edit"
+                user="Pleong0104" userid="8976204"/>
+            <rc
+                comment="/* Declined Submission: Maroma,  Please help */ new section"
+                ns="3" old_revid="603297827" pageid="2416258"
+                rcid="648004738" revid="603403488"
+                timestamp="2014-04-09T04:46:44Z"
+                title="User talk:Aggie80" type="edit" user="Thejokebro" userid="20945036"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="603163045" pageid="177551" rcid="648004773"
+                revid="603163045" timestamp="2014-04-09T04:46:43Z"
+                title="Charles Wesley" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="551585472" pageid="19569093" rcid="648004772"
+                revid="551585472" timestamp="2014-04-09T04:46:42Z"
+                title="Pratima Yarlagadda" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="603181416"
+                pageid="1114733" rcid="648004771" revid="603181416"
+                timestamp="2014-04-09T04:46:40Z" title="Panda Security"
+                type="external" user="Ivyxjc" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="603365256" pageid="70716" rcid="648004770"
+                revid="603365256" timestamp="2014-04-09T04:46:40Z"
+                title="Charles V, Holy Roman Emperor" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="595395800" pageid="41935225" rcid="648004769"
+                revid="595395800" timestamp="2014-04-09T04:46:39Z"
+                title="San Esteban Apedreado" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc comment="Removed malformed VfD" ns="4"
+                old_revid="603403417" pageid="42404335" rcid="648004735"
+                revid="603403487" timestamp="2014-04-09T04:46:39Z"
+                title="Wikipedia:Articles for deletion/Log/2014 April 9"
+                type="edit" user="Mike Rosoft" userid="75230"/>
+            <rc comment="" ns="0" old_revid="603391151"
+                pageid="40237717" rcid="648004717" revid="603403486"
+                timestamp="2014-04-09T04:46:39Z"
+                title="2013–14 CONCACAF Champions League championship stage"
+                type="edit" user="Chanheigeorge" userid="376297"/>
+            <rc comment="Adding/removing wikilink(s)" ns="0"
+                old_revid="603395160" pageid="8438204" rcid="648004701"
+                revid="603403485" timestamp="2014-04-09T04:46:38Z"
+                title="American Inns of Court Foundation" type="edit"
+                user="Lwarrenwiki" userid="19605834"/>
+            <rc bot=""
+                comment="[[WP:CHECKWIKI]] error fix. Section heading problem. Violates [[WP:MOSHEAD]]."
+                minor="" ns="0" old_revid="602644195" pageid="42349873"
+                rcid="648004700" revid="603403484"
+                timestamp="2014-04-09T04:46:38Z"
+                title="Mary Murphy (basketball)" type="edit"
+                user="BG19bot" userid="14508071"/>
+            <rc
+                comment="[[WP:AES|←]]Created page with 'Anthropology and Peace and Conflict Studies student at UC Berkeley. Working on environmental justice academic project with ESPM 163AC.'"
+                new="" ns="2" old_revid="0" pageid="42443155"
+                rcid="648004699" revid="603403483"
+                timestamp="2014-04-09T04:46:37Z" title="User:Knitt.witt"
+                type="new" user="Knitt.witt" userid="20963897"/>
+            <rc comment="" ns="0" old_revid="600703297" pageid="1473650"
+                rcid="648004698" revid="603403482"
+                timestamp="2014-04-09T04:46:36Z"
+                title="Removal of cannabis from Schedule I of the Controlled Substances Act"
+                type="edit" user="Avengerscap" userid="3433815"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="598174112" pageid="313835" rcid="648004737"
+                revid="598174112" timestamp="2014-04-09T04:46:35Z"
+                title="Charles Trenet" type="external" user="Dexbot" userid="0"/>
+            <rc comment="/* Singles */ new peak" ns="0"
+                old_revid="599850927" pageid="41431903" rcid="648004697"
+                revid="603403481" timestamp="2014-04-09T04:46:33Z"
+                title="Ahzee" type="edit" user="Werldwayd" userid="4571676"/>
+            <rc comment="/* References */ {{s-ppo}}" minor="" ns="0"
+                old_revid="561990991" pageid="13746858" rcid="648004696"
+                revid="603403480" timestamp="2014-04-09T04:46:33Z"
+                title="George Chang" type="edit" user="Vycl1994" userid="19014806"/>
+            <rc anon="" comment="/* Ratings */" ns="0"
+                old_revid="603130602" pageid="41432013" rcid="648004695"
+                revid="603403479" timestamp="2014-04-09T04:46:33Z"
+                title="Emergency Couple" type="edit" user="36.83.12.124" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="592406157" pageid="1350858" rcid="648004736"
+                revid="592406157" timestamp="2014-04-09T04:46:32Z"
+                title="Charles Thomson (artist)" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="" ns="2" old_revid="603403421"
+                pageid="42443152" rcid="648004694" revid="603403478"
+                timestamp="2014-04-09T04:46:31Z"
+                title="User:Mediran/My userpage/Remaining" type="edit"
+                user="Mediran" userid="16396275"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="599178269" pageid="1584178" rcid="648004734"
+                revid="599178269" timestamp="2014-04-09T04:46:30Z"
+                title="Charles Tart" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="595317450" pageid="41931809" rcid="648004733"
+                revid="595317450" timestamp="2014-04-09T04:46:30Z"
+                title="San Esteban (1607 shipwreck)" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc anon="" comment="" ns="0" old_revid="603401550"
+                pageid="41290750" rcid="648004693" revid="603403477"
+                timestamp="2014-04-09T04:46:30Z"
+                title="Nova Centauri 2013" type="edit"
+                user="101.171.255.237" userid="0"/>
+            <rc comment="Prodigy (video game) and Benjamín Galván Gómez"
+                ns="10" old_revid="603402760" pageid="25774595"
+                rcid="648004692" revid="603403476"
+                timestamp="2014-04-09T04:46:29Z"
+                title="Template:Did you know/Preparation area 3"
+                type="edit" user="Sven Manguard" userid="13098761"/>
+            <rc comment="brother; cousin" ns="0" old_revid="603400866"
+                pageid="42442601" rcid="648004691" revid="603403475"
+                timestamp="2014-04-09T04:46:29Z"
+                title="Ana María Martínez Sagi" type="edit"
+                user="Rosiestep" userid="4564448"/>
+            <rc
+                comment="/* Radio frequency spectrum chart */ Unnecessary/random In? Removed."
+                minor="" ns="0" old_revid="603403098" pageid="20563054"
+                rcid="648004690" revid="603403474"
+                timestamp="2014-04-09T04:46:29Z" title="T-Mobile US"
+                type="edit" user="Dogojosho" userid="21015733"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="602640800" pageid="273845" rcid="648004732"
+                revid="602640800" timestamp="2014-04-09T04:46:28Z"
+                title="Charles Sumner" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="598847008" pageid="35526402" rcid="648004731"
+                revid="598847008" timestamp="2014-04-09T04:46:28Z"
+                title="Albert Anae" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc bot=""
+                comment="[[WP:CHECKWIKI]] error fix. Section heading problem. Violates [[WP:MOSHEAD]]."
+                minor="" ns="0" old_revid="603374839" pageid="22462329"
+                rcid="648004689" revid="603403473"
+                timestamp="2014-04-09T04:46:28Z"
+                title="List of nature deities" type="edit"
+                user="BG19bot" userid="14508071"/>
+            <rc comment="" ns="0" old_revid="603403317" pageid="5648434"
+                rcid="648004688" revid="603403472"
+                timestamp="2014-04-09T04:46:27Z"
+                title="Hata model for urban areas" type="edit"
+                user="Tony1" userid="332841"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="601691756" pageid="334612" rcid="648004730"
+                revid="601691756" timestamp="2014-04-09T04:46:26Z"
+                title="Charles Stuart Calverley" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="Message re. [[Dik-dik]] ([[WP:HG|HG]])" ns="3"
+                old_revid="567942343" pageid="27742832" rcid="648004687"
+                revid="603403471" timestamp="2014-04-09T04:46:25Z"
+                title="User talk:214.27.58.1" type="edit"
+                user="John Cline" userid="11987994"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="602733831" pageid="353388" rcid="648004729"
+                revid="602733831" timestamp="2014-04-09T04:46:24Z"
+                title="Charles Stross" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="527001453" pageid="34091725" rcid="648004728"
+                revid="527001453" timestamp="2014-04-09T04:46:23Z"
+                title="William Suhr" type="external" user="AyackBot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="595524073" pageid="41931756" rcid="648004727"
+                revid="595524073" timestamp="2014-04-09T04:46:22Z"
+                title="HMS Diligent (1790)" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="601630245" pageid="165528" rcid="648004726"
+                revid="601630245" timestamp="2014-04-09T04:46:22Z"
+                title="Charles Stewart Parnell" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="545487446" pageid="20041909" rcid="648004725"
+                revid="545487446" timestamp="2014-04-09T04:46:22Z"
+                title="Jarayotar, Janakpur" type="external"
+                user="Shuaib-bot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="582494154" pageid="718981" rcid="648004724"
+                revid="582494154" timestamp="2014-04-09T04:46:21Z"
+                title="Category:Israeli people" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="assess" ns="1" old_revid="602827368"
+                pageid="42406299" rcid="648004686" revid="603403470"
+                timestamp="2014-04-09T04:46:21Z"
+                title="Talk:Manasa Veene" type="edit" user="Jj98" userid="12683541"/>
+            <rc comment="" ns="2" old_revid="603387803"
+                pageid="39794992" rcid="648004685" revid="603403469"
+                timestamp="2014-04-09T04:46:20Z"
+                title="User:Stratocaster27" type="edit"
+                user="Stratocaster27" userid="19255208"/>
+            <rc
+                comment="/* Return to WWE, Hall of Fame induction */ Clarification on dates"
+                ns="0" old_revid="603403316" pageid="684397"
+                rcid="648004684" revid="603403468"
+                timestamp="2014-04-09T04:46:20Z"
+                title="The Ultimate Warrior" type="edit" user="SpecMode" userid="3531877"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="601532391" pageid="17544570" rcid="648004723"
+                revid="601532391" timestamp="2014-04-09T04:46:19Z"
+                title="Anusheh Anadil" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="598302192" pageid="104454" rcid="648004722"
+                revid="598302192" timestamp="2014-04-09T04:46:19Z"
+                title="Charles Spurgeon" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="579438986" pageid="805709" rcid="648004721"
+                revid="579438986" timestamp="2014-04-09T04:46:19Z"
+                title="Category:Icelandic people" type="external"
+                user="Dexbot" userid="0"/>
+            <rc
+                comment="Undid revision 603290528 by [[Special:Contributions/Tremello|Tremello]] ([[User talk:Tremello|talk]]) previous version was more clear, represented source better"
+                ns="0" old_revid="603290528" pageid="8718425"
+                rcid="648004683" revid="603403467"
+                timestamp="2014-04-09T04:46:19Z" title="Circumcision"
+                type="edit" user="Zad68" userid="8085569"/>
+            <rc
+                comment="[[WP:CSD#G8|G8]]: [[Wikipedia:Redirect|Redirect]] to a deleted or non-existent page"
+                logaction="delete" logid="55836807" logtype="delete"
+                ns="0" old_revid="0" pageid="0" rcid="648004682"
+                revid="0" timestamp="2014-04-09T04:46:18Z"
+                title="Oriental College of Commerce and Management"
+                type="log" user="Xoloz" userid="279317"/>
+            <rc bot=""
+                comment="[[WP:CHECKWIKI]] error fix. Section heading problem. Violates [[WP:MOSHEAD]]."
+                minor="" ns="0" old_revid="603288958" pageid="42434007"
+                rcid="648004681" revid="603403466"
+                timestamp="2014-04-09T04:46:18Z"
+                title="Kumar Properties Construction &amp; Bio Technology"
+                type="edit" user="BG19bot" userid="14508071"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="555273641" pageid="692782" rcid="648004720"
+                revid="555273641" timestamp="2014-04-09T04:46:17Z"
+                title="Category:Irish people" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="601603527" pageid="40962537" rcid="648004719"
+                revid="601603527" timestamp="2014-04-09T04:46:17Z"
+                title="Francesco Anacoura" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc bot=""
+                comment="Updated [[User:Cyberbot I/Book Reports|book report]] for Book:Electric Light Orchestra; Average rating: 2; 0 article(s) unassessed; 63 articles needing cleanup."
+                minor="" ns="109" old_revid="602527436"
+                pageid="27637396" rcid="648004680" revid="603403465"
+                timestamp="2014-04-09T04:46:17Z"
+                title="Book talk:Electric Light Orchestra" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc bot="" comment="Copying assessment table to wiki" ns="2"
+                old_revid="602819327" pageid="25684975" rcid="648004679"
+                revid="603403464" timestamp="2014-04-09T04:46:16Z"
+                title="User:WP 1.0 bot/Tables/Project/Jordan"
+                type="edit" user="WP 1.0 bot" userid="3455093"/>
+            <rc comment="" ns="0" old_revid="603403405" pageid="594302"
+                rcid="648004678" revid="603403463"
+                timestamp="2014-04-09T04:46:16Z" title="Louise Lombard"
+                type="edit" user="Louiselombard" userid="20399391"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="579437617" pageid="736746" rcid="648004718"
+                revid="579437617" timestamp="2014-04-09T04:46:15Z"
+                title="Category:Iranian people" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="/* Discussion */ ===Discussion (culture)==="
+                ns="1" old_revid="603403409" pageid="3433959"
+                rcid="648004677" revid="603403462"
+                timestamp="2014-04-09T04:46:15Z"
+                title="Talk:United States" type="edit"
+                user="Victor falk" userid="418835"/>
+            <rc comment="tributary of" ns="0" old_revid="546124272"
+                pageid="33572562" rcid="648004676" revid="603403461"
+                timestamp="2014-04-09T04:46:15Z" title="Sołotwa"
+                type="edit" user="Lockley" userid="207616"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="533865123" pageid="790300" rcid="648004716"
+                revid="533865123" timestamp="2014-04-09T04:46:14Z"
+                title="Charles Sprague" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="599881330" pageid="41925723" rcid="648004715"
+                revid="599881330" timestamp="2014-04-09T04:46:14Z"
+                title="Wyvern (vessel)" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc anon="" comment="/* Ethnic groups */" ns="0"
+                old_revid="603045485" pageid="14598" rcid="648004675"
+                revid="603403460" timestamp="2014-04-09T04:46:14Z"
+                title="Demographics of India" type="edit"
+                user="173.11.108.237" userid="0"/>
+            <rc
+                comment="removed extra space; updated info; not sure what's wrong with URL"
+                ns="0" old_revid="597639751" pageid="37210595"
+                rcid="648004674" revid="603403459"
+                timestamp="2014-04-09T04:46:14Z"
+                title="Ansar al-Sharia (Derna, Libya)" type="edit"
+                user="David O. Johnson" userid="13644854"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="575242792" pageid="27169686" rcid="648004714"
+                revid="575242792" timestamp="2014-04-09T04:46:13Z"
+                title="Charles Seymour Robinson" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="Per TfD" ns="0" old_revid="602011337"
+                pageid="16782418" rcid="648004673" revid="603403458"
+                timestamp="2014-04-09T04:46:13Z"
+                title="Hordaland County Municipality" type="edit"
+                user="Plastikspork" userid="5075409"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="602814048" pageid="1045754" rcid="648004713"
+                revid="602814048" timestamp="2014-04-09T04:46:11Z"
+                title="Charles Seeger" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" comment="" minor="" ns="14"
+                old_revid="544163162" pageid="2919461" rcid="648004712"
+                revid="544163162" timestamp="2014-04-09T04:46:11Z"
+                title="Category:Religion in Latvia" type="external"
+                user="Sorakara023" userid="0"/>
+            <rc
+                comment="/* Reception */ Expansion was made, do not see how it could be further expanded. Unless new additional information would pop up. having already this much for such an old game is great already."
+                ns="0" old_revid="594926652" pageid="5177899"
+                rcid="648004672" revid="603403457"
+                timestamp="2014-04-09T04:46:10Z"
+                title="Front Mission (video game)" type="edit"
+                user="NathanWubs" userid="17683328"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="603087612"
+                pageid="164376" rcid="648004711" revid="603087612"
+                timestamp="2014-04-09T04:46:09Z" title="Being There"
+                type="external" user="علی پیرحیاتی" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="543397857" pageid="18022649" rcid="648004710"
+                revid="543397857" timestamp="2014-04-09T04:46:09Z"
+                title="Michele Anaclerio" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc comment="assess" ns="1" old_revid="602831018"
+                pageid="42406632" rcid="648004671" revid="603403456"
+                timestamp="2014-04-09T04:46:09Z"
+                title="Talk:Mandya (film)" type="edit" user="Jj98" userid="12683541"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="603138366" pageid="772653" rcid="648004709"
+                revid="603138366" timestamp="2014-04-09T04:46:08Z"
+                title="Charles Scott Sherrington" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="595319780" pageid="41914542" rcid="648004708"
+                revid="595319780" timestamp="2014-04-09T04:46:08Z"
+                title="MS Wissenschaft" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="603174290"
+                pageid="12787" rcid="648004707" revid="603174290"
+                timestamp="2014-04-09T04:46:08Z"
+                title="Geoffrey Chaucer" type="external" user="Digipoke" userid="0"/>
+            <rc anon=""
+                comment="Corrected &quot;effected&quot; to &quot;affected&quot; in second paragraph"
+                ns="0" old_revid="599142025" pageid="2217772"
+                rcid="648004670" revid="603403455"
+                timestamp="2014-04-09T04:46:08Z" title="Crush syndrome"
+                type="edit" user="98.246.240.128" userid="0"/>
+            <rc comment="Expanding article &amp; added infobox." ns="0"
+                old_revid="603288363" pageid="8717440" rcid="648004669"
+                revid="603403454" timestamp="2014-04-09T04:46:08Z"
+                title="Frances Stewart" type="edit"
+                user="The Vintage Feminist" userid="17074570"/>
+            <rc bot=""
+                comment="[[WP:CHECKWIKI]] error fix. Section heading problem. Violates [[WP:MOSHEAD]]."
+                minor="" ns="0" old_revid="603299784" pageid="41343878"
+                rcid="648004668" revid="603403453"
+                timestamp="2014-04-09T04:46:08Z"
+                title="City of London Academy, Southwark" type="edit"
+                user="BG19bot" userid="14508071"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="600410038" pageid="4241220" rcid="648004706"
+                revid="600410038" timestamp="2014-04-09T04:46:07Z"
+                title="1997 Alpine Skiing World Cup" type="external"
+                user="Krdbot" userid="0"/>
+            <rc comment="/* References */" ns="0" old_revid="603403312"
+                pageid="115168" rcid="648004667" revid="603403452"
+                timestamp="2014-04-09T04:46:07Z"
+                title="Nortonville, Kentucky" type="edit"
+                user="TerryinKentucky" userid="20951911"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="602597240" pageid="6117" rcid="648004705"
+                revid="602597240" timestamp="2014-04-09T04:46:06Z"
+                title="Charles Sanders Peirce" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="/* Free agency */" ns="0" old_revid="603247869"
+                pageid="39432464" rcid="648004666" revid="603403450"
+                timestamp="2014-04-09T04:46:06Z"
+                title="List of 2013–14 NBA season transactions"
+                type="edit" user="Magicaluniverse" userid="20803287"/>
+            <rc
+                comment="Reverted edits by [[Special:Contributions/214.27.58.1|214.27.58.1]] ([[User talk:214.27.58.1|talk]]) to last revision by Materialscientist ([[WP:HG|HG]])"
+                minor="" ns="0" old_revid="603403414" pageid="855383"
+                rcid="648004665" revid="603403451"
+                timestamp="2014-04-09T04:46:06Z" title="Dik-dik"
+                type="edit" user="John Cline" userid="11987994"/>
+            <rc
+                comment="[[WP:CSD#G8|G8]]: [[Wikipedia:Redirect|Redirect]] to a deleted or non-existent page"
+                logaction="delete" logid="55836806" logtype="delete"
+                ns="0" old_revid="0" pageid="0" rcid="648004664"
+                revid="0" timestamp="2014-04-09T04:46:06Z"
+                title="Overlie" type="log" user="Xoloz" userid="279317"/>
+            <rc comment="/* top */ [[WP:PEACOCK]]" minor="" ns="0"
+                old_revid="598695924" pageid="14031819" rcid="648004663"
+                revid="603403449" timestamp="2014-04-09T04:46:06Z"
+                title="Frane Matošić" type="edit"
+                user="Mild Bill Hiccup" userid="5202324"/>
+            <rc comment="added conversions" ns="0" old_revid="603403177"
+                pageid="42443121" rcid="648004662" revid="603403448"
+                timestamp="2014-04-09T04:46:05Z" title="Wallaby Plateau"
+                type="edit" user="Paul H." userid="693711"/>
+            <rc comment="" ns="0" old_revid="603403319"
+                pageid="40526047" rcid="648004661" revid="603403447"
+                timestamp="2014-04-09T04:46:05Z" title="Charitha Herath"
+                type="edit" user="Dissaa" userid="18777887"/>
+            <rc comment="/* Long term vandal returned */" ns="4"
+                old_revid="603403348" pageid="5137507" rcid="648004660"
+                revid="603403446" timestamp="2014-04-09T04:46:05Z"
+                title="Wikipedia:Administrators' noticeboard/Incidents"
+                type="edit" user="Ryulong" userid="889851"/>
+            <rc comment="" ns="3" old_revid="603403393"
+                pageid="42428293" rcid="648004659" revid="603403445"
+                timestamp="2014-04-09T04:46:04Z"
+                title="User talk:Edlondon11" type="edit"
+                user="Edlondon11" userid="21142863"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603255898" pageid="36813290"
+                rcid="648004658" revid="603403444"
+                timestamp="2014-04-09T04:46:03Z"
+                title="Template:Adminstats/Casliber" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc comment="" ns="0" old_revid="603403227" pageid="1445681"
+                rcid="648004657" revid="603403443"
+                timestamp="2014-04-09T04:46:03Z"
+                title="Damita Jo (album)" type="edit" user="Felipeedit" userid="20579408"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="590861962" pageid="2666676" rcid="648004704"
+                revid="590861962" timestamp="2014-04-09T04:46:01Z"
+                title="Charles Robert Leslie" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="556002377" pageid="26525256" rcid="648004703"
+                revid="556002377" timestamp="2014-04-09T04:46:01Z"
+                title="Phara Anacharsis" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc comment="" ns="0" old_revid="603403383"
+                pageid="10726717" rcid="648004656" revid="603403442"
+                timestamp="2014-04-09T04:46:01Z"
+                title="Boris Yeltsin: From Dawn to Dusk" type="edit"
+                user="Mishae" userid="10571688"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603255534" pageid="34213792"
+                rcid="648004655" revid="603403441"
+                timestamp="2014-04-09T04:46:01Z"
+                title="Template:Adminstats/Tom Morris" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="602303974" pageid="54595" rcid="648004702"
+                revid="602303974" timestamp="2014-04-09T04:46:00Z"
+                title="Charles Rennie Mackintosh" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="" logaction="create" logid="55836805"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="648004654" revid="0"
+                timestamp="2014-04-09T04:46:00Z"
+                title="User:BillionApps" type="log" user="BillionApps" userid="21153762"/>
+            <rc
+                comment="added [[Category:Telecommunications in Canada]] using [[WP:HC|HotCat]]"
+                ns="0" old_revid="603184711" pageid="42078965"
+                rcid="648004653" revid="603403440"
+                timestamp="2014-04-09T04:46:00Z"
+                title="700 MHz auction in Canada" type="edit"
+                user="Bearcat" userid="24902"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="595225408" pageid="41896150" rcid="648004652"
+                revid="595225408" timestamp="2014-04-09T04:45:58Z"
+                title="HMS Diligent (1806)" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc bot=""
+                comment="[[WP:CHECKWIKI]] error fix. Section heading problem. Violates [[WP:MOSHEAD]]."
+                minor="" ns="0" old_revid="603301129" pageid="42436359"
+                rcid="648004621" revid="603403439"
+                timestamp="2014-04-09T04:45:58Z"
+                title="City of London Academy, Islington" type="edit"
+                user="BG19bot" userid="14508071"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="601107713" pageid="5517087" rcid="648004651"
+                revid="601107713" timestamp="2014-04-09T04:45:57Z"
+                title="Charles Reis Felix" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="598787893"
+                pageid="859907" rcid="648004650" revid="598787893"
+                timestamp="2014-04-09T04:45:57Z" title="MTV News"
+                type="external" user="SamanthaPuckettIndo" userid="0"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603256052" pageid="25736685"
+                rcid="648004620" revid="603403438"
+                timestamp="2014-04-09T04:45:57Z"
+                title="Template:Adminstats/Magioladitis" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="442479139" pageid="30019758" rcid="648004649"
+                revid="442479139" timestamp="2014-04-09T04:45:56Z"
+                title="Jaray Gewog" type="external" user="Shuaib-bot" userid="0"/>
+            <rc
+                comment="Reverted edits by [[Special:Contribs/Canucks63|Canucks63]] ([[User talk:Canucks63|talk]]) to last version by Ser Amantio di Nicolao"
+                minor="" ns="0" old_revid="603277315" pageid="40004328"
+                rcid="648004619" revid="603403437"
+                timestamp="2014-04-09T04:45:56Z"
+                title="Brigitta Boccoli" type="edit" user="Bgwhite" userid="264323"/>
+            <rc bot=""
+                comment="[[WP:Bots|Bot]]: Notice of potential markup breaking"
+                new="" ns="3" old_revid="0" pageid="42443154"
+                rcid="648004618" revid="603403436"
+                timestamp="2014-04-09T04:45:56Z"
+                title="User talk:68.95.131.55" type="new"
+                user="BracketBot" userid="18835496"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="590842829" pageid="227137" rcid="648004648"
+                revid="590842829" timestamp="2014-04-09T04:45:55Z"
+                title="Charles Reade" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="584841723" pageid="23558650" rcid="648004647"
+                revid="584841723" timestamp="2014-04-09T04:45:55Z"
+                title="Yoshio Anabuki" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="599798976" pageid="6383787" rcid="648004646"
+                revid="599798976" timestamp="2014-04-09T04:45:55Z"
+                title="Clarence Lorenzo Simpson" type="external"
+                user="AyackBot" userid="0"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603256221" pageid="39941839"
+                rcid="648004617" revid="603403435"
+                timestamp="2014-04-09T04:45:53Z"
+                title="Template:Adminstats/Kelapstick" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="597297636" pageid="300029" rcid="648004645"
+                revid="597297636" timestamp="2014-04-09T04:45:52Z"
+                title="Charles Péguy" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="601529714" pageid="40227585" rcid="648004644"
+                revid="601529714" timestamp="2014-04-09T04:45:51Z"
+                title="Michael Anaba" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc anon="" comment="/* History */" ns="0"
+                old_revid="597445520" pageid="745350" rcid="648004616"
+                revid="603403434" timestamp="2014-04-09T04:45:51Z"
+                title="WLVQ" type="edit" user="67.149.189.194" userid="0"/>
+            <rc anon="" comment="/* Dally M Medal winners */" ns="0"
+                old_revid="603403281" pageid="5901125" rcid="648004615"
+                revid="603403433" timestamp="2014-04-09T04:45:51Z"
+                title="List of Sydney Roosters records" type="edit"
+                user="203.35.135.165" userid="0"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603256180" pageid="28304592"
+                rcid="648004614" revid="603403432"
+                timestamp="2014-04-09T04:45:51Z"
+                title="Template:Adminstats/Allen3" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc comment="assess" ns="1" old_revid="603272565"
+                pageid="42434283" rcid="648004613" revid="603403431"
+                timestamp="2014-04-09T04:45:51Z"
+                title="Talk:Dermacentor albipictus" type="edit"
+                user="Plantdrew" userid="14423536"/>
+            <rc comment="iOS version also available" minor="" ns="0"
+                old_revid="603403332" pageid="3551842" rcid="648004612"
+                revid="603403430" timestamp="2014-04-09T04:45:51Z"
+                title="List of Lego video games" type="edit"
+                user="Landingdude13" userid="20659301"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="594729929" pageid="41894506" rcid="648004643"
+                revid="594729929" timestamp="2014-04-09T04:45:50Z"
+                title="HMS Porpoise (1798)" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc
+                comment="Filling in 9 references using [[WP:REFLINKS|Reflinks]]"
+                ns="0" old_revid="603224586" pageid="381390"
+                rcid="648004611" revid="603403429"
+                timestamp="2014-04-09T04:45:50Z" title="Walter H. Breen"
+                type="edit" user="Comatmebro" userid="16399165"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="598992023"
+                pageid="59068" rcid="648004642" revid="598992023"
+                timestamp="2014-04-09T04:45:49Z"
+                title="Ascension of Jesus" type="external" user="طاها" userid="0"/>
+            <rc anon="" comment="/* Detoxification */" ns="0"
+                old_revid="603403389" pageid="8556500" rcid="648004610"
+                revid="603403428" timestamp="2014-04-09T04:45:49Z"
+                title="Oil pulling" type="edit" user="50.143.176.21" userid="0"/>
+            <rc bot=""
+                comment="[[WP:CHECKWIKI]] error fix. Section heading problem. Violates [[WP:MOSHEAD]]."
+                minor="" ns="0" old_revid="603299797" pageid="42436360"
+                rcid="648004609" revid="603403427"
+                timestamp="2014-04-09T04:45:48Z"
+                title="City Academy, Hackney" type="edit" user="BG19bot" userid="14508071"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="603138271" pageid="6451" rcid="648004641"
+                revid="603138271" timestamp="2014-04-09T04:45:46Z"
+                title="Charles Proteus Steinmetz" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="" ns="0" old_revid="603403160"
+                pageid="42443120" rcid="648004608" revid="603403426"
+                timestamp="2014-04-09T04:45:46Z" title="Heartbleed Bug"
+                type="edit" user="Abdulwrites" userid="21153525"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="602935265" pageid="42317106" rcid="648004640"
+                revid="602935265" timestamp="2014-04-09T04:45:44Z"
+                title="Ana Helena Chacón Echeverría" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603255602" pageid="32871164"
+                rcid="648004607" revid="603403425"
+                timestamp="2014-04-09T04:45:44Z"
+                title="Template:Adminstats/Gogo Dodo" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc comment="Per TfD" ns="0" old_revid="602011377"
+                pageid="34472810" rcid="648004606" revid="603403424"
+                timestamp="2014-04-09T04:45:43Z"
+                title="Vest-Agder County Municipality" type="edit"
+                user="Plastikspork" userid="5075409"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="600725694" pageid="406159" rcid="648004639"
+                revid="600725694" timestamp="2014-04-09T04:45:42Z"
+                title="Charles Pratt, 1st Earl Camden" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" comment="" minor="" ns="14"
+                old_revid="547269747" pageid="32825193" rcid="648004638"
+                revid="547269747" timestamp="2014-04-09T04:45:42Z"
+                title="Category:East–West Schism" type="external"
+                user="Церковный сторож" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="597989421" pageid="41891953" rcid="648004637"
+                revid="597989421" timestamp="2014-04-09T04:45:42Z"
+                title="San Esteban (1554 shipwreck)" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc anon="" comment="/* Others */" ns="0"
+                old_revid="603403045" pageid="34172675" rcid="648004605"
+                revid="603403423" timestamp="2014-04-09T04:45:42Z"
+                title="Monsuno" type="edit" user="124.181.101.182" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="603138260" pageid="87644" rcid="648004636"
+                revid="603138260" timestamp="2014-04-09T04:45:40Z"
+                title="Charles Perrault" type="external" user="Dexbot" userid="0"/>
+            <rc
+                comment="/* &quot;Never tell me the decimals!&quot; */ Sort of a sad resume. I expected more."
+                minor="" ns="4" old_revid="603403014" pageid="8536201"
+                rcid="648004604" revid="603403422"
+                timestamp="2014-04-09T04:45:40Z"
+                title="Wikipedia:Reference desk/Entertainment"
+                type="edit" user="InedibleHulk" userid="877242"/>
+            <rc
+                comment="[[WP:AES|←]]Created page with '&lt;div style=&quot;position: relative; height: 1%;&quot;> &lt;div style=&quot;position: relative; margin: 0 -1em; padding: 0; background-color: transparent; height: 1%;&quot;> &lt;div style...'"
+                new="" ns="2" old_revid="0" pageid="42443152"
+                rcid="648004603" revid="603403421"
+                timestamp="2014-04-09T04:45:39Z"
+                title="User:Mediran/My userpage/Remaining" type="new"
+                user="Mediran" userid="16396275"/>
+            <rc bot=""
+                comment="[[WP:CHECKWIKI]] error fix. Section heading problem. Violates [[WP:MOSHEAD]]."
+                minor="" ns="0" old_revid="603316019" pageid="31290467"
+                rcid="648004602" revid="603403420"
+                timestamp="2014-04-09T04:45:39Z"
+                title="Callanwolde Fine Arts Center" type="edit"
+                user="BG19bot" userid="14508071"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="549586457" pageid="9406088" rcid="648004635"
+                revid="549586457" timestamp="2014-04-09T04:45:38Z"
+                title="An Yulong" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="574064542" pageid="8902379" rcid="648004634"
+                revid="574064542" timestamp="2014-04-09T04:45:37Z"
+                title="Charles Otis Whitman" type="external"
+                user="Dexbot" userid="0"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603105285" pageid="32642622"
+                rcid="648004601" revid="603403419"
+                timestamp="2014-04-09T04:45:37Z"
+                title="Template:Adminstats/LadyofShalott" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc
+                comment="Undid revision 603395965 by [[Special:Contributions/Cullen328|Cullen328]] ([[User talk:Cullen328|talk]]) Respectfully disagree that the lead properly explains Shaheen's notability as a businessman, or arms trader, or whatever he's alleged to be."
+                ns="0" old_revid="603395965" pageid="33318140"
+                rcid="648004600" revid="603403418"
+                timestamp="2014-04-09T04:45:36Z" title="Bob Shaheen"
+                type="edit" user="Cyphoidbomb" userid="8363265"/>
+            <rc comment="Nominated [[Ni-Ni]] for deletion" ns="4"
+                old_revid="603403123" pageid="42404335" rcid="648004599"
+                revid="603403417" timestamp="2014-04-09T04:45:36Z"
+                title="Wikipedia:Articles for deletion/Log/2014 April 9"
+                type="edit" user="Mike Rosoft" userid="75230"/>
+            <rc anon="" comment="" ns="0" old_revid="603401701"
+                pageid="1176798" rcid="648004598" revid="603403416"
+                timestamp="2014-04-09T04:45:36Z"
+                title="Indian Institute of Engineering Science and Technology, Shibpur"
+                type="edit" user="115.240.141.43" userid="0"/>
+            <rc comment="" logaction="create" logid="55836802"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="648004597" revid="0"
+                timestamp="2014-04-09T04:45:36Z" title="User:Mayushka"
+                type="log" user="Mayushka" userid="21153761"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="593484715" pageid="378767" rcid="648004633"
+                revid="593484715" timestamp="2014-04-09T04:45:35Z"
+                title="Charles Olson" type="external" user="Dexbot" userid="0"/>
+            <rc comment="/* 2013 Test */" ns="0" old_revid="603403074"
+                pageid="42340947" rcid="648004596" revid="603403415"
+                timestamp="2014-04-09T04:45:35Z"
+                title="Pacific Rugby League International" type="edit"
+                user="Stefan Milosevic" userid="20392499"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="478345904" pageid="31951439" rcid="648004632"
+                revid="478345904" timestamp="2014-04-09T04:45:34Z"
+                title="An Younggil" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc anon="" comment="" ns="0" old_revid="603403277"
+                pageid="855383" rcid="648004595" revid="603403414"
+                timestamp="2014-04-09T04:45:34Z" title="Dik-dik"
+                type="edit" user="214.27.58.1" userid="0"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603255810" pageid="32016453"
+                rcid="648004594" revid="603403413"
+                timestamp="2014-04-09T04:45:33Z"
+                title="Template:Adminstats/Mlpearc" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="601946194" pageid="869600" rcid="648004631"
+                revid="601946194" timestamp="2014-04-09T04:45:32Z"
+                title="Charles Murray (author)" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="/* Background */ add content" ns="2"
+                old_revid="603402640" pageid="42423403" rcid="648004593"
+                revid="603403412" timestamp="2014-04-09T04:45:32Z"
+                title="User:Cullen328/sandbox/Imogen and Twinka at Yosemite"
+                type="edit" user="Cullen328" userid="10006598"/>
+            <rc comment="/* Population distribution */" ns="0"
+                old_revid="603403327" pageid="23041" rcid="648004592"
+                revid="603403411" timestamp="2014-04-09T04:45:31Z"
+                title="Puerto Rico" type="edit" user="Sarason" userid="7216230"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603256243" pageid="39268527"
+                rcid="648004591" revid="603403410"
+                timestamp="2014-04-09T04:45:31Z"
+                title="Template:Adminstats/Yunshui" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc comment="/* Discussion */ ===Discussion (sport)==="
+                ns="1" old_revid="603403060" pageid="3433959"
+                rcid="648004590" revid="603403409"
+                timestamp="2014-04-09T04:45:31Z"
+                title="Talk:United States" type="edit"
+                user="Victor falk" userid="418835"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="594685313" pageid="856055" rcid="648004630"
+                revid="594685313" timestamp="2014-04-09T04:45:30Z"
+                title="Charles Morris" type="external" user="Dexbot" userid="0"/>
+            <rc comment="Reorganizing page" ns="0" old_revid="603394242"
+                pageid="44027" rcid="648004589" revid="603403408"
+                timestamp="2014-04-09T04:45:30Z" title="Permutation"
+                type="edit" user="Wcherowi" userid="13428914"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="596893272" pageid="41885395" rcid="648004629"
+                revid="596893272" timestamp="2014-04-09T04:45:29Z"
+                title="HMS Avenger (1794)" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc anon="" comment="/* History */" ns="0"
+                old_revid="602853616" pageid="34025057" rcid="648004588"
+                revid="603403406" timestamp="2014-04-09T04:45:29Z"
+                title="Projection mapping" type="edit"
+                user="73.48.175.51" userid="0"/>
+            <rc
+                comment="/* Wikipedia talk:Articles for creation/Jeremy Redmore */ done"
+                ns="4" old_revid="603402955" pageid="26803395"
+                rcid="648004587" revid="603403407"
+                timestamp="2014-04-09T04:45:29Z"
+                title="Wikipedia:Requests for undeletion" type="edit"
+                user="FreeRangeFrog" userid="8043052"/>
+            <rc comment="" ns="0" old_revid="603403326" pageid="594302"
+                rcid="648004586" revid="603403405"
+                timestamp="2014-04-09T04:45:29Z" title="Louise Lombard"
+                type="edit" user="Louiselombard" userid="20399391"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="447124900" pageid="4566546" rcid="648004628"
+                revid="447124900" timestamp="2014-04-09T04:45:28Z"
+                title="Charles Monro" type="external" user="Dexbot" userid="0"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603255568" pageid="20201891"
+                rcid="648004585" revid="603403404"
+                timestamp="2014-04-09T04:45:28Z"
+                title="Template:Adminstats/Jac16888" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc bot=""
+                comment="[[WP:CHECKWIKI]] error fix. Section heading problem. Violates [[WP:MOSHEAD]]."
+                minor="" ns="0" old_revid="603313228" pageid="22025098"
+                rcid="648004584" revid="603403403"
+                timestamp="2014-04-09T04:45:28Z" title="Brazen bull"
+                type="edit" user="BG19bot" userid="14508071"/>
+            <rc
+                comment="/* External links */stub sort using [[Project:AWB|AWB]]"
+                minor="" ns="0" old_revid="598092676" pageid="41869343"
+                rcid="648004583" revid="603403402"
+                timestamp="2014-04-09T04:45:28Z"
+                title="Hero Karizma ZMR" type="edit" user="Rpyle731" userid="46515"/>
+            <rc comment="" ns="10" old_revid="551235011"
+                pageid="12311403" rcid="648004582" revid="603403401"
+                timestamp="2014-04-09T04:45:27Z"
+                title="Template:Charlotte/Metrolina" type="edit"
+                user="Third Strike" userid="321391"/>
+            <rc anon=""
+                comment="/* Ray Charles */ minor typographical error"
+                ns="0" old_revid="602947160" pageid="715413"
+                rcid="648004581" revid="603403400"
+                timestamp="2014-04-09T04:45:27Z"
+                title="Georgia on My Mind" type="edit"
+                user="68.158.49.19" userid="0"/>
+            <rc comment="/* Functions */" ns="0" old_revid="603401960"
+                pageid="9825228" rcid="648004580" revid="603403399"
+                timestamp="2014-04-09T04:45:27Z"
+                title="Protein inhibitor of activated STAT" type="edit"
+                user="Catwell99" userid="20714914"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="602979548" pageid="7668" rcid="648004627"
+                revid="602979548" timestamp="2014-04-09T04:45:26Z"
+                title="Charles Mingus" type="external" user="Dexbot" userid="0"/>
+            <rc comment="Current Logo" ns="0" old_revid="603377966"
+                pageid="2296369" rcid="648004579" revid="603403398"
+                timestamp="2014-04-09T04:45:26Z" title="LDU Quito"
+                type="edit" user="OAlexander" userid="863116"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603256543" pageid="30721712"
+                rcid="648004578" revid="603403397"
+                timestamp="2014-04-09T04:45:26Z"
+                title="Template:Adminstats/Smartse" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="545950516" pageid="28025405" rcid="648004626"
+                revid="545950516" timestamp="2014-04-09T04:45:25Z"
+                title="Järavere" type="external" user="Shuaib-bot" userid="0"/>
+            <rc anon="" comment="Testing" ns="4" old_revid="603377326"
+                pageid="11005908" rcid="648004576" revid="603403395"
+                timestamp="2014-04-09T04:45:24Z"
+                title="Wikipedia:Tutorial/Editing/sandbox" type="edit"
+                user="134.7.248.130" userid="0"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603256405" pageid="34213585"
+                rcid="648004575" revid="603403394"
+                timestamp="2014-04-09T04:45:24Z"
+                title="Template:Adminstats/Mitchazenia" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="600433888" pageid="8737274" rcid="648004625"
+                revid="600433888" timestamp="2014-04-09T04:45:23Z"
+                title="Charles Miner" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="541580185" pageid="12959504" rcid="648004624"
+                revid="541580185" timestamp="2014-04-09T04:45:23Z"
+                title="Rudolph Scholz" type="external" user="AyackBot" userid="0"/>
+            <rc comment="" ns="3" old_revid="603403267"
+                pageid="42428293" rcid="648004574" revid="603403393"
+                timestamp="2014-04-09T04:45:23Z"
+                title="User talk:Edlondon11" type="edit"
+                user="Edlondon11" userid="21142863"/>
+            <rc comment="" logaction="create" logid="55836800"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="648004573" revid="0"
+                timestamp="2014-04-09T04:45:22Z" title="User:Zelvron"
+                type="log" user="Zelvron" userid="21153760"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="603138138" pageid="48542" rcid="648004623"
+                revid="603138138" timestamp="2014-04-09T04:45:21Z"
+                title="Charles Maurice de Talleyrand-Périgord"
+                type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="595587328" pageid="41883836" rcid="648004622"
+                revid="595587328" timestamp="2014-04-09T04:45:21Z"
+                title="San Esteban (1588 shipwreck)" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603256356" pageid="37837134"
+                rcid="648004553" revid="603403392"
+                timestamp="2014-04-09T04:45:21Z"
+                title="Template:Adminstats/Agathoclea" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc anon="" comment="A. J. P. Taylor" ns="0"
+                old_revid="597839767" pageid="2211963" rcid="648004545"
+                revid="603403391" timestamp="2014-04-09T04:45:21Z"
+                title="The Life and Times of David Lloyd George"
+                type="edit" user="99.247.1.157" userid="0"/>
+            <rc comment="" ns="0" old_revid="601984548"
+                pageid="38209630" rcid="648004544" revid="603403390"
+                timestamp="2014-04-09T04:45:21Z" title="Battle of Konna"
+                type="edit" user="BadBoyz1" userid="21125462"/>
+            <rc anon="" comment="/* Detoxification */" ns="0"
+                old_revid="603320597" pageid="8556500" rcid="648004543"
+                revid="603403389" timestamp="2014-04-09T04:45:20Z"
+                title="Oil pulling" type="edit" user="50.143.176.21" userid="0"/>
+            <rc
+                comment="/* External links */ change succession box banner"
+                ns="0" old_revid="594557752" pageid="467185"
+                rcid="648004542" revid="603403388"
+                timestamp="2014-04-09T04:45:20Z" title="Peng Ming-min"
+                type="edit" user="Vycl1994" userid="19014806"/>
+            <rc
+                comment="[[WP:CSD#G8|G8]]: Page dependent on a deleted or nonexistent page"
+                logaction="delete" logid="55836799" logtype="delete"
+                ns="0" old_revid="0" pageid="0" rcid="648004541"
+                revid="0" timestamp="2014-04-09T04:45:20Z"
+                title="Archive 14" type="log" user="Bearcat" userid="24902"/>
+            <rc comment="/* Afghanistan */" minor="" ns="2"
+                old_revid="603403264" pageid="19450227" rcid="648004540"
+                revid="603403387" timestamp="2014-04-09T04:45:19Z"
+                title="User:Ipatrol/Userboxes/Politics by country: A–D"
+                type="edit" user="Bolegash" userid="6750476"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="602871395"
+                pageid="1682067" rcid="648004572" revid="602871395"
+                timestamp="2014-04-09T04:45:18Z" title="Rajmohan Gandhi"
+                type="external" user="Kolyma" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="543879848" pageid="1142017" rcid="648004571"
+                revid="543879848" timestamp="2014-04-09T04:45:18Z"
+                title="Category:Haitian people" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="" ns="0" old_revid="603402788" pageid="708609"
+                rcid="648004539" revid="603403386"
+                timestamp="2014-04-09T04:45:18Z"
+                title="Victoria International Airport" type="edit"
+                user="TheDarkEmpire1000" userid="19889824"/>
+            <rc bot=""
+                comment="[[WP:CHECKWIKI]] error fix. Section heading problem. Violates [[WP:MOSHEAD]]."
+                minor="" ns="0" old_revid="599905231" pageid="213456"
+                rcid="648004538" revid="603403385"
+                timestamp="2014-04-09T04:45:18Z" title="2046"
+                type="edit" user="BG19bot" userid="14508071"/>
+            <rc comment="/* ARIA Awards */" ns="0" old_revid="603400875"
+                pageid="28628095" rcid="648004537" revid="603403384"
+                timestamp="2014-04-09T04:45:17Z" title="Kimbra"
+                type="edit" user="DonEd" userid="1106963"/>
+            <rc comment="Archiving" ns="0" old_revid="602438038"
+                pageid="10726717" rcid="648004536" revid="603403383"
+                timestamp="2014-04-09T04:45:17Z"
+                title="Boris Yeltsin: From Dawn to Dusk" type="edit"
+                user="Mishae" userid="10571688"/>
+            <rc comment="" ns="2" old_revid="603403296"
+                pageid="41848071" rcid="648004535" revid="603403382"
+                timestamp="2014-04-09T04:45:17Z"
+                title="User:Fcheng62/sandbox2" type="edit"
+                user="Geoffreymckendry2243" userid="20555937"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603104757" pageid="39553350"
+                rcid="648004534" revid="603403381"
+                timestamp="2014-04-09T04:45:16Z"
+                title="Template:Adminstats/Salvidrim!" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc
+                comment="Reverted edits by [[Special:Contribs/27.131.13.7|27.131.13.7]] ([[User talk:27.131.13.7|talk]]) to last version by Gogo Dodo"
+                minor="" ns="0" old_revid="603333880" pageid="80799"
+                rcid="648004533" revid="603403380"
+                timestamp="2014-04-09T04:45:16Z" title="Breadboard"
+                type="edit" user="Bgwhite" userid="264323"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="578699414" pageid="21991393" rcid="648004570"
+                revid="578699414" timestamp="2014-04-09T04:45:15Z"
+                title="Category:People from Georgia (country)"
+                type="external" user="Dexbot" userid="0"/>
+            <rc comment="/* Dates */ reword." minor="" ns="0"
+                old_revid="603403143" pageid="17349356" rcid="648004532"
+                revid="603403379" timestamp="2014-04-09T04:45:15Z"
+                title="Indian general election, 2014" type="edit"
+                user="Rsrikanth05" userid="295080"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="590339324" pageid="704229" rcid="648004569"
+                revid="590339324" timestamp="2014-04-09T04:45:13Z"
+                title="Charles Maturin" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="603033140"
+                pageid="171137" rcid="648004568" revid="603033140"
+                timestamp="2014-04-09T04:45:13Z" title="Ian Holm"
+                type="external" user="World Cup 2010" userid="0"/>
+            <rc anon=""
+                comment="/* Passenger information systems */ 'at many' instead of 'in most'"
+                ns="0" old_revid="601950395" pageid="259121"
+                rcid="648004531" revid="603403378"
+                timestamp="2014-04-09T04:45:13Z" title="CityRail"
+                type="edit" user="221.120.165.36" userid="0"/>
+            <rc comment="Per TfD" ns="0" old_revid="602011674"
+                pageid="16959273" rcid="648004530" revid="603403377"
+                timestamp="2014-04-09T04:45:13Z"
+                title="Rogaland County Municipality" type="edit"
+                user="Plastikspork" userid="5075409"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603255622" pageid="34273634"
+                rcid="648004529" revid="603403376"
+                timestamp="2014-04-09T04:45:13Z"
+                title="Template:Adminstats/Acalamari" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="546042454" pageid="29611135" rcid="648004567"
+                revid="546042454" timestamp="2014-04-09T04:45:12Z"
+                title="An Yong-Kwon" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc anon="" comment="/* Personnel */" ns="0"
+                old_revid="603403349" pageid="26403295" rcid="648004528"
+                revid="603403375" timestamp="2014-04-09T04:45:12Z"
+                title="Fight (Flipper album)" type="edit"
+                user="24.93.147.20" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="603138100" pageid="42635" rcid="648004566"
+                revid="603138100" timestamp="2014-04-09T04:45:11Z"
+                title="Charles Manson" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" comment="/* Early career */" ns="0"
+                old_revid="586075834" pageid="32986658" rcid="648004527"
+                revid="603403374" timestamp="2014-04-09T04:45:11Z"
+                title="Al Salerno" type="edit" user="174.58.16.43" userid="0"/>
+            <rc anon=""
+                comment="Did you know? UConn has matched Baylor's 40-0 record to start the season tonite!"
+                ns="0" old_revid="603181980" pageid="25156314"
+                rcid="648004526" revid="603403373"
+                timestamp="2014-04-09T04:45:11Z"
+                title="2012 NCAA Women's Division I Basketball Tournament"
+                type="edit" user="172.4.53.191" userid="0"/>
+            <rc comment="G13 clock reset" minor="" ns="5"
+                old_revid="585131170" pageid="42443151" rcid="648004525"
+                revid="603403372" timestamp="2014-04-09T04:45:10Z"
+                title="Wikipedia talk:Articles for creation/Jeremy Redmore"
+                type="edit" user="FreeRangeFrog" userid="8043052"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="594012898" pageid="41848695" rcid="648004565"
+                revid="594012898" timestamp="2014-04-09T04:45:09Z"
+                title="SS Bulgaria (1945)" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc comment="promoted to prep area 3" ns="10"
+                old_revid="603392631" pageid="42414672" rcid="648004524"
+                revid="603403371" timestamp="2014-04-09T04:45:08Z"
+                title="Template:Did you know nominations/Prodigy (video game)"
+                type="edit" user="Sven Manguard" userid="13098761"/>
+            <rc bot=""
+                comment="[[WP:CHECKWIKI]] error fix. Section heading problem. Violates [[WP:MOSHEAD]]."
+                minor="" ns="0" old_revid="603367648" pageid="658144"
+                rcid="648004523" revid="603403370"
+                timestamp="2014-04-09T04:45:08Z" title="Placeholder"
+                type="edit" user="BG19bot" userid="14508071"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="585829404" pageid="1095875" rcid="648004564"
+                revid="585829404" timestamp="2014-04-09T04:45:07Z"
+                title="Charles Macklin" type="external" user="Dexbot" userid="0"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603256469" pageid="18372602"
+                rcid="648004522" revid="603403369"
+                timestamp="2014-04-09T04:45:07Z"
+                title="Template:Adminstats/Meno25" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc
+                comment="Reverted edits by [[Special:Contribs/155.138.229.200|155.138.229.200]] ([[User talk:155.138.229.200|talk]]) to last version by Materialscientist"
+                minor="" ns="0" old_revid="603403141" pageid="196020"
+                rcid="648004521" revid="603403368"
+                timestamp="2014-04-09T04:45:07Z" title="Crocodilia"
+                type="edit" user="Materialscientist" userid="7852030"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603256240" pageid="37354314"
+                rcid="648004520" revid="603403367"
+                timestamp="2014-04-09T04:45:05Z"
+                title="Template:Adminstats/Amatulic" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="591664187" pageid="33634502" rcid="648004563"
+                revid="591664187" timestamp="2014-04-09T04:45:04Z"
+                title="An Yiru" type="external" user="RobotMichiel1972" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="601880078" pageid="1095869" rcid="648004562"
+                revid="601880078" timestamp="2014-04-09T04:45:04Z"
+                title="Charles Mackay" type="external" user="Dexbot" userid="0"/>
+            <rc comment="now available to play" ns="0"
+                old_revid="602947653" pageid="38110890" rcid="648004519"
+                revid="603403366" timestamp="2014-04-09T04:45:04Z"
+                title="Lego Legends of Chima Online" type="edit"
+                user="Landingdude13" userid="20659301"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="594440379" pageid="41840291" rcid="648004561"
+                revid="594440379" timestamp="2014-04-09T04:45:03Z"
+                title="SS Italia (1904)" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="603174290"
+                pageid="12787" rcid="648004560" revid="603174290"
+                timestamp="2014-04-09T04:45:02Z"
+                title="Geoffrey Chaucer" type="external" user="Digipoke" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="570130204" pageid="15973502" rcid="648004559"
+                revid="570130204" timestamp="2014-04-09T04:45:01Z"
+                title="An Yangfeng" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="603138069" pageid="42198" rcid="648004558"
+                revid="603138069" timestamp="2014-04-09T04:45:01Z"
+                title="Charles M. Schulz" type="external" user="Dexbot" userid="0"/>
+            <rc comment="added [[ ]]" minor="" ns="0"
+                old_revid="603403054" pageid="4379" rcid="648004518"
+                revid="603403365" timestamp="2014-04-09T04:45:01Z"
+                title="Book of Revelation" type="edit"
+                user="Chadchumley" userid="20125174"/>
+            <rc comment="/* Field of View */ heading case fix" ns="0"
+                old_revid="603403262" pageid="266611" rcid="648004517"
+                revid="603403364" timestamp="2014-04-09T04:45:00Z"
+                title="Optical telescope" type="edit" user="Dicklyon" userid="869314"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603255877" pageid="22796134"
+                rcid="648004516" revid="603403363"
+                timestamp="2014-04-09T04:44:58Z"
+                title="Template:Adminstats/Graeme Bartlett" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc bot=""
+                comment="[[WP:CHECKWIKI]] error fix. Section heading problem. Violates [[WP:MOSHEAD]]."
+                minor="" ns="0" old_revid="603249667" pageid="42433044"
+                rcid="648004515" revid="603403362"
+                timestamp="2014-04-09T04:44:58Z"
+                title="International Material Gifts From Outside Mainland China During the 1989 Tiananmen Square Protests"
+                type="edit" user="BG19bot" userid="14508071"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="591671430" pageid="13079488" rcid="648004557"
+                revid="591671430" timestamp="2014-04-09T04:44:57Z"
+                title="An Yang (figure skater)" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="602183065" pageid="7472" rcid="648004556"
+                revid="602183065" timestamp="2014-04-09T04:44:56Z"
+                title="Charles Lyell" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="597336388" pageid="20328736" rcid="648004555"
+                revid="597336388" timestamp="2014-04-09T04:44:55Z"
+                title="Jaranwala Tehsil" type="external"
+                user="Shuaib-bot" userid="0"/>
+            <rc comment="8 revisions restored: [[WP:REFUND]]/G13"
+                logaction="restore" logid="55836798" logtype="delete"
+                ns="5" old_revid="0" pageid="42443151" rcid="648004514"
+                revid="0" timestamp="2014-04-09T04:44:55Z"
+                title="Wikipedia talk:Articles for creation/Jeremy Redmore"
+                type="log" user="FreeRangeFrog" userid="8043052"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="603369553" pageid="82981" rcid="648004554"
+                revid="603369553" timestamp="2014-04-09T04:44:54Z"
+                title="Charles Lindbergh" type="external" user="Dexbot" userid="0"/>
+            <rc bot="" comment="Dating maintenance tags: {{Dubious}}"
+                minor="" ns="0" old_revid="603401565" pageid="3434750"
+                rcid="648004513" revid="603403361"
+                timestamp="2014-04-09T04:44:54Z" title="United States"
+                type="edit" user="AnomieBOT" userid="7611264"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603105363" pageid="37719618"
+                rcid="648004512" revid="603403360"
+                timestamp="2014-04-09T04:44:53Z"
+                title="Template:Adminstats/Bduke" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc comment="" logaction="create" logid="55836796"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="648004511" revid="0"
+                timestamp="2014-04-09T04:44:51Z"
+                title="User:Saraswati 61" type="log" user="Saraswati 61" userid="21153758"/>
+            <rc anon="" comment="" ns="0" old_revid="603394654"
+                pageid="14368655" rcid="648004510" revid="603403359"
+                timestamp="2014-04-09T04:44:51Z" title="WYEA"
+                type="edit" user="76.27.198.89" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="598904520" pageid="1611914" rcid="648004552"
+                revid="598904520" timestamp="2014-04-09T04:44:50Z"
+                title="Charles Lightoller" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="602096681" pageid="41821989" rcid="648004551"
+                revid="602096681" timestamp="2014-04-09T04:44:50Z"
+                title="Apollon XI" type="external" user="UnderlyingBot" userid="0"/>
+            <rc bot="" comment="Copying assessment table to wiki" ns="2"
+                old_revid="602679806" pageid="25685967" rcid="648004509"
+                revid="603403358" timestamp="2014-04-09T04:44:50Z"
+                title="User:WP 1.0 bot/Tables/Project/Texas A&amp;M"
+                type="edit" user="WP 1.0 bot" userid="3455093"/>
+            <rc comment="Nominated [[Ni-Ni]] for deletion" new="" ns="4"
+                old_revid="0" pageid="42443150" rcid="648004508"
+                revid="603403357" timestamp="2014-04-09T04:44:50Z"
+                title="Wikipedia:Articles for deletion/Ni-Ni" type="new"
+                user="Mike Rosoft" userid="75230"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603256254" pageid="39382800"
+                rcid="648004507" revid="603403356"
+                timestamp="2014-04-09T04:44:50Z"
+                title="Template:Adminstats/Dana boomer" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc comment="per [[WP:REPEATLINK]]" ns="0"
+                old_revid="599388122" pageid="467210" rcid="648004506"
+                revid="603403355" timestamp="2014-04-09T04:44:50Z"
+                title="Magnatune" type="edit" user="Omnipaedista" userid="8524693"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="598816067" pageid="40408914" rcid="648004550"
+                revid="598816067" timestamp="2014-04-09T04:44:49Z"
+                title="Trần Quốc Ẩn" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="599333971" pageid="233103" rcid="648004549"
+                revid="599333971" timestamp="2014-04-09T04:44:48Z"
+                title="Charles Lamb" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="603401490" pageid="734435" rcid="648004548"
+                revid="603401490" timestamp="2014-04-09T04:44:48Z"
+                title="Category:Greek people" type="external"
+                user="Dexbot" userid="0"/>
+            <rc bot=""
+                comment="[[WP:CHECKWIKI]] error fix. Section heading problem. Violates [[WP:MOSHEAD]]."
+                minor="" ns="0" old_revid="603360912" pageid="42439521"
+                rcid="648004505" revid="603403354"
+                timestamp="2014-04-09T04:44:48Z"
+                title="Ballet the Boxer 1" type="edit" user="BG19bot" userid="14508071"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="543801739" pageid="738725" rcid="648004547"
+                revid="543801739" timestamp="2014-04-09T04:44:46Z"
+                title="Category:Ghanaian people" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="591376771" pageid="4279372" rcid="648004546"
+                revid="591376771" timestamp="2014-04-09T04:44:46Z"
+                title="Muddy Ruel" type="external" user="AyackBot" userid="0"/>
+            <rc anon="" comment="" ns="5" old_revid="603080541"
+                pageid="2078375" rcid="648004476" revid="603403353"
+                timestamp="2014-04-09T04:44:46Z"
+                title="Wikipedia talk:WikiProject Physics" type="edit"
+                user="70.24.250.235" userid="0"/>
+            <rc comment="/* Career */" ns="0" old_revid="603403260"
+                pageid="8670003" rcid="648004474" revid="603403352"
+                timestamp="2014-04-09T04:44:46Z" title="Lowell McAdam"
+                type="edit" user="Jimgerbig" userid="20352756"/>
+            <rc comment="" ns="100" old_revid="603403280"
+                pageid="28442544" rcid="648004473" revid="603403351"
+                timestamp="2014-04-09T04:44:45Z"
+                title="Portal:Pittsburgh/On this day/September 11"
+                type="edit" user="Marketdiamond" userid="367195"/>
+            <rc comment="Per TfD" ns="0" old_revid="602011738"
+                pageid="21384734" rcid="648004472" revid="603403350"
+                timestamp="2014-04-09T04:44:45Z"
+                title="Buskerud County Municipality" type="edit"
+                user="Plastikspork" userid="5075409"/>
+            <rc anon="" comment="/* Personnel */" ns="0"
+                old_revid="578060425" pageid="26403295" rcid="648004471"
+                revid="603403349" timestamp="2014-04-09T04:44:45Z"
+                title="Fight (Flipper album)" type="edit"
+                user="24.93.147.20" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="602096681" pageid="41821989" rcid="648004504"
+                revid="602096681" timestamp="2014-04-09T04:44:44Z"
+                title="Apollon XI" type="external" user="UnderlyingBot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="14"
+                old_revid="581835442" pageid="722520" rcid="648004503"
+                revid="581835442" timestamp="2014-04-09T04:44:44Z"
+                title="Category:Welsh people" type="external"
+                user="Dexbot" userid="0"/>
+            <rc
+                comment="[[WP:CSD#R2|R2]]: Cross-[[WP:NS|namespace]] [[WP:R|redirect]] from mainspace"
+                logaction="delete" logid="55836794" logtype="delete"
+                ns="0" old_revid="0" pageid="0" rcid="648004470"
+                revid="0" timestamp="2014-04-09T04:44:44Z"
+                title="/Archive 14" type="log" user="Bearcat" userid="24902"/>
+            <rc comment="/* Long term vandal returned */ new section"
+                ns="4" old_revid="603399447" pageid="5137507"
+                rcid="648004469" revid="603403348"
+                timestamp="2014-04-09T04:44:44Z"
+                title="Wikipedia:Administrators' noticeboard/Incidents"
+                type="edit" user="Ryulong" userid="889851"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="594146291" pageid="96810" rcid="648004502"
+                revid="594146291" timestamp="2014-04-09T04:44:43Z"
+                title="Charles Kingsley" type="external" user="Dexbot" userid="0"/>
+            <rc comment="/* April 2014 */" ns="3" old_revid="602568313"
+                pageid="39547330" rcid="648004468" revid="603403347"
+                timestamp="2014-04-09T04:44:43Z"
+                title="User talk:214.27.58.37" type="edit"
+                user="Materialscientist" userid="7852030"/>
+            <rc anon="" comment="/* Value Added Services */" ns="0"
+                old_revid="600567474" pageid="13413106" rcid="648004467"
+                revid="603403346" timestamp="2014-04-09T04:44:41Z"
+                title="Mobitel (Sri Lanka)" type="edit"
+                user="124.43.185.219" userid="0"/>
+            <rc bot="" comment="Copying assessment table to wiki" ns="2"
+                old_revid="603255844" pageid="25685560" rcid="648004466"
+                revid="603403345" timestamp="2014-04-09T04:44:41Z"
+                title="User:WP 1.0 bot/Tables/Project/Poland-related"
+                type="edit" user="WP 1.0 bot" userid="3455093"/>
+            <rc comment="Message re. [[Stroopwafel]] ([[WP:HG|HG]])"
+                ns="3" old_revid="599089937" pageid="33512463"
+                rcid="648004465" revid="603403344"
+                timestamp="2014-04-09T04:44:40Z"
+                title="User talk:222.126.241.62" type="edit"
+                user="John Cline" userid="11987994"/>
+            <rc bot=""
+                comment="[[WP:CHECKWIKI]] error fix. Section heading problem. Violates [[WP:MOSHEAD]]."
+                minor="" ns="0" old_revid="603309035" pageid="29175247"
+                rcid="648004464" revid="603403343"
+                timestamp="2014-04-09T04:44:39Z" title="Zhang Ze"
+                type="edit" user="BG19bot" userid="14508071"/>
+            <rc comment="/* External links */ fixing external link"
+                minor="" ns="0" old_revid="584456511" pageid="36560118"
+                rcid="648004463" revid="603403342"
+                timestamp="2014-04-09T04:44:39Z" title="Ontario Place"
+                type="edit" user="Zippanova" userid="129259"/>
+            <rc
+                comment="Undid revision 603328484 by [[Special:Contributions/A&amp;RBoss|A&amp;RBoss]] ([[User talk:A&amp;RBoss|talk]]) unsourced"
+                ns="0" old_revid="603328484" pageid="13312"
+                rcid="648004462" revid="603403341"
+                timestamp="2014-04-09T04:44:38Z" title="Hammond organ"
+                type="edit" user="Ritchie333" userid="664832"/>
+            <rc comment="changed banner to wikiautomobiles" ns="1"
+                old_revid="536490861" pageid="38417145" rcid="648004461"
+                revid="603403340" timestamp="2014-04-09T04:44:38Z"
+                title="Talk:Electronic Air Suspension" type="edit"
+                user="Stratocaster27" userid="19255208"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="596232928" pageid="26598741" rcid="648004501"
+                revid="596232928" timestamp="2014-04-09T04:44:37Z"
+                title="Charles Kennedy" type="external" user="Dexbot" userid="0"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603256275" pageid="28457382"
+                rcid="648004460" revid="603403339"
+                timestamp="2014-04-09T04:44:37Z"
+                title="Template:Adminstats/Postdlf" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="593622712" pageid="41820681" rcid="648004500"
+                revid="593622712" timestamp="2014-04-09T04:44:36Z"
+                title="SS Inchearn" type="external" user="UnderlyingBot" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="556560126"
+                pageid="3163342" rcid="648004499" revid="556560126"
+                timestamp="2014-04-09T04:44:36Z" title="Islam in Latvia"
+                type="external" user="Sorakara023" userid="0"/>
+            <rc anon="" comment="/* Telescope design */" ns="0"
+                old_revid="582718742" pageid="63557" rcid="648004459"
+                revid="603403338" timestamp="2014-04-09T04:44:36Z"
+                title="Amateur telescope making" type="edit"
+                user="76.70.59.151" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="599373592" pageid="1233381" rcid="648004498"
+                revid="599373592" timestamp="2014-04-09T04:44:35Z"
+                title="Charles Keeping" type="external" user="Dexbot" userid="0"/>
+            <rc
+                comment="Reverted edits by [[Special:Contributions/222.126.241.62|222.126.241.62]] ([[User talk:222.126.241.62|talk]]) to last revision by Reify-tech ([[WP:HG|HG]])"
+                minor="" ns="0" old_revid="603402507" pageid="1621210"
+                rcid="648004458" revid="603403337"
+                timestamp="2014-04-09T04:44:35Z" title="Stroopwafel"
+                type="edit" user="John Cline" userid="11987994"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="602759432" pageid="51012" rcid="648004497"
+                revid="602759432" timestamp="2014-04-09T04:44:33Z"
+                title="Charles K. Kao" type="external" user="Dexbot" userid="0"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603256506" pageid="39866108"
+                rcid="648004457" revid="603403336"
+                timestamp="2014-04-09T04:44:33Z"
+                title="Template:Adminstats/Anna Frodesiak" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="598682629" pageid="3269867" rcid="648004496"
+                revid="598682629" timestamp="2014-04-09T04:44:31Z"
+                title="Tony An" type="external" user="RobotMichiel1972" userid="0"/>
+            <rc bot="" comment="Copying assessment table to wiki" ns="2"
+                old_revid="603255826" pageid="25682793" rcid="648004456"
+                revid="603403335" timestamp="2014-04-09T04:44:31Z"
+                title="User:WP 1.0 bot/Tables/Project/Australia"
+                type="edit" user="WP 1.0 bot" userid="3455093"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="536964940" pageid="19248249" rcid="648004495"
+                revid="536964940" timestamp="2014-04-09T04:44:30Z"
+                title="Charles Jefferys" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="603403321"
+                pageid="42443148" rcid="648004494" revid="603403321"
+                timestamp="2014-04-09T04:44:30Z"
+                title="Hata Model for Urban Areas" type="external"
+                user="Tony1" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="603403317"
+                pageid="5648434" rcid="648004493" revid="603403317"
+                timestamp="2014-04-09T04:44:30Z"
+                title="Hata model for urban areas" type="external"
+                user="Tony1" userid="0"/>
+            <rc comment="category name changed" ns="4"
+                old_revid="603402132" pageid="28719534" rcid="648004455"
+                revid="603403334" timestamp="2014-04-09T04:44:30Z"
+                title="Wikipedia:Abuse response/UserBox/core"
+                type="edit" user="Good Olfactory" userid="6454287"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603256441" pageid="38591465"
+                rcid="648004454" revid="603403333"
+                timestamp="2014-04-09T04:44:30Z"
+                title="Template:Adminstats/Soap" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="600856909" pageid="2574945" rcid="648004492"
+                revid="600856909" timestamp="2014-04-09T04:44:29Z"
+                title="Jaranwala" type="external" user="Shuaib-bot" userid="0"/>
+            <rc comment="after open beta" minor="" ns="0"
+                old_revid="603403041" pageid="3551842" rcid="648004453"
+                revid="603403332" timestamp="2014-04-09T04:44:29Z"
+                title="List of Lego video games" type="edit"
+                user="Landingdude13" userid="20659301"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="594667755" pageid="324979" rcid="648004491"
+                revid="594667755" timestamp="2014-04-09T04:44:28Z"
+                title="Charles James Napier" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="603174290"
+                pageid="12787" rcid="648004490" revid="603174290"
+                timestamp="2014-04-09T04:44:28Z"
+                title="Geoffrey Chaucer" type="external" user="Digipoke" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="596624941" pageid="41819223" rcid="648004489"
+                revid="596624941" timestamp="2014-04-09T04:44:28Z"
+                title="L'Almée (ship)" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc bot=""
+                comment="[[WP:CHECKWIKI]] error fix. Section heading problem. Violates [[WP:MOSHEAD]]."
+                minor="" ns="0" old_revid="603233418" pageid="365419"
+                rcid="648004452" revid="603403331"
+                timestamp="2014-04-09T04:44:28Z"
+                title="The Perfect Storm (book)" type="edit"
+                user="BG19bot" userid="14508071"/>
+            <rc comment="/* Australian football culture */" ns="0"
+                old_revid="601908967" pageid="2403" rcid="648004451"
+                revid="603403330" timestamp="2014-04-09T04:44:28Z"
+                title="Australian rules football" type="edit"
+                user="HappyWaldo" userid="13145138"/>
+            <rc comment="" logaction="move" logid="55836793"
+                logtype="move" ns="1" old_revid="0" pageid="42443149"
+                rcid="648004450" revid="0"
+                timestamp="2014-04-09T04:44:27Z"
+                title="Talk:Hata Model for Urban Areas" type="log"
+                user="Tony1" userid="332841">
+                <move new_ns="1" new_title="Talk:Hata model for urban areas"/>
+            </rc>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603256423" pageid="38250984"
+                rcid="648004449" revid="603403328"
+                timestamp="2014-04-09T04:44:27Z"
+                title="Template:Adminstats/JHunterJ" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="594313213" pageid="142125" rcid="648004488"
+                revid="594313213" timestamp="2014-04-09T04:44:26Z"
+                title="Charles James Fox" type="external" user="Dexbot" userid="0"/>
+            <rc comment="/* Population distribution */" ns="0"
+                old_revid="603403222" pageid="23041" rcid="648004448"
+                revid="603403327" timestamp="2014-04-09T04:44:26Z"
+                title="Puerto Rico" type="edit" user="Sarason" userid="7216230"/>
+            <rc comment="" ns="0" old_revid="603324062" pageid="594302"
+                rcid="648004447" revid="603403326"
+                timestamp="2014-04-09T04:44:26Z" title="Louise Lombard"
+                type="edit" user="Louiselombard" userid="20399391"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603256211" pageid="23451723"
+                rcid="648004446" revid="603403324"
+                timestamp="2014-04-09T04:44:25Z"
+                title="Template:Adminstats/Gaius Cornelius" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="589731060" pageid="41228425" rcid="648004487"
+                revid="589731060" timestamp="2014-04-09T04:44:24Z"
+                title="Brother Anthony" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc
+                comment="/* A new proposal regarding bird article names */ replies"
+                ns="5" old_revid="603402121" pageid="75321"
+                rcid="648004445" revid="603403323"
+                timestamp="2014-04-09T04:44:24Z"
+                title="Wikipedia talk:Manual of Style" type="edit"
+                user="PaleAqua" userid="1797816"/>
+            <rc comment="" ns="0" old_revid="602956109" pageid="5991207"
+                rcid="648004444" revid="603403322"
+                timestamp="2014-04-09T04:44:24Z"
+                title="Abraham Brueghel" type="edit" user="Doewiets" userid="20235713"/>
+            <rc comment="" logaction="move" logid="55836792"
+                logtype="move" ns="0" old_revid="0" pageid="42443148"
+                rcid="648004443" revid="0"
+                timestamp="2014-04-09T04:44:24Z"
+                title="Hata Model for Urban Areas" type="log"
+                user="Tony1" userid="332841">
+                <move new_ns="0" new_title="Hata model for urban areas"/>
+            </rc>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="602154193" pageid="945048" rcid="648004486"
+                revid="602154193" timestamp="2014-04-09T04:44:23Z"
+                title="Charles J. Pedersen" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" comment="" ns="0" old_revid="600201697"
+                pageid="33758594" rcid="648004442" revid="603403320"
+                timestamp="2014-04-09T04:44:23Z" title="P. S. Nivas"
+                type="edit" user="116.68.97.77" userid="0"/>
+            <rc comment="" ns="0" old_revid="601302277"
+                pageid="40526047" rcid="648004441" revid="603403319"
+                timestamp="2014-04-09T04:44:23Z" title="Charitha Herath"
+                type="edit" user="Dissaa" userid="18777887"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603256207" pageid="22446744"
+                rcid="648004440" revid="603403318"
+                timestamp="2014-04-09T04:44:23Z"
+                title="Template:Adminstats/GrahamColm" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc
+                comment="Reverted [[WP:AGF|good faith]] edits by [[Special:Contributions/75.15.95.243|75.15.95.243]] ([[User talk:75.15.95.243|talk]]): Death is already mentioned elsewhere; no extra heading needed unless there's more info. ([[WP:TW|TW]])"
+                ns="0" old_revid="603403209" pageid="684397"
+                rcid="648004439" revid="603403316"
+                timestamp="2014-04-09T04:44:22Z"
+                title="The Ultimate Warrior" type="edit" user="SpecMode" userid="3531877"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="598808172" pageid="66283" rcid="648004485"
+                revid="598808172" timestamp="2014-04-09T04:44:21Z"
+                title="Charles Ives" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="593584418" pageid="41818550" rcid="648004484"
+                revid="593584418" timestamp="2014-04-09T04:44:20Z"
+                title="HMS Forward (1805)" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="601860599" pageid="35930910" rcid="648004483"
+                revid="601860599" timestamp="2014-04-09T04:44:19Z"
+                title="An Shouzhi" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc anon="" comment="/* List of heirs since 1922 */" ns="0"
+                old_revid="599743506" pageid="11320776" rcid="648004438"
+                revid="603403315" timestamp="2014-04-09T04:44:18Z"
+                title="Line of succession to the former Ottoman throne"
+                type="edit" user="140.193.168.173" userid="0"/>
+            <rc bot=""
+                comment="[[WP:CHECKWIKI]] error fix. Section heading problem. Violates [[WP:MOSHEAD]]."
+                minor="" ns="0" old_revid="603321382" pageid="41940344"
+                rcid="648004437" revid="603403314"
+                timestamp="2014-04-09T04:44:18Z" title="OnePlus"
+                type="edit" user="BG19bot" userid="14508071"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="602624890" pageid="7426" rcid="648004482"
+                revid="602624890" timestamp="2014-04-09T04:44:17Z"
+                title="Charles I of England" type="external"
+                user="Dexbot" userid="0"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603255924" pageid="28304538"
+                rcid="648004436" revid="603403313"
+                timestamp="2014-04-09T04:44:17Z"
+                title="Template:Adminstats/Beeblebrox" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc comment="" ns="0" old_revid="603400314" pageid="115168"
+                rcid="648004435" revid="603403312"
+                timestamp="2014-04-09T04:44:15Z"
+                title="Nortonville, Kentucky" type="edit"
+                user="TerryinKentucky" userid="20951911"/>
+            <rc
+                comment="General note: Editing tests on [[Fast food]]. ([[WP:TW|TW]])"
+                new="" ns="3" old_revid="0" pageid="42443147"
+                rcid="648004434" revid="603403311"
+                timestamp="2014-04-09T04:44:15Z"
+                title="User talk:PrawiN PrincE" type="new" user="DMacks" userid="712163"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="602690751" pageid="46688" rcid="648004481"
+                revid="602690751" timestamp="2014-04-09T04:44:14Z"
+                title="Charles II of England" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="" minor="" ns="0" old_revid="600284411"
+                pageid="5278758" rcid="648004433" revid="603403310"
+                timestamp="2014-04-09T04:44:14Z" title="Leslie Munro"
+                type="edit" user="Hugo999" userid="3006008"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                new="" ns="10" old_revid="0" pageid="42443146"
+                rcid="648004432" revid="603403309"
+                timestamp="2014-04-09T04:44:14Z"
+                title="Template:Adminstats/FreeRangeFrog" type="new"
+                user="Cyberbot I" userid="16266655"/>
+            <rc comment="Message re. [[SAP ERP]] ([[WP:HG|HG]])" new=""
+                ns="3" old_revid="0" pageid="42443145" rcid="648004431"
+                revid="603403308" timestamp="2014-04-09T04:44:12Z"
+                title="User talk:61.14.75.7" type="new"
+                user="John Cline" userid="11987994"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="600663988" pageid="41809069" rcid="648004480"
+                revid="600663988" timestamp="2014-04-09T04:44:10Z"
+                title="HMS Renard (1797)" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="580473108" pageid="10525835" rcid="648004479"
+                revid="580473108" timestamp="2014-04-09T04:44:10Z"
+                title="William Reinhart" type="external" user="AyackBot" userid="0"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603256027" pageid="22229603"
+                rcid="648004430" revid="603403307"
+                timestamp="2014-04-09T04:44:10Z"
+                title="Template:Adminstats/WereSpielChequers"
+                type="edit" user="Cyberbot I" userid="16266655"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="602952832" pageid="479393" rcid="648004478"
+                revid="602952832" timestamp="2014-04-09T04:44:09Z"
+                title="Charles Hodge" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="595716263" pageid="39386861" rcid="648004477"
+                revid="595716263" timestamp="2014-04-09T04:44:09Z"
+                title="An Qiyuan" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc comment="nonconstructive edit warning 2" ns="3"
+                old_revid="603396462" pageid="42442586" rcid="648004429"
+                revid="603403306" timestamp="2014-04-09T04:44:09Z"
+                title="User talk:71.9.255.226" type="edit"
+                user="Donner60" userid="12744454"/>
+            <rc
+                comment="Reverted edits by [[Special:Contributions/61.14.75.7|61.14.75.7]] ([[User talk:61.14.75.7|talk]]) to last revision by Xhantar ([[WP:HG|HG]])"
+                minor="" ns="0" old_revid="603402318" pageid="5600372"
+                rcid="648004428" revid="603403305"
+                timestamp="2014-04-09T04:44:09Z" title="SAP ERP"
+                type="edit" user="John Cline" userid="11987994"/>
+            <rc bot=""
+                comment="Redirecting to [[Template talk:Infobox Magic: The Gathering set]] to avoid decentralized discussion"
+                new="" ns="11" old_revid="0" pageid="42443144"
+                rcid="648004395" revid="603403304"
+                timestamp="2014-04-09T04:44:08Z"
+                title="Template talk:Infobox Magic: The Gathering set/sandbox"
+                type="new" user="AnomieBOT" userid="7611264"/>
+            <rc bot=""
+                comment="[[WP:CHECKWIKI]] error fix. Section heading problem. Violates [[WP:MOSHEAD]]."
+                minor="" ns="0" old_revid="603268354" pageid="13107087"
+                rcid="648004393" revid="603403303"
+                timestamp="2014-04-09T04:44:08Z" title="Marc Lavry"
+                type="edit" user="BG19bot" userid="14508071"/>
+            <rc
+                comment="added titles to some links, added in article re phd thesis"
+                ns="0" old_revid="601961637" pageid="42325291"
+                rcid="648004392" revid="603403302"
+                timestamp="2014-04-09T04:44:08Z"
+                title="Kate Raynes-Goldie" type="edit" user="Simonevh" userid="21153743"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="587916615" pageid="19249822" rcid="648004475"
+                revid="587916615" timestamp="2014-04-09T04:44:07Z"
+                title="Charles Henry Webb" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="545575573" pageid="21561223" rcid="648004427"
+                revid="545575573" timestamp="2014-04-09T04:44:07Z"
+                title="Jaranty" type="external" user="Shuaib-bot" userid="0"/>
+            <rc comment="grammar/readability fixes" ns="0"
+                old_revid="602029732" pageid="37599797" rcid="648004391"
+                revid="603403301" timestamp="2014-04-09T04:44:07Z"
+                title="Alex Len" type="edit" user="Mosmof" userid="3275889"/>
+            <rc comment="/* Warranty */" ns="0" old_revid="603400114"
+                pageid="3020441" rcid="648004390" revid="603403300"
+                timestamp="2014-04-09T04:44:07Z" title="XFX" type="edit"
+                user="Relic5150" userid="9100066"/>
+            <rc anon="" comment="/* About the surname Tiwari */" ns="0"
+                old_revid="602576248" pageid="2943006" rcid="648004389"
+                revid="603403299" timestamp="2014-04-09T04:44:07Z"
+                title="Tiwari" type="edit" user="14.139.185.114" userid="0"/>
+            <rc
+                comment="/* top */ (own ref) subs more current &amp; more directly subject-related source (see [[User:Yulia_Romero|Yulia Romero]] edit summary); no change in article text"
+                ns="0" old_revid="603397543" pageid="41829771"
+                rcid="648004388" revid="603403298"
+                timestamp="2014-04-09T04:44:06Z" title="Right Sector"
+                type="edit" user="Dervorguilla" userid="6304182"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="575236526" pageid="24563267" rcid="648004426"
+                revid="575236526" timestamp="2014-04-09T04:44:05Z"
+                title="Ning An" type="external" user="RobotMichiel1972" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="596286344" pageid="5743694" rcid="648004425"
+                revid="596286344" timestamp="2014-04-09T04:44:05Z"
+                title="Charles Henry Fowler" type="external"
+                user="Dexbot" userid="0"/>
+            <rc
+                comment="[[WP:AES|←]]Created page with '{{WikiProject College Basketball}}'"
+                new="" ns="7" old_revid="0" pageid="42443143"
+                rcid="648004387" revid="603403297"
+                timestamp="2014-04-09T04:44:05Z"
+                title="File talk:2013NCAAMensFinalFourLogo.png"
+                type="new" user="Jweiss11" userid="206485"/>
+            <rc comment="added intro picture" ns="2"
+                old_revid="603401907" pageid="41848071" rcid="648004386"
+                revid="603403296" timestamp="2014-04-09T04:44:05Z"
+                title="User:Fcheng62/sandbox2" type="edit"
+                user="Fcheng62" userid="20556762"/>
+            <rc comment="" logaction="create" logid="55836786"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="648004385" revid="0"
+                timestamp="2014-04-09T04:44:05Z" title="User:Johcarter"
+                type="log" user="Johcarter" userid="21153757"/>
+            <rc anon="" comment="/* Episode Formatting */" ns="1"
+                old_revid="603403108" pageid="36864587" rcid="648004384"
+                revid="603403295" timestamp="2014-04-09T04:44:04Z"
+                title="Talk:Agents of S.H.I.E.L.D." type="edit"
+                user="97.93.75.80" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="595358282" pageid="146948" rcid="648004424"
+                revid="595358282" timestamp="2014-04-09T04:44:03Z"
+                title="Charles Haughey" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="595860833" pageid="41800339" rcid="648004423"
+                revid="595860833" timestamp="2014-04-09T04:44:02Z"
+                title="HMS Hotspur (1810)" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="591671551" pageid="15989695" rcid="648004422"
+                revid="591671551" timestamp="2014-04-09T04:44:02Z"
+                title="An Ni" type="external" user="RobotMichiel1972" userid="0"/>
+            <rc bot="" comment="{{blocked proxy}} &lt;!-- 8123 -->"
+                logaction="block" logid="55836785" logtype="block"
+                ns="2" old_revid="0" pageid="0" rcid="648004383"
+                revid="0" timestamp="2014-04-09T04:44:02Z"
+                title="User:117.174.47.137" type="log" user="ProcseeBot" userid="8760229">
+                <block duration="60 days" expiry="2014-06-08T04:44:02Z" flags="nocreate"/>
+            </rc>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603255931" pageid="30826272"
+                rcid="648004382" revid="603403294"
+                timestamp="2014-04-09T04:44:02Z"
+                title="Template:Adminstats/Rlendog" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="587138564" pageid="588100" rcid="648004421"
+                revid="587138564" timestamp="2014-04-09T04:44:01Z"
+                title="Charles Hartshorne" type="external" user="Dexbot" userid="0"/>
+            <rc comment="no." ns="0" old_revid="603393188"
+                pageid="492328" rcid="648004381" revid="603403293"
+                timestamp="2014-04-09T04:44:01Z"
+                title="Butterfly McQueen" type="edit" user="Jpgordon" userid="96897"/>
+            <rc comment="per [[WP:APPENDIX]]" ns="0"
+                old_revid="553528203" pageid="4241320" rcid="648004380"
+                revid="603403292" timestamp="2014-04-09T04:44:01Z"
+                title="Jan Koster" type="edit" user="Omnipaedista" userid="8524693"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603256132" pageid="21099373"
+                rcid="648004379" revid="603403291"
+                timestamp="2014-04-09T04:44:00Z"
+                title="Template:Adminstats/Ruslik0" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="603248155" pageid="396568" rcid="648004420"
+                revid="603248155" timestamp="2014-04-09T04:43:59Z"
+                title="Charles Hard Townes" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="/* Personal life */" ns="0"
+                old_revid="603238759" pageid="408743" rcid="648004378"
+                revid="603403290" timestamp="2014-04-09T04:43:59Z"
+                title="Mark Cuban" type="edit" user="Italia2006" userid="11898625"/>
+            <rc
+                comment="Reverted edits by [[Special:Contribs/PrawiN PrincE|PrawiN PrincE]] ([[User talk:PrawiN PrincE|talk]]) to last version by Sriram Vikram"
+                minor="" ns="0" old_revid="603402148" pageid="3528679"
+                rcid="648004377" revid="603403289"
+                timestamp="2014-04-09T04:43:59Z" title="Silambarasan"
+                type="edit" user="DMacks" userid="712163"/>
+            <rc bot=""
+                comment="[[WP:CHECKWIKI]] error fix. Section heading problem. Violates [[WP:MOSHEAD]]."
+                minor="" ns="0" old_revid="603331063" pageid="8816851"
+                rcid="648004376" revid="603403288"
+                timestamp="2014-04-09T04:43:59Z" title="Kevin Weeks"
+                type="edit" user="BG19bot" userid="14508071"/>
+            <rc bot=""
+                comment="Updated [[User:Cyberbot I/Book Reports|book report]] for Book:Thomas Edison; Average rating: 3.4; 6 article(s) unassessed; 34 articles needing cleanup."
+                minor="" ns="109" old_revid="602960593"
+                pageid="30827233" rcid="648004375" revid="603403287"
+                timestamp="2014-04-09T04:43:58Z"
+                title="Book talk:Thomas Edison" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="603403253"
+                pageid="42443141" rcid="648004419" revid="603403253"
+                timestamp="2014-04-09T04:43:57Z" title="Jun Byung-Doo"
+                type="external" user="Sawol" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="603403252"
+                pageid="22448629" rcid="648004418" revid="603403252"
+                timestamp="2014-04-09T04:43:57Z" title="Jun Byung-doo"
+                type="external" user="Sawol" userid="0"/>
+            <rc comment="" minor="" ns="0" old_revid="603403242"
+                pageid="42442567" rcid="648004374" revid="603403286"
+                timestamp="2014-04-09T04:43:57Z"
+                title="Jean Hudson Boyd" type="edit" user="Caseeart" userid="21000534"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="598604660" pageid="2787070" rcid="648004417"
+                revid="598604660" timestamp="2014-04-09T04:43:56Z"
+                title="Charles Handy" type="external" user="Dexbot" userid="0"/>
+            <rc comment="/* Mandela MarketPlace */" ns="2"
+                old_revid="603402664" pageid="42230671" rcid="648004373"
+                revid="603403285" timestamp="2014-04-09T04:43:56Z"
+                title="User:S an editor/sandbox" type="edit"
+                user="Diligenteditor" userid="20998777"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="602515817" pageid="18994849" rcid="648004416"
+                revid="602515817" timestamp="2014-04-09T04:43:55Z"
+                title="An Jung-hwa" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603256531" pageid="25141703"
+                rcid="648004372" revid="603403284"
+                timestamp="2014-04-09T04:43:55Z"
+                title="Template:Adminstats/Y" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc
+                comment="Reverted edits by [[Special:Contribs/PrawiN PrincE|PrawiN PrincE]] ([[User talk:PrawiN PrincE|talk]]) to last version by Katieh5584"
+                minor="" ns="0" old_revid="603402325" pageid="360101"
+                rcid="648004371" revid="603403283"
+                timestamp="2014-04-09T04:43:55Z" title="Fast food"
+                type="edit" user="DMacks" userid="712163"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="594913507" pageid="41795424" rcid="648004415"
+                revid="594913507" timestamp="2014-04-09T04:43:54Z"
+                title="HMS Renard (1803)" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="563826796" pageid="20355082" rcid="648004414"
+                revid="563826796" timestamp="2014-04-09T04:43:54Z"
+                title="Charles Hamilton Aide" type="external"
+                user="Dexbot" userid="0"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603255969" pageid="33577506"
+                rcid="648004370" revid="603403282"
+                timestamp="2014-04-09T04:43:54Z"
+                title="Template:Adminstats/Anomie" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc anon="" comment="/* Dally M Medal winners */" ns="0"
+                old_revid="603403206" pageid="5901125" rcid="648004369"
+                revid="603403281" timestamp="2014-04-09T04:43:54Z"
+                title="List of Sydney Roosters records" type="edit"
+                user="203.35.135.165" userid="0"/>
+            <rc comment="" ns="100" old_revid="594766141"
+                pageid="28442544" rcid="648004368" revid="603403280"
+                timestamp="2014-04-09T04:43:54Z"
+                title="Portal:Pittsburgh/On this day/September 11"
+                type="edit" user="Marketdiamond" userid="367195"/>
+            <rc comment="" minor="" ns="0" old_revid="603123130"
+                pageid="36638928" rcid="648004367" revid="603403279"
+                timestamp="2014-04-09T04:43:54Z"
+                title="List of Jewish atheists and agnostics"
+                type="edit" user="Toccata quarta" userid="15369907"/>
+            <rc comment="/* Albums */" ns="0" old_revid="603402810"
+                pageid="10388191" rcid="648004366" revid="603403278"
+                timestamp="2014-04-09T04:43:53Z"
+                title="Lacuna Coil discography" type="edit" user="Infex" userid="12470822"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="598855669" pageid="667637" rcid="648004413"
+                revid="598855669" timestamp="2014-04-09T04:43:52Z"
+                title="Charles Hamilton (writer)" type="external"
+                user="Dexbot" userid="0"/>
+            <rc
+                comment="Reverted edits by [[Special:Contribs/214.27.58.37|214.27.58.37]] ([[User talk:214.27.58.37|talk]]) to last version by DumbBOT"
+                minor="" ns="0" old_revid="603403132" pageid="855383"
+                rcid="648004365" revid="603403277"
+                timestamp="2014-04-09T04:43:52Z" title="Dik-dik"
+                type="edit" user="Materialscientist" userid="7852030"/>
+            <rc anon="" comment="/* Background */" ns="0"
+                old_revid="603403220" pageid="374852" rcid="648004364"
+                revid="603403276" timestamp="2014-04-09T04:43:51Z"
+                title="Mother's Milk" type="edit" user="72.182.114.169" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="587177395" pageid="320456" rcid="648004412"
+                revid="587177395" timestamp="2014-04-09T04:43:50Z"
+                title="Charles H. Moore" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="601376037" pageid="3500933" rcid="648004411"
+                revid="601376037" timestamp="2014-04-09T04:43:50Z"
+                title="An Jong-deok" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc anon="" comment="" minor="" ns="0" old_revid="602167457"
+                pageid="593481" rcid="648004410" revid="602167457"
+                timestamp="2014-04-09T04:43:50Z" title="Catalepsy"
+                type="external" user="Dcirovic" userid="0"/>
+            <rc comment="/* Books and journals */" ns="0"
+                old_revid="603359765" pageid="6037917" rcid="648004363"
+                revid="603403275" timestamp="2014-04-09T04:43:49Z"
+                title="Islam" type="edit" user="KConWiki" userid="1994682"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="553913951" pageid="35196965" rcid="648004409"
+                revid="553913951" timestamp="2014-04-09T04:43:48Z"
+                title="Charles H. Fernald" type="external" user="Dexbot" userid="0"/>
+            <rc comment="Per TfD" ns="0" old_revid="602011789"
+                pageid="34472047" rcid="648004362" revid="603403274"
+                timestamp="2014-04-09T04:43:48Z"
+                title="Hedmark County Municipality" type="edit"
+                user="Plastikspork" userid="5075409"/>
+            <rc comment="/* Latest elections */ rm deleted template"
+                ns="0" old_revid="598584534" pageid="352254"
+                rcid="648004361" revid="603403273"
+                timestamp="2014-04-09T04:43:48Z"
+                title="Congress of Deputies (Spain)" type="edit"
+                user="Xoloz" userid="279317"/>
+            <rc comment="/* Chairmanship campaigns */" minor="" ns="0"
+                old_revid="603403232" pageid="16651129" rcid="648004360"
+                revid="603403272" timestamp="2014-04-09T04:43:48Z"
+                title="Chai Trong-rong" type="edit" user="Vycl1994" userid="19014806"/>
+            <rc comment="" ns="0" old_revid="603403110" pageid="6113509"
+                rcid="648004359" revid="603403271"
+                timestamp="2014-04-09T04:43:47Z" title="Okumura model"
+                type="edit" user="Tony1" userid="332841"/>
+            <rc
+                comment="/* top */ Trim a lot of detail and verbiage from the lead. The first sentence esp was way too complex. You don't need &quot; and culminating in legislation adopted...&quot; when you begin &quot;The adoption of the Constitution was preceded by...&quot;"
+                ns="0" old_revid="603402119" pageid="463477"
+                rcid="648004358" revid="603403270"
+                timestamp="2014-04-09T04:43:47Z"
+                title="Constitution of May 3, 1791" type="edit"
+                user="Indopug" userid="6060594"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="603067198" pageid="232264" rcid="648004408"
+                revid="603067198" timestamp="2014-04-09T04:43:46Z"
+                title="Charles Grey, 2nd Earl Grey" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="594700618" pageid="41761083" rcid="648004407"
+                revid="594700618" timestamp="2014-04-09T04:43:46Z"
+                title="FV Empire Fisher" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc comment="A bunch of coord fixes" ns="0"
+                old_revid="588479948" pageid="3712635" rcid="648004357"
+                revid="603403269" timestamp="2014-04-09T04:43:46Z"
+                title="National Register of Historic Places listings in Lauderdale County, Alabama"
+                type="edit" user="Nyttend" userid="1960810"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603256289" pageid="31463088"
+                rcid="648004356" revid="603403268"
+                timestamp="2014-04-09T04:43:46Z"
+                title="Template:Adminstats/Neutrality" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="598815861" pageid="24156996" rcid="648004406"
+                revid="598815861" timestamp="2014-04-09T04:43:44Z"
+                title="An Jeong-Hwan (judoka)" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="587696943" pageid="1095831" rcid="648004405"
+                revid="587696943" timestamp="2014-04-09T04:43:44Z"
+                title="Charles Godfrey Leland" type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="" ns="3" old_revid="603403118"
+                pageid="42428293" rcid="648004355" revid="603403267"
+                timestamp="2014-04-09T04:43:44Z"
+                title="User talk:Edlondon11" type="edit"
+                user="Edlondon11" userid="21142863"/>
+            <rc bot="" comment="Copying assessment table to wiki" ns="2"
+                old_revid="603255766" pageid="25685598" rcid="648004354"
+                revid="603403266" timestamp="2014-04-09T04:43:44Z"
+                title="User:WP 1.0 bot/Tables/Project/Puerto Rico"
+                type="edit" user="WP 1.0 bot" userid="3455093"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603256081" pageid="41038290"
+                rcid="648004353" revid="603403265"
+                timestamp="2014-04-09T04:43:43Z"
+                title="Template:Adminstats/John Reaves" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc comment="" ns="2" old_revid="589614084"
+                pageid="19450227" rcid="648004352" revid="603403264"
+                timestamp="2014-04-09T04:43:43Z"
+                title="User:Ipatrol/Userboxes/Politics by country: A–D"
+                type="edit" user="Bolegash" userid="6750476"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="602090506" pageid="356269" rcid="648004404"
+                revid="602090506" timestamp="2014-04-09T04:43:42Z"
+                title="Charles Francis Adams, Sr." type="external"
+                user="Dexbot" userid="0"/>
+            <rc comment="/* SilverFast HDR */" ns="0"
+                old_revid="603403139" pageid="19713006" rcid="648004351"
+                revid="603403263" timestamp="2014-04-09T04:43:42Z"
+                title="SilverFast" type="edit" user="Jiheffe" userid="13985707"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="509633476" pageid="36147553" rcid="648004403"
+                revid="509633476" timestamp="2014-04-09T04:43:41Z"
+                title="An Jae-Won" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc comment="ce lead" ns="0" old_revid="603262220"
+                pageid="266611" rcid="648004350" revid="603403262"
+                timestamp="2014-04-09T04:43:41Z"
+                title="Optical telescope" type="edit" user="Dicklyon" userid="869314"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="569623526" pageid="20988130" rcid="648004402"
+                revid="569623526" timestamp="2014-04-09T04:43:40Z"
+                title="Jarantów-Kolonia" type="external"
+                user="Shuaib-bot" userid="0"/>
+            <rc
+                comment="/* World's Largest Artificial Mastodon */ unsigned template"
+                minor="" ns="4" old_revid="603379056" pageid="42395025"
+                rcid="648004349" revid="603403261"
+                timestamp="2014-04-09T04:43:40Z"
+                title="Wikipedia:Redirects for discussion/Log/2014 April 7"
+                type="edit" user="BDD" userid="146242"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="601724993" pageid="237186" rcid="648004401"
+                revid="601724993" timestamp="2014-04-09T04:43:39Z"
+                title="Charles Fourier" type="external" user="Dexbot" userid="0"/>
+            <rc comment="/* Career */" ns="0" old_revid="603401883"
+                pageid="8670003" rcid="648004348" revid="603403260"
+                timestamp="2014-04-09T04:43:39Z" title="Lowell McAdam"
+                type="edit" user="Jimgerbig" userid="20352756"/>
+            <rc comment="" ns="0" old_revid="603402585"
+                pageid="18563988" rcid="648004347" revid="603403259"
+                timestamp="2014-04-09T04:43:38Z" title="Skandha"
+                type="edit" user="Rwang.me" userid="21145477"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="593468976" pageid="41751696" rcid="648004400"
+                revid="593468976" timestamp="2014-04-09T04:43:37Z"
+                title="MV Prins Harald" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603256503" pageid="27874707"
+                rcid="648004346" revid="603403258"
+                timestamp="2014-04-09T04:43:37Z"
+                title="Template:Adminstats/Bearian" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc comment="" logaction="create" logid="55836783"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="648004345" revid="0"
+                timestamp="2014-04-09T04:43:37Z"
+                title="User:Deyshawon177" type="log" user="Deyshawon177" userid="21153756"/>
+            <rc
+                comment="[[Talk:An Ji-man#Requested move]] and [[WP:NC-KO]]"
+                logaction="move" logid="55836782" logtype="move" ns="1"
+                old_revid="0" pageid="42443142" rcid="648004344"
+                revid="0" timestamp="2014-04-09T04:43:36Z"
+                title="Talk:Jun Byung-Doo" type="log" user="Sawol" userid="16112600">
+                <move new_ns="1" new_title="Talk:Jun Byung-doo"/>
+            </rc>
+            <rc bot=""
+                comment="[[WP:CHECKWIKI]] error fix. Section heading problem. Violates [[WP:MOSHEAD]]."
+                minor="" ns="0" old_revid="603399382" pageid="39405808"
+                rcid="648004343" revid="603403256"
+                timestamp="2014-04-09T04:43:35Z"
+                title="The Voice (U.S. season 6)" type="edit"
+                user="BG19bot" userid="14508071"/>
+            <rc comment="/* Forthcoming */" ns="0" old_revid="602995906"
+                pageid="7194519" rcid="648004342" revid="603403255"
+                timestamp="2014-04-09T04:43:35Z"
+                title="Merzbow discography" type="edit" user="Pachon" userid="4322279"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="576134325" pageid="993540" rcid="648004399"
+                revid="576134325" timestamp="2014-04-09T04:43:34Z"
+                title="Charles Foster Johnson" type="external"
+                user="Dexbot" userid="0"/>
+            <rc
+                comment="[[Talk:An Ji-man#Requested move]] and [[WP:NC-KO]]"
+                logaction="move" logid="55836781" logtype="move" ns="0"
+                old_revid="0" pageid="42443141" rcid="648004341"
+                revid="0" timestamp="2014-04-09T04:43:33Z"
+                title="Jun Byung-Doo" type="log" user="Sawol" userid="16112600">
+                <move new_ns="0" new_title="Jun Byung-doo"/>
+            </rc>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="603201191" pageid="44490" rcid="648004398"
+                revid="603201191" timestamp="2014-04-09T04:43:32Z"
+                title="Charles Fort" type="external" user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="601694998" pageid="9111016" rcid="648004397"
+                revid="601694998" timestamp="2014-04-09T04:43:30Z"
+                title="Charles Follen Adams" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="546278208" pageid="34269279" rcid="648004396"
+                revid="546278208" timestamp="2014-04-09T04:43:30Z"
+                title="Henry Poulaille" type="external" user="AyackBot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="592496404" pageid="41749990" rcid="648004394"
+                revid="592496404" timestamp="2014-04-09T04:43:29Z"
+                title="SS Yewforest (1945)" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="586133661" pageid="18338309" rcid="648004340"
+                revid="586133661" timestamp="2014-04-09T04:43:28Z"
+                title="Charles Fletcher Dole" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="546278208" pageid="34269279" rcid="648004339"
+                revid="546278208" timestamp="2014-04-09T04:43:28Z"
+                title="Henry Poulaille" type="external" user="AyackBot" userid="0"/>
+            <rc bot="" comment="Dating maintenance tags: {{Unreviewed}}"
+                minor="" ns="0" old_revid="603392656" pageid="42441934"
+                rcid="648004310" revid="603403251"
+                timestamp="2014-04-09T04:43:28Z" title="Jakob Jakobeus"
+                type="edit" user="AnomieBOT" userid="7611264"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603255991" pageid="27875055"
+                rcid="648004309" revid="603403250"
+                timestamp="2014-04-09T04:43:28Z"
+                title="Template:Adminstats/Edgar181" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="564783098" pageid="1079476" rcid="648004338"
+                revid="564783098" timestamp="2014-04-09T04:43:26Z"
+                title="Charles Fenno Hoffman" type="external"
+                user="Dexbot" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="589189338" pageid="7626355" rcid="648004337"
+                revid="589189338" timestamp="2014-04-09T04:43:24Z"
+                title="Charles Fabry" type="external" user="Dexbot" userid="0"/>
+            <rc bot="" comment="Copying assessment table to wiki" ns="2"
+                old_revid="603255732" pageid="25684595" rcid="648004308"
+                revid="603403249" timestamp="2014-04-09T04:43:24Z"
+                title="User:WP 1.0 bot/Tables/Project/Gastropods"
+                type="edit" user="WP 1.0 bot" userid="3455093"/>
+            <rc comment="" logaction="create" logid="55836780"
+                logtype="newusers" ns="2" old_revid="0" pageid="0"
+                rcid="648004307" revid="0"
+                timestamp="2014-04-09T04:43:24Z"
+                title="User:Michael Stanley876" type="log"
+                user="Michael Stanley876" userid="21153755"/>
+            <rc bot=""
+                comment="[[WP:CHECKWIKI]] error fix. Section heading problem. Violates [[WP:MOSHEAD]]."
+                minor="" ns="0" old_revid="603400465" pageid="32150986"
+                rcid="648004306" revid="603403248"
+                timestamp="2014-04-09T04:43:23Z" title="Ottawa Fury FC"
+                type="edit" user="BG19bot" userid="14508071"/>
+            <rc
+                comment="Notification: Speedy deletion of [[JewelDistrict]] ([[WP:HG|HG]])"
+                new="" ns="3" old_revid="0" pageid="42443140"
+                rcid="648004305" revid="603403247"
+                timestamp="2014-04-09T04:43:23Z"
+                title="User talk:Wisegecko" type="new"
+                user="Rmosler2100" userid="518794"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="509637757" pageid="29838298" rcid="648004336"
+                revid="509637757" timestamp="2014-04-09T04:43:22Z"
+                title="An Dae-Hyun" type="external"
+                user="RobotMichiel1972" userid="0"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="602524568" pageid="7525" rcid="648004335"
+                revid="602524568" timestamp="2014-04-09T04:43:22Z"
+                title="Charles Evans Hughes" type="external"
+                user="Dexbot" userid="0"/>
+            <rc bot=""
+                comment="Bot: Removing [[Commons:File:Mamajuana Hispaniola.jpg]] ([[:File:Mamajuana Hispaniola.jpg|en]]). It was deleted on Commons by [[:Commons:User:Hedwig in Washington|Hedwig in Washington]] ([[Commons:COM:L|Copyright violation]]: The &quot;original&quot; work of thi..."
+                ns="0" old_revid="603397969" pageid="8060"
+                rcid="648004304" revid="603403246"
+                timestamp="2014-04-09T04:43:22Z"
+                title="Dominican Republic" type="edit"
+                user="Filedelinkerbot" userid="20611691"/>
+            <rc bot=""
+                comment="Updating Admin Stats ([[en:WP:PEACHY|Peachy 2.0 (alpha 7)]])"
+                minor="" ns="10" old_revid="603256194" pageid="38789445"
+                rcid="648004303" revid="603403245"
+                timestamp="2014-04-09T04:43:22Z"
+                title="Template:Adminstats/Rkitko" type="edit"
+                user="Cyberbot I" userid="16266655"/>
+            <rc anon="" bot="" comment="" minor="" ns="0"
+                old_revid="592953190" pageid="41745871" rcid="648004334"
+                revid="592953190" timestamp="2014-04-09T04:43:21Z"
+                title="HMS Cameleon (1795)" type="external"
+                user="UnderlyingBot" userid="0"/>
+            <rc anon="" comment="/* Notable alumni and faculty */"
+                ns="0" old_revid="603403085" pageid="877131"
+                rcid="648004302" revid="603403244"
+                timestamp="2014-04-09T04:43:21Z"
+                title="University of Pune" type="edit"
+                user="203.90.91.225" userid="0"/>
         </recentchanges>
     </query>
 </api>

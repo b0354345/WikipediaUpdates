@@ -147,7 +147,7 @@ public class PageEditsPerHour {
    	}	
     
     /**
-	 * This method returns titles for all documents edited between two specified hours, and how many times  
+	 * This method returns titles for 100 pages with the highest number of edits between two specified hours, and how many times  
 	 * each document has been edited within that hours.
 	 * @throws InterruptedException, ParseException
      * @throws IOException 
