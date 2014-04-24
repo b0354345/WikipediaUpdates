@@ -7,8 +7,11 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
+
+import uk.ac.ncl.cs.csc8498.httpclient.ValueComparator;
 
 import com.datastax.driver.core.BoundStatement;
 import com.datastax.driver.core.Cluster;
@@ -19,7 +22,12 @@ import com.datastax.driver.core.ResultSet;
 import com.datastax.driver.core.ResultSetFuture;
 import com.datastax.driver.core.Row;
 import com.datastax.driver.core.Session;
-
+/**
+ * Given a start hour and end hour, return titles for all the documents that were edited within that period
+ * and for each page, return number of times it has been edited.
+ * @author b0354345
+ *
+ */
 public class PageEditsPerHour {
 	private static Cluster cluster;
     private static Session session;
@@ -40,11 +48,15 @@ public class PageEditsPerHour {
 		 bootstrapSession.shutdown();
 		
 		 session = cluster.connect("wikiproject");
-		
 		 session.execute("CREATE TABLE IF NOT EXISTS no_of_edits_hour (hour bigint, title text, hits counter, PRIMARY KEY (title, hour));");	
-		 //session.execute("CREATE INDEX ON no_of_edits_hour (hits);");
     }
     
+    /**
+     * Create a table with title and hour columns as compound primary key, and a counter column 
+     * to show  number of times a document is edited within that hour.
+     * @throws InterruptedException
+     * @throws ParseException
+     */
 	public void writeToDB() throws InterruptedException, ParseException {
 		String psString = "SELECT title, edit_time FROM user_edit;";
 
@@ -63,6 +75,10 @@ public class PageEditsPerHour {
 		int count = 0;
 		for (Row row : resultSet) {
 			title = row.getString(0);
+			if (title.startsWith("User") || title.startsWith("Wikipedia") || title.startsWith("File") || title.startsWith("Template"))
+			{
+				continue;
+			}
 			hour = dateFormat.format(row.getDate(1));
 			Date timeStamp = (Date) dateFormat.parse(hour);
 			BoundStatement boundState = new BoundStatement(updatePS).bind(1L,
@@ -81,15 +97,14 @@ public class PageEditsPerHour {
 			ResultSetFuture resultSetFuture = outstandingFutures.take();
 			resultSetFuture.getUninterruptibly();
 		}
-		cluster.shutdown();
+		cleanup();
 	}
 	
 	
 	/**
-	 *  This method sends a query to a DB to return total number of accesses for each url
-	 *  for a given a set of urls, start hour and end hour.
-	 *  
-	 *  @throws InterruptedException, ParseException
+	 * Given a set of document titles, a start hour and an end hour, this method returns number of times
+	 * each document is edited between the two hours. 
+	 * @throws InterruptedException, ParseException
      * @throws IOException 
 	 */
     public void pageEditsBetweenHours(String startHour, String endHour) throws ParseException 
@@ -128,20 +143,17 @@ public class PageEditsPerHour {
 	   		for (Map.Entry<String, Integer> entry : map.entrySet()) {
 	   		    System.out.println(entry.getKey() + ", " + entry.getValue());
 	   		}
-	   		cluster.shutdown();
+	   		cleanup();
    	}	
     
     /**
-	 *  This method sends a query to a DB to return total number of accesses for each url
-	 *  for a given a set of urls, start hour and end hour.
-	 *  
-	 *  @throws InterruptedException, ParseException
+	 * This method returns titles for all documents edited between two specified hours, and how many times  
+	 * each document has been edited within that hours.
+	 * @throws InterruptedException, ParseException
      * @throws IOException 
 	 */
     public void allEditsBetweenHours(String startHour, String endHour) throws ParseException 
    	{	
-	    	
-	
 	    	// store the titles and hits for each titled in the map
 	    	Map<String, Integer> map = new HashMap<String, Integer>();
 	    	
@@ -172,9 +184,36 @@ public class PageEditsPerHour {
 	   				map.put(row.getString(0), (int)row.getLong(1));
 	   			}
 	   		}
-	   		for (Map.Entry<String, Integer> entry : map.entrySet()) {
+	   		
+	   		ValueComparator vc = new ValueComparator(map);
+	   		TreeMap<String, Integer> treeMap = new TreeMap<String, Integer>(vc);
+	   		treeMap.putAll(map);
+	   		int count = 0;
+	   		for (Map.Entry<String, Integer> entry : treeMap.entrySet()) {
 	   		    System.out.println(entry.getKey() + ", " + entry.getValue());
+	   		    count++;
+	   		    if (count > 100)
+	   		    	break;
 	   		}
-	   		cluster.shutdown();
+	   		cleanup();
    	}	
+    
+    
+    
+    public static void main(String[] args)
+    {
+    	PageEditsPerHour pg = new PageEditsPerHour();
+    	try {
+    		//pg.writeToDB();
+			pg.allEditsBetweenHours("[10/Apr/2014:10]", "[09/Mar/2014:10]");
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    }
+    
+    public void cleanup() {
+        session.shutdown();
+        cluster.shutdown();
+    }
 }

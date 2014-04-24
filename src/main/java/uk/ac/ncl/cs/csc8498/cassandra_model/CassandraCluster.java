@@ -15,12 +15,16 @@ import com.datastax.driver.core.PoolingOptions;
 import com.datastax.driver.core.PreparedStatement;
 import com.datastax.driver.core.ResultSetFuture;
 import com.datastax.driver.core.Session;
-
+/**
+ * Create a cassandra table to store all the information obtained from querying wikipedia API.
+ * @author b0354345
+ */
 public class CassandraCluster {
 	
 	private static Cluster cluster;
 	private static Session session;
 	private static DateFormat dateFormat;
+	final PreparedStatement insertPS;
 	
 	
 	/**
@@ -51,10 +55,15 @@ public class CassandraCluster {
 		session = cluster.connect("wikiproject");
 
 		session.execute("CREATE TABLE IF NOT EXISTS user_edit (user text, userId text, edit_time timestamp, pageId text, title text, "
-				+ "recentChangeId text, oldRevId text, newRevId text, type text, PRIMARY KEY ((user, edit_time, title), recentChangeId));");				
+				+ "recentChangeId text, oldRevId text, newRevId text, type text, PRIMARY KEY ((user, edit_time, title), recentChangeId));");	
+		
+		// prepared statement for inserting records into the table
+		insertPS = session.prepare("INSERT INTO user_edit (user, userId, edit_time, pageId, title, recentChangeId, oldRevId, newRevId, type) "
+													+ "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
 	}
 
 	/**
+	 * Write data into the database
 	 * @throws ParseException 
 	 * @throws InterruptedException 
 	 * 
@@ -65,8 +74,8 @@ public class CassandraCluster {
 		final int maxOutstandingFutures = 4;
 		final BlockingQueue<ResultSetFuture> outstandingFutures = new LinkedBlockingQueue<ResultSetFuture>(maxOutstandingFutures);
 		// prepared statement for inserting records into the table
-		final PreparedStatement insertPS = session.prepare("INSERT INTO user_edit (user, userId, edit_time, pageId, title, recentChangeId, oldRevId, newRevId, type) "
-											+ "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");	
+		//final PreparedStatement insertPS = session.prepare("INSERT INTO user_edit (user, userId, edit_time, pageId, title, recentChangeId, oldRevId, newRevId, type) "
+		//									+ "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");	
 		final BatchStatement batchStatement = new BatchStatement(BatchStatement.Type.UNLOGGED);
 		
 		Date date = processDate(time);
@@ -83,12 +92,18 @@ public class CassandraCluster {
 			ResultSetFuture resultSetFuture = outstandingFutures.take();
 			resultSetFuture.getUninterruptibly();
 		}
+		//cleanup();
 	}
 
+	/**
+	 * produces a Date object from a string representation of a time
+	 * @param time
+	 * @return date
+	 * @throws ParseException
+	 */
 	private Date processDate(String time) throws ParseException {
 		String timestamp = time.replace('T', ' ').replace('-', '/');
 		timestamp = timestamp.substring(0, time.length() - 1);
-		//System.out.println("**** " + timestamp);
 		Date date = dateFormat.parse(timestamp);
 		return date;
 	}

@@ -13,6 +13,11 @@ import com.datastax.driver.core.ResultSetFuture;
 import com.datastax.driver.core.Row;
 import com.datastax.driver.core.Session;
 
+/**
+ * For a given user, find how many times that user has edited documents.
+ * @author b0354345
+ *
+ */
 public class TotalEditsPerUser {
 	private static Cluster cluster;
     private static Session session;
@@ -29,13 +34,13 @@ public class TotalEditsPerUser {
 		 final Session bootstrapSession = cluster.connect();
 		 bootstrapSession.execute("CREATE KEYSPACE IF NOT EXISTS wikiproject WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1 };");
 		 bootstrapSession.shutdown();		
-		 session = cluster.connect("wikiproject");
-		
+		 session = cluster.connect("wikiproject");	
 		 session.execute("CREATE TABLE IF NOT EXISTS edits_per_user (user text, hits counter, PRIMARY KEY (user));");	
     }
     
     /**
-     * 
+     * create table with 'user' column as the primary key, and count column to show 
+     * how many times each user has edited pages.
      * @throws InterruptedException
      */
     public void writeToDB() throws InterruptedException {
@@ -71,14 +76,14 @@ public class TotalEditsPerUser {
 			ResultSetFuture resultSetFuture = outstandingFutures.take();
 			resultSetFuture.getUninterruptibly();
 		}
-		cluster.shutdown();
+		cleanup();
 	}
     
     /**
 	 *  This method sends a query to a DB to return total number of edits
-	 *  for a given a set of users.
+	 *  for a given set of users.
 	 */
-    public void totalAccessRead() 
+    public void testTotalEditsPeruser() 
    	{	
 	    	// sample titles for the query
 	    	String user1 = "Hebrides";
@@ -98,6 +103,23 @@ public class TotalEditsPerUser {
 	   		{
 	   			System.out.println(row.getString(0) + " " + row.getLong(1));			
 	   		}
-	   		cluster.shutdown();
-   	}	
+	   		cleanup();
+   	}
+    
+    public void cleanup() {
+        session.shutdown();
+        cluster.shutdown();
+    }
+    
+    public static void main(String[] args)
+    {
+    	TotalEditsPerUser pg = new TotalEditsPerUser();
+    	try {
+			pg.writeToDB();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//pg.testTotalEditsPeruser();
+    }
 }

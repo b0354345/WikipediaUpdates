@@ -13,6 +13,11 @@ import com.datastax.driver.core.ResultSetFuture;
 import com.datastax.driver.core.Row;
 import com.datastax.driver.core.Session;
 
+/**
+ * Find the frequency of all the pages that have been edited a given number of times
+ * @author b0354345
+ *
+ */
 public class PageEditFrequency {
 	private static Cluster cluster;
     private static Session session;
@@ -34,8 +39,12 @@ public class PageEditFrequency {
 		 session.execute("CREATE TABLE IF NOT EXISTS edit_frequency_page (no_of_edits int, frequency counter, PRIMARY KEY (no_of_edits));");	
     }
     
+    /**
+     * Create a table with 'number of edits' column as a primary key, and a frequency column 
+     * @throws InterruptedException
+     */
     public void writeToDB() throws InterruptedException {
-		String psString = "SELECT hits FROM edits_per_page;";
+		String psString = "SELECT title, hits FROM edits_per_page;";
 
 		final int maxOutstandingFutures = 4;
 		final BlockingQueue<ResultSetFuture> outstandingFutures = new LinkedBlockingQueue<>(
@@ -48,8 +57,11 @@ public class PageEditFrequency {
 		final ResultSetFuture queryFuture = session.executeAsync(psString);
 		ResultSet resultSet = queryFuture.getUninterruptibly();
 		int count = 0;
+		int edits = 0;
+		String title = "";
 		for (Row row : resultSet) {
-			int edits = (int)row.getLong(0);
+			title = row.getString(0);
+			edits = (int)row.getLong(1);
 			BoundStatement boundState = new BoundStatement(updatePS).bind(1L,
 					edits);
 			System.out.println(count++);
@@ -68,6 +80,9 @@ public class PageEditFrequency {
 		cluster.shutdown();
 	}
     
+    /**
+     * For a given set of 'number of edits', return frequency for each 'number of edits'
+     */
     public void testPageEditFrequency() 
    	{	
 	    	String psString = "SELECT no_of_edits, frequency FROM edit_frequency_page WHERE no_of_edits in (?, ?, ?);";

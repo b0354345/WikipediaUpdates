@@ -1,8 +1,5 @@
 package uk.ac.ncl.cs.csc8498.cassandra_model;
 
-
-
-
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -22,6 +19,11 @@ import com.datastax.driver.core.ResultSetFuture;
 import com.datastax.driver.core.Row;
 import com.datastax.driver.core.Session;
 
+/**
+ * 
+ * @author b0354345
+ *
+ */
 public class MapEntry {
 	private static Cluster cluster;
     private static Session session;
@@ -58,7 +60,7 @@ public class MapEntry {
 		for (Row row : resultSet) {
 			title = row.getString(0);
 			time = dateFormat.format(row.getDate(1));
-			if (title.startsWith("User") || title.startsWith("Wikipedia") || title.startsWith("File"))
+			if (title.startsWith("User") || title.startsWith("Wikipedia") || title.startsWith("File") || title.startsWith("Template"))
 			{
 				continue;
 			}

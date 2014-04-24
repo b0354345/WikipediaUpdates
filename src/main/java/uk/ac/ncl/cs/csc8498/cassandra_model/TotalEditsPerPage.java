@@ -13,6 +13,11 @@ import com.datastax.driver.core.ResultSetFuture;
 import com.datastax.driver.core.Row;
 import com.datastax.driver.core.Session;
 
+/**
+ * For a given page title, find how many times that page has been edited.
+ * @author b0354345
+ *
+ */
 public class TotalEditsPerPage {
 	private static Cluster cluster;
     private static Session session;
@@ -35,7 +40,8 @@ public class TotalEditsPerPage {
     }
     
     /**
-     * 
+     * create table with 'title' column as the primary key, and count column to show 
+     * how many times each page has been edited.
      * @throws InterruptedException
      */
     public void writeToDB() throws InterruptedException {
@@ -56,6 +62,8 @@ public class TotalEditsPerPage {
 		int count = 0;
 		for (Row row : resultSet) {
 			title = row.getString(0);
+			if (title.startsWith("User") || title.startsWith("Wikipedia") || title.startsWith("File") || title.startsWith("Template"))
+				continue;
 			BoundStatement boundState = new BoundStatement(updatePS).bind(1L,
 					title);
 			System.out.println(count++);
@@ -71,14 +79,14 @@ public class TotalEditsPerPage {
 			ResultSetFuture resultSetFuture = outstandingFutures.take();
 			resultSetFuture.getUninterruptibly();
 		}
-		cluster.shutdown();
+		cleanup();
 	}
     
     /**
 	 *  This method sends a query to a DB to return total number of edits
-	 *  for a given a set of users.
+	 *  for a given a set of pages.
 	 */
-    public void totalAccessRead() 
+    public void testTotalEditsPerPage() 
    	{	
 	    	// sample titles for the query
 	    	String title1 = "Xunlei";
@@ -98,6 +106,23 @@ public class TotalEditsPerPage {
 	   		{
 	   			System.out.println(row.getString(0) + " " + row.getLong(1));			
 	   		}
-	   		cluster.shutdown();
-   	}	
+	   		cleanup();
+   	}
+    
+    public void cleanup() {
+        session.shutdown();
+        cluster.shutdown();
+    }
+    
+    public static void main(String[] args)
+    {
+    	TotalEditsPerPage pg = new TotalEditsPerPage();
+    	try {
+			pg.writeToDB();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    	//pg.testTotalEditsPerPage();
+    }
 }

@@ -13,6 +13,11 @@ import com.datastax.driver.core.ResultSetFuture;
 import com.datastax.driver.core.Row;
 import com.datastax.driver.core.Session;
 
+/**
+ * Find the frequency of all users who have edited a given number of times
+ * @author b0354345
+ *
+ */
 public class UserEditFrequency {
 	private static Cluster cluster;
     private static Session session;
@@ -34,6 +39,10 @@ public class UserEditFrequency {
 		 session.execute("CREATE TABLE IF NOT EXISTS edit_frequency_user (no_of_edits int, frequency counter, PRIMARY KEY (no_of_edits));");	
     }
     
+    /**
+     * Create a table with 'number of edits' column as a primary key, and a frequency column 
+     * @throws InterruptedException
+     */
     public void writeToDB() throws InterruptedException {
 		String psString = "SELECT hits FROM edits_per_user;";
 
@@ -68,6 +77,9 @@ public class UserEditFrequency {
 		cluster.shutdown();
 	}
     
+    /**
+     * For a given set of 'number of edits', return frequency for each 'number of edits'
+     */
     public void testUserEditFrequency() 
    	{	
 	    	String psString = "SELECT no_of_edits, frequency FROM edit_frequency_user WHERE no_of_edits in (?, ?, ?);";
