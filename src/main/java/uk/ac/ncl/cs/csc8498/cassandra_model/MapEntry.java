@@ -65,10 +65,9 @@ public class MapEntry {
 		for (Row row : resultSet) {
 			title = row.getString(0);
 			time = dateFormat.format(row.getDate(1));
-			if (title.startsWith("User") || title.startsWith("Wikipedia") || title.startsWith("File") || title.startsWith("Template"))
-			{
+			if (title.startsWith("User") || title.startsWith("Wikipedia") || title.startsWith("File") 
+					|| title.startsWith("Talk")|| title.startsWith("Template"))
 				continue;
-			}
 			updateEntry(time, title);
 			System.out.println(count++);
 		}

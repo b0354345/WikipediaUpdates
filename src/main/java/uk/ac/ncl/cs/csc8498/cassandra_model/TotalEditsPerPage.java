@@ -1,7 +1,12 @@
 package uk.ac.ncl.cs.csc8498.cassandra_model;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
+
+import uk.ac.ncl.cs.csc8498.httpclient.ValueComparator;
 
 import com.datastax.driver.core.BoundStatement;
 import com.datastax.driver.core.Cluster;
@@ -35,7 +40,6 @@ public class TotalEditsPerPage {
 		 bootstrapSession.execute("CREATE KEYSPACE IF NOT EXISTS wikiproject WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1 };");
 		 bootstrapSession.shutdown();		
 		 session = cluster.connect("wikiproject");
-		
 		 session.execute("CREATE TABLE IF NOT EXISTS edits_per_page (title text, hits counter, PRIMARY KEY (title));");	
     }
     
@@ -63,7 +67,8 @@ public class TotalEditsPerPage {
 		for (Row row : resultSet) {
 			title = row.getString(0);
 
-			if (title.startsWith("User") || title.startsWith("Wikipedia") || title.startsWith("File") || title.startsWith("Template"))
+			if (title.startsWith("User") || title.startsWith("Wikipedia") || title.startsWith("File") 
+					|| title.startsWith("Talk")|| title.startsWith("Template"))
 				continue;
 			BoundStatement boundState = new BoundStatement(updatePS).bind(1L,
 					title);
@@ -110,6 +115,54 @@ public class TotalEditsPerPage {
 	   		cleanup();
    	}
     
+
+    /**
+     * Select top 100 most edited pages
+     * @param args
+     */
+    public void selectMostDicussedPages()
+    {
+    	String psString = "SELECT title, hits FROM edits_per_page;";
+    	
+    	// store the titles and hits for each titled in the map
+    	Map<String, Integer> map = new HashMap<String, Integer>();
+    	// prepared statement for querying the DB
+   		final PreparedStatement selectPS = session.prepare(psString);	
+   		// iterate through the result set and print the results on the console
+   		final ResultSetFuture queryFuture = session.executeAsync(psString);	
+   		ResultSet resultSet = queryFuture.getUninterruptibly();	
+   		String title = "";
+   		long hit = 0;
+   		for (Row row : resultSet)
+   		{
+   			// update the map
+   			title = row.getString(0);
+   			hit = row.getLong(1);
+   			if (map.get(title) != null)
+   			{
+   				int count = map.get(title);
+   				count += hit;
+   				map.put(title, count);
+   			}
+   			else
+   			{
+   				map.put(title, (int)hit);
+   			}
+   		}
+   		
+   		ValueComparator vc = new ValueComparator(map);
+   		TreeMap<String, Integer> treeMap = new TreeMap<String, Integer>(vc);
+   		treeMap.putAll(map);
+   		int count = 0;
+   		for (Map.Entry<String, Integer> entry : treeMap.entrySet()) {
+   		    System.out.println(entry.getKey() + ", " + entry.getValue());
+   		    count++;
+   		    if (count >= 100)
+   		    	break;
+   		}
+   		cleanup();
+    }
+    
     public void cleanup() {
         session.shutdown();
         cluster.shutdown();
@@ -118,12 +171,13 @@ public class TotalEditsPerPage {
     public static void main(String[] args)
     {
     	TotalEditsPerPage pg = new TotalEditsPerPage();
-    	try {
-			pg.writeToDB();
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+//    	try {
+//			pg.writeToDB();
+//		} catch (InterruptedException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
     	//pg.testTotalEditsPerPage();
+    	pg.selectMostDicussedPages();
     }
 }

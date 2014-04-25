@@ -63,7 +63,8 @@ public class TotalEditsPerUser {
 		for (Row row : resultSet) {
 			user = row.getString(0);
 			title = row.getString(1);
-			if (title.startsWith("User") || title.startsWith("Wikipedia") || title.startsWith("File") || title.startsWith("Template"))
+			if (title.startsWith("User") || title.startsWith("Wikipedia") || title.startsWith("File") 
+					|| title.startsWith("Talk")|| title.startsWith("Template"))
 				continue;
 			BoundStatement boundState = new BoundStatement(updatePS).bind(1L,
 					user);

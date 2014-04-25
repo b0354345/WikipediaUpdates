@@ -75,10 +75,9 @@ public class PageEditsPerHour {
 		int count = 0;
 		for (Row row : resultSet) {
 			title = row.getString(0);
-			if (title.startsWith("User") || title.startsWith("Wikipedia") || title.startsWith("File") || title.startsWith("Template"))
-			{
+			if (title.startsWith("User") || title.startsWith("Wikipedia") || title.startsWith("File") 
+					|| title.startsWith("Talk")|| title.startsWith("Template"))
 				continue;
-			}
 			hour = dateFormat.format(row.getDate(1));
 			Date timeStamp = (Date) dateFormat.parse(hour);
 			BoundStatement boundState = new BoundStatement(updatePS).bind(1L,
@@ -198,8 +197,7 @@ public class PageEditsPerHour {
 	   		cleanup();
    	}	
     
-    
-    
+
     public static void main(String[] args)
     {
     	PageEditsPerHour pg = new PageEditsPerHour();
