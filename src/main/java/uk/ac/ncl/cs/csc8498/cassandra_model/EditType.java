@@ -105,13 +105,13 @@ public class EditType {
 
 	public static void main(String[] args) {
 		EditType et = new EditType();
-//		try {
-//			et.writeToDB();
-//		} catch (InterruptedException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-		et.testEditType();
+		try {
+			et.writeToDB();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//et.testEditType();
 
 	}
 

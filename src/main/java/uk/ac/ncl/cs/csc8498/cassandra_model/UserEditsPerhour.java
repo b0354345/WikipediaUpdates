@@ -29,13 +29,13 @@ import com.datastax.driver.core.Session;
  * @author b0354345
  *
  */
-public class UserEditsPerhour {
+public class UserEditsPerHour {
 
 	private static Cluster cluster;
     private static Session session;
     private static  DateFormat dateFormat;
     
-    public UserEditsPerhour()
+    public UserEditsPerHour()
     { 
     	 dateFormat = new SimpleDateFormat("[dd/MMM/yyyy:HH]");
     	 cluster = new Cluster.Builder().addContactPoint("127.0.0.1").build(); 
@@ -47,8 +47,7 @@ public class UserEditsPerhour {
 		 poolingOptions.setMaxConnectionsPerHost(HostDistance.REMOTE, numberOfConnections);
 		 final Session bootstrapSession = cluster.connect();
 		 bootstrapSession.execute("CREATE KEYSPACE IF NOT EXISTS wikiproject WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1 };");
-		 bootstrapSession.shutdown();
-		
+		 bootstrapSession.shutdown();	
 		 session = cluster.connect("wikiproject");
 		 session.execute("CREATE TABLE IF NOT EXISTS user_edits_per_hour (hour bigint, user text, hits counter, PRIMARY KEY (user, hour));");	
     }
@@ -103,7 +102,7 @@ public class UserEditsPerhour {
 	 * @throws InterruptedException, ParseException
      * @throws IOException 
 	 */
-    public void testuserEditsPerHour(String startHour, String endHour) throws ParseException 
+    public void testAllUserEditsPerHour(String startHour, String endHour) throws ParseException 
    	{		
 	    	// store the titles and hits for each titled in the map
 	    	Map<String, Integer> map = new HashMap<String, Integer>();
@@ -149,6 +148,67 @@ public class UserEditsPerhour {
 	   		    	break;
 	   		}
 	   		cleanup();
+   	}
+    
+
+	/**
+	 * Given a set of users, a start hour and an end hour, this method returns number of times
+	 * each user has edited documents between the two hours. 
+	 * @throws InterruptedException, ParseException
+     * @throws IOException 
+	 */
+    public void usersBetweenHours(String startHour, String endHour) throws ParseException 
+   	{	
+	    	// sample titles for the query
+	    	String user1 = "216.51.224.101";
+	    	String user2 = "Nguyen khoi";
+	    	String user3 = "Ignacitum";
+	    	
+	    	// store the titles and hits for each titled in the map
+	    	Map<String, Integer> map = new HashMap<String, Integer>();
+	    	map.put(user1, 0);
+	    	map.put(user2, 0);
+	    	map.put(user3, 0);
+	    	
+	    	// parse string into date object
+	    	Date start = dateFormat.parse(startHour);
+	    	Date end = dateFormat.parse(endHour);
+	    	String psString = "SELECT user, hits FROM user_edits_per_hour WHERE user in (?, ?, ?)" +
+	                   " AND hour > ? AND hour <= ?;";
+	    	// prepared statement for querying the DB
+	   		final PreparedStatement selectPS = session.prepare(psString);	
+	   		BoundStatement bs = new BoundStatement(selectPS).bind(user1, user2, user3, end.getTime(), start.getTime());
+	   		System.out.println(bs);
+	   		
+	    	// iterate through the result set and print the results on the console
+	   		final ResultSetFuture queryFuture = session.executeAsync(bs);	
+	   		ResultSet resultSet = queryFuture.getUninterruptibly();	 
+	   		String user = "";
+	   		long hits = 0;
+	   		int count = 0;
+	   		for (Row row : resultSet)
+	   		{
+	   			// update the map
+	   			user = row.getString(0);
+	   			hits = row.getLong(1);
+	   			
+	   			if (map.get(user) == null)
+	   			{
+	   				map.put(user, (int)hits);
+	   				continue;
+	   			}
+	   			count = map.get(user);
+	   			count += hits;
+	   			map.put(user, count);
+	   		}
+	   		
+	   		ValueComparator vc = new ValueComparator(map);
+	   		TreeMap<String, Integer> treeMap = new TreeMap<String, Integer>(vc);
+	   		treeMap.putAll(map);
+	   		for (Map.Entry<String, Integer> entry : treeMap.entrySet()) {
+	   		    System.out.println(entry.getKey() + ", " + entry.getValue());
+	   		}
+	   		cleanup();
    	}	
 	
 	public void cleanup() {
@@ -157,10 +217,11 @@ public class UserEditsPerhour {
     }
 	
 	public static void main(String[] args) {
-		UserEditsPerhour uph = new UserEditsPerhour();
+		UserEditsPerHour uph = new UserEditsPerHour();
 		try {
 			//uph.writeToDB();
-			uph.testuserEditsPerHour("[10/Mar/2014:10]", "[09/Mar/2014:10]");
+			//uph.testAllUserEditsPerHour("[10/Mar/2014:10]", "[09/Mar/2014:10]");
+			uph.usersBetweenHours("[30/Apr/2014:10]", "[09/Mar/2014:10]");
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

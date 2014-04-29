@@ -1,7 +1,12 @@
 package uk.ac.ncl.cs.csc8498.cassandra_model;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
+
+import uk.ac.ncl.cs.csc8498.httpclient.ValueComparator;
 
 import com.datastax.driver.core.BoundStatement;
 import com.datastax.driver.core.Cluster;
@@ -44,7 +49,7 @@ public class UserEditFrequency {
      * @throws InterruptedException
      */
     public void writeToDB() throws InterruptedException {
-		String psString = "SELECT hits FROM edits_per_user;";
+		String psString = "SELECT user, hits FROM edits_per_user;";
 
 		final int maxOutstandingFutures = 4;
 		final BlockingQueue<ResultSetFuture> outstandingFutures = new LinkedBlockingQueue<>(
@@ -57,8 +62,13 @@ public class UserEditFrequency {
 		final ResultSetFuture queryFuture = session.executeAsync(psString);
 		ResultSet resultSet = queryFuture.getUninterruptibly();
 		int count = 0;
+		String user = "";
+		int edits = 0;
 		for (Row row : resultSet) {
-			int edits = (int)row.getLong(0);
+			user = row.getString(0);
+			if (user.toLowerCase().contains("bot"))  // eliminate bots
+				continue;
+			edits = (int)row.getLong(1);
 			BoundStatement boundState = new BoundStatement(updatePS).bind(1L,
 					edits);
 			System.out.println(count++);
@@ -74,11 +84,11 @@ public class UserEditFrequency {
 			ResultSetFuture resultSetFuture = outstandingFutures.take();
 			resultSetFuture.getUninterruptibly();
 		}
-		cluster.shutdown();
+		cleanup();
 	}
     
     /**
-     * For a given set of 'number of edits', return frequency for each 'number of edits'
+     * For a given set of user's 'number of edits', return frequency for each 'number of edits'
      */
     public void testUserEditFrequency() 
    	{	
@@ -94,19 +104,53 @@ public class UserEditFrequency {
 	   		{
 	   			System.out.println(row.getInt(0) + " " + row.getLong(1));			
 	   		}
-	   		cluster.shutdown();
+	   		cleanup();
    	}
+    
+    /**
+     * return all frequencies for each user's number of edits 
+     */
+    public void frequencyForEachNumbOfEdits()
+    {
+    	String psString = "SELECT * FROM edit_frequency_user";
+    	final ResultSetFuture queryFuture = session.executeAsync(psString);
+    	ResultSet resultSet = queryFuture.getUninterruptibly();
+    	Map<String, Integer> map = new HashMap<String, Integer>();
+    	String noOfEdits = "";
+    	long fr = 0;
+    	for (Row row : resultSet)
+    	{
+    		noOfEdits = ""+ row.getInt(0);
+    		fr = row.getLong(1);
+    		
+    		map.put(noOfEdits, (int)fr);
+    	}
+    	
+    	ValueComparator vc = new ValueComparator(map);
+   		TreeMap<String, Integer> treeMap = new TreeMap<String, Integer>(vc);
+   		treeMap.putAll(map);
+   		for (Map.Entry<String, Integer> entry : treeMap.entrySet()) {
+   		    System.out.println(entry.getKey() + ", " + entry.getValue()); 
+   		}
+   		cleanup();
+    }
+    
+    public void cleanup() {
+        session.shutdown();
+        cluster.shutdown();
+    }
     
     public static void main(String[] args)
     {
     	UserEditFrequency pg = new UserEditFrequency();
-    	try {
-			pg.writeToDB();
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+//    	try {
+//			pg.writeToDB();
+//		} catch (InterruptedException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
     	//pg.testUserEditFrequency();
+    	pg.frequencyForEachNumbOfEdits();
     }
 
 }

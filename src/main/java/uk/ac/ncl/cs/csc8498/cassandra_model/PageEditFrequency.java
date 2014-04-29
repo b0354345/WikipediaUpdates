@@ -1,7 +1,12 @@
 package uk.ac.ncl.cs.csc8498.cassandra_model;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
+
+import uk.ac.ncl.cs.csc8498.httpclient.ValueComparator;
 
 import com.datastax.driver.core.BoundStatement;
 import com.datastax.driver.core.Cluster;
@@ -45,7 +50,6 @@ public class PageEditFrequency {
      */
     public void writeToDB() throws InterruptedException {
 		String psString = "SELECT title, hits FROM edits_per_page;";
-
 		final int maxOutstandingFutures = 4;
 		final BlockingQueue<ResultSetFuture> outstandingFutures = new LinkedBlockingQueue<>(
 				maxOutstandingFutures);
@@ -77,7 +81,7 @@ public class PageEditFrequency {
 			ResultSetFuture resultSetFuture = outstandingFutures.take();
 			resultSetFuture.getUninterruptibly();
 		}
-		cluster.shutdown();
+		cleanup();
 	}
     
     /**
@@ -97,18 +101,52 @@ public class PageEditFrequency {
 	   		{
 	   			System.out.println(row.getInt(0) + " " + row.getLong(1));			
 	   		}
-	   		cluster.shutdown();
-   	}	
+	   		cleanup();
+   	}
+    
+    /**
+     * return all frequencies for each number of edits 
+     */
+    public void frequencyForEachNumbOfEdits()
+    {
+    	String psString = "SELECT * FROM edit_frequency_page";
+    	final ResultSetFuture queryFuture = session.executeAsync(psString);
+    	ResultSet resultSet = queryFuture.getUninterruptibly();
+    	Map<String, Integer> map = new HashMap<String, Integer>();
+    	String noOfEdits = "";
+    	long fr = 0;
+    	for (Row row : resultSet)
+    	{
+    		noOfEdits = ""+ row.getInt(0);
+    		fr = row.getLong(1);
+    		
+    		map.put(noOfEdits, (int)fr);
+    	}
+    	
+    	ValueComparator vc = new ValueComparator(map);
+   		TreeMap<String, Integer> treeMap = new TreeMap<String, Integer>(vc);
+   		treeMap.putAll(map);
+   		for (Map.Entry<String, Integer> entry : treeMap.entrySet()) {
+   		    System.out.println(entry.getKey() + ", " + entry.getValue()); 
+   		}
+   		cleanup();
+    }
+    
+    public void cleanup() {
+        session.shutdown();
+        cluster.shutdown();
+    }
     
     public static void main(String[] args)
     {
     	PageEditFrequency pg = new PageEditFrequency();
-    	try {
-			pg.writeToDB();
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-    	//pg.testPageEditFrequency();
+//    	try {
+//			pg.writeToDB();
+//		} catch (InterruptedException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+    //	pg.testPageEditFrequency();
+    	pg.frequencyForEachNumbOfEdits();
     }
 }

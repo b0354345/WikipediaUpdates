@@ -1,7 +1,12 @@
 package uk.ac.ncl.cs.csc8498.cassandra_model;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
+
+import uk.ac.ncl.cs.csc8498.httpclient.ValueComparator;
 
 import com.datastax.driver.core.BoundStatement;
 import com.datastax.driver.core.Cluster;
@@ -111,6 +116,72 @@ public class TotalEditsPerUser {
 	   		cleanup();
    	}
     
+    /**
+     * Find non-bot users with highest number of edits
+     */
+    public void nonBotUserWithHighestEdits()
+    {
+    	String psString = "SELECT * FROM edits_per_user";
+    	final ResultSetFuture queryFuture = session.executeAsync(psString);
+    	ResultSet resultSet = queryFuture.getUninterruptibly();
+    	Map<String, Integer> map = new HashMap<String, Integer>();
+    	String user = "";
+    	long hits = 0L;
+    	for (Row row : resultSet)
+    	{
+    		user = row.getString(0);
+    		if (user.toLowerCase().contains("bot"))
+    			continue;
+    		hits = row.getLong(1);
+    		map.put(user, (int)hits);
+    	}
+    	
+    	ValueComparator vc = new ValueComparator(map);
+   		TreeMap<String, Integer> treeMap = new TreeMap<String, Integer>(vc);
+   		treeMap.putAll(map);
+   		int size = 0;
+   		for (Map.Entry<String, Integer> entry : treeMap.entrySet()) {
+   		    System.out.println(entry.getKey() + ", " + entry.getValue());
+   		 size++;
+   		    if (size >= 100)
+   		    	break;
+   		}
+   		cleanup();
+    }
+    
+    /**
+     * bots with the highest number of edits
+     */
+    public void botWithHighestEdits()
+    {
+    	String psString = "SELECT * FROM edits_per_user";
+    	final ResultSetFuture queryFuture = session.executeAsync(psString);
+    	ResultSet resultSet = queryFuture.getUninterruptibly();
+    	Map<String, Integer> map = new HashMap<String, Integer>();
+    	String user = "";
+    	long hits = 0L;
+    	for (Row row : resultSet)
+    	{
+    		user = row.getString(0);
+    		if (!user.toLowerCase().contains("bot"))
+    			continue;
+    		hits = row.getLong(1);
+    		map.put(user, (int)hits);
+    	}
+    	
+    	ValueComparator vc = new ValueComparator(map);
+   		TreeMap<String, Integer> treeMap = new TreeMap<String, Integer>(vc);
+   		treeMap.putAll(map);
+   		int size = 0;
+   		for (Map.Entry<String, Integer> entry : treeMap.entrySet()) {
+   		    System.out.println(entry.getKey() + ", " + entry.getValue());
+   		 size++;
+   		    if (size >= 100)
+   		    	break;
+   		}
+   		cleanup();
+    }
+    
     public void cleanup() {
         session.shutdown();
         cluster.shutdown();
@@ -119,12 +190,14 @@ public class TotalEditsPerUser {
     public static void main(String[] args)
     {
     	TotalEditsPerUser pg = new TotalEditsPerUser();
-    	try {
-			pg.writeToDB();
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+//    	try {
+//		pg.writeToDB();
+//		} catch (InterruptedException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 		//pg.testTotalEditsPeruser();
+    	//pg.nonBotUserWithHighestEdits();
+    	pg.botWithHighestEdits();
     }
 }
