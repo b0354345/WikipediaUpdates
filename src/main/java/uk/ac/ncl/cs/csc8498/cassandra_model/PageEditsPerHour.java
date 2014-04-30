@@ -162,7 +162,7 @@ public class PageEditsPerHour {
 	    	String psString = "SELECT title, hits FROM no_of_edits_hour WHERE hour > ? AND hour <= ? ALLOW FILTERING;";
 	    	// prepared statement for querying the DB
 	   		final PreparedStatement selectPS = session.prepare(psString);	
-	   		BoundStatement bs = new BoundStatement(selectPS).bind( end.getTime(), start.getTime());
+	   		BoundStatement bs = new BoundStatement(selectPS).bind( start.getTime(), end.getTime());
 	   		System.out.println(bs);
 	   		
 	    	// iterate through the result set and print the results on the console
@@ -203,7 +203,7 @@ public class PageEditsPerHour {
     	PageEditsPerHour pg = new PageEditsPerHour();
     	try {
     		//pg.writeToDB();
-			pg.allEditsBetweenHours("[10/Apr/2014:10]", "[09/Mar/2014:10]");
+			pg.allEditsBetweenHours("[23/Apr/2014:10]", "[03/May/2014:10]");
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

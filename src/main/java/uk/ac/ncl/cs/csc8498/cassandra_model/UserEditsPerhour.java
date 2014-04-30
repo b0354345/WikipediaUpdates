@@ -59,7 +59,7 @@ public class UserEditsPerHour {
      * @throws ParseException
      */
 	public void writeToDB() throws InterruptedException, ParseException {
-		String psString = "SELECT user, edit_time FROM user_edit;";
+		String psString = "SELECT user, title, edit_time FROM user_edit;";
 
 		final int maxOutstandingFutures = 4;
 		final BlockingQueue<ResultSetFuture> outstandingFutures = new LinkedBlockingQueue<>(
@@ -69,6 +69,7 @@ public class UserEditsPerHour {
 				.prepare("UPDATE user_edits_per_hour SET hits = hits + ? WHERE user = ? AND hour = ?;");
 
 		String user = "";
+		String title = "";
 		String hour = "";
 		// iterate through the result set and print the results on the console
 		final ResultSetFuture queryFuture = session.executeAsync(psString);
@@ -76,7 +77,13 @@ public class UserEditsPerHour {
 		int count = 0;
 		for (Row row : resultSet) {
 			user = row.getString(0);
-			hour = dateFormat.format(row.getDate(1));
+			title = row.getString(1);
+			if (user.toLowerCase().contains("bot")) // eliminate bots
+				continue;
+			if (title.startsWith("User") || title.startsWith("Wikipedia") || title.startsWith("File") 
+					|| title.startsWith("Talk")|| title.startsWith("Template"))
+				continue;
+			hour = dateFormat.format(row.getDate(2));
 			Date timeStamp = (Date) dateFormat.parse(hour);
 			BoundStatement boundState = new BoundStatement(updatePS).bind(1L,
 					user, timeStamp.getTime());
@@ -113,7 +120,7 @@ public class UserEditsPerHour {
 	    	String psString = "SELECT user, hits FROM user_edits_per_hour WHERE hour > ? AND hour <= ? ALLOW FILTERING;";
 	    	// prepared statement for querying the DB
 	   		final PreparedStatement selectPS = session.prepare(psString);	
-	   		BoundStatement bs = new BoundStatement(selectPS).bind(end.getTime(), start.getTime());
+	   		BoundStatement bs = new BoundStatement(selectPS).bind( start.getTime(), end.getTime());
 	   
 	    	// iterate through the result set and print the results on the console
 	   		final ResultSetFuture queryFuture = session.executeAsync(bs);	
@@ -220,8 +227,8 @@ public class UserEditsPerHour {
 		UserEditsPerHour uph = new UserEditsPerHour();
 		try {
 			//uph.writeToDB();
-			//uph.testAllUserEditsPerHour("[10/Mar/2014:10]", "[09/Mar/2014:10]");
-			uph.usersBetweenHours("[30/Apr/2014:10]", "[09/Mar/2014:10]");
+			uph.testAllUserEditsPerHour("[23/Apr/2014:10]", "[03/May/2014:10]");
+			//uph.usersBetweenHours("[03/Mar/2014:10]", "[13/Mar/2014:10]");
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
