@@ -49,7 +49,7 @@ public class UserEditFrequency {
      * @throws InterruptedException
      */
     public void writeToDB() throws InterruptedException {
-		String psString = "SELECT user, hits FROM edits_per_user;";
+		String psString = "SELECT user, hits FROM total_edits_per_user;";
 
 		final int maxOutstandingFutures = 4;
 		final BlockingQueue<ResultSetFuture> outstandingFutures = new LinkedBlockingQueue<>(
@@ -121,16 +121,19 @@ public class UserEditFrequency {
     	for (Row row : resultSet)
     	{
     		noOfEdits = ""+ row.getInt(0);
-    		fr = row.getLong(1);
-    		
+    		fr = row.getLong(1);   		
     		map.put(noOfEdits, (int)fr);
     	}
     	
     	ValueComparator vc = new ValueComparator(map);
    		TreeMap<String, Integer> treeMap = new TreeMap<String, Integer>(vc);
    		treeMap.putAll(map);
+   		int value = 0;
+   		String key = "";
    		for (Map.Entry<String, Integer> entry : treeMap.entrySet()) {
-   		    System.out.println(entry.getKey() + ", " + entry.getValue()); 
+   			key = entry.getKey();
+   			value = entry.getValue();
+   		    System.out.println(key + " : " + value); 
    		}
    		cleanup();
     }

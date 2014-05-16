@@ -40,7 +40,7 @@ public class TotalEditsPerUser {
 		 bootstrapSession.execute("CREATE KEYSPACE IF NOT EXISTS wikiproject WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1 };");
 		 bootstrapSession.shutdown();		
 		 session = cluster.connect("wikiproject");	
-		 session.execute("CREATE TABLE IF NOT EXISTS edits_per_user (user text, hits counter, PRIMARY KEY (user));");	
+		 session.execute("CREATE TABLE IF NOT EXISTS total_edits_per_user (user text, hits counter, PRIMARY KEY (user));");	
     }
     
     /**
@@ -49,17 +49,18 @@ public class TotalEditsPerUser {
      * @throws InterruptedException
      */
     public void writeToDB() throws InterruptedException {
-		String psString = "SELECT user, title FROM user_edit;";
+		String psString = "SELECT user, title, type FROM user_edit;";
 
 		final int maxOutstandingFutures = 4;
 		final BlockingQueue<ResultSetFuture> outstandingFutures = new LinkedBlockingQueue<>(
 				maxOutstandingFutures);
 		// prepared statement for inserting records into the table
 		final PreparedStatement updatePS = session
-				.prepare("UPDATE edits_per_user SET hits = hits + ? WHERE user = ?;");
+				.prepare("UPDATE total_edits_per_user SET hits = hits + ? WHERE user = ?;");
 
 		String user = "";
 		String title = "";
+		String type = "";
 	
 		// iterate through the result set and print the results on the console
 		final ResultSetFuture queryFuture = session.executeAsync(psString);
@@ -68,8 +69,9 @@ public class TotalEditsPerUser {
 		for (Row row : resultSet) {
 			user = row.getString(0);
 			title = row.getString(1);
-			if (title.startsWith("User") || title.startsWith("Wikipedia") || title.startsWith("File") 
-					|| title.startsWith("Talk")|| title.startsWith("Template"))
+			type = row.getString(2);
+			if (title.startsWith("User") || title.startsWith("Wikipedia") || title.startsWith("File")  // eliminate all edits on pages that are not general page type
+					|| title.startsWith("Talk")|| title.startsWith("Template") || !type.trim().equals("edit")) // and all non-edit operations
 				continue;
 			BoundStatement boundState = new BoundStatement(updatePS).bind(1L,
 					user);
@@ -100,7 +102,7 @@ public class TotalEditsPerUser {
 	    	String user2 = "67.162.79.125";
 	    	String user3 = "Mpiramooni";
 	    
-	    	String psString = "SELECT user, hits FROM edits_per_user WHERE user in (?, ?, ?);";
+	    	String psString = "SELECT user, hits FROM total_edits_per_user WHERE user in (?, ?, ?);";
 	    	// prepared statement for querying the DB
 	   		final PreparedStatement selectPS = session.prepare(psString);	
 	   		BoundStatement bs = new BoundStatement(selectPS).bind(user1, user2, user3);
@@ -121,7 +123,7 @@ public class TotalEditsPerUser {
      */
     public void nonBotUserWithHighestEdits()
     {
-    	String psString = "SELECT * FROM edits_per_user";
+    	String psString = "SELECT * FROM total_edits_per_user";
     	final ResultSetFuture queryFuture = session.executeAsync(psString);
     	ResultSet resultSet = queryFuture.getUninterruptibly();
     	Map<String, Integer> map = new HashMap<String, Integer>();
@@ -154,7 +156,7 @@ public class TotalEditsPerUser {
      */
     public void botWithHighestEdits()
     {
-    	String psString = "SELECT * FROM edits_per_user";
+    	String psString = "SELECT * FROM total_edits_per_user";
     	final ResultSetFuture queryFuture = session.executeAsync(psString);
     	ResultSet resultSet = queryFuture.getUninterruptibly();
     	Map<String, Integer> map = new HashMap<String, Integer>();

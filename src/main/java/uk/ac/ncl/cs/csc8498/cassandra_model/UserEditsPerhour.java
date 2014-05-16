@@ -148,8 +148,12 @@ public class UserEditsPerHour {
 	   		TreeMap<String, Integer> treeMap = new TreeMap<String, Integer>(vc);
 	   		treeMap.putAll(map);
 	   		int size = 0;
+	   		int value = 0;
 	   		for (Map.Entry<String, Integer> entry : treeMap.entrySet()) {
-	   		    System.out.println(entry.getKey() + ", " + entry.getValue());
+	   			value = entry.getValue();
+	   			if (value == 1)
+	   				continue;
+	   		    System.out.println(entry.getValue());
 	   		 size++;
 	   		    if (size > 100)
 	   		    	break;

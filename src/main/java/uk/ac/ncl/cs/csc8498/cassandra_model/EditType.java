@@ -15,7 +15,7 @@ import com.datastax.driver.core.Session;
 
 /**
  * For each wikipedia edit type, find total number of edits
- * @author b0354345
+ * @author b0354345 ****
  */
 public class EditType {
 

@@ -19,8 +19,8 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
 
 public class WikiUpdateHistoric {
-	private static long START_MILLI = System.currentTimeMillis() + 300000L; //System.currentTimeMillis() + 300000L;
-	private static long END_MILL = START_MILLI - 300000L; // 5 minute window
+	private static long START_MILLI = System.currentTimeMillis() + 3000L; //System.currentTimeMillis() + 300000L;
+	private static long END_MILL = START_MILLI - 3000L; // 5 minute window
 
 	public static void main(String[] args) {
 		try {
@@ -36,8 +36,8 @@ public class WikiUpdateHistoric {
 		//long count = JDOMXMLParser.getCount();
 		while (JDOMXMLParser.getCount() < 1000000000) {
 			
-			START_MILLI -= 300000L;
-			END_MILL = START_MILLI - 300000L;
+			START_MILLI -= 3000L;
+			END_MILL = START_MILLI - 3000L;
 
 			
 			String startTime = DateFormatter.fomatDate(START_MILLI);
@@ -60,7 +60,7 @@ public class WikiUpdateHistoric {
 				nameValuePairs.add(new BasicNameValuePair("list",
 						"recentchanges"));
 				nameValuePairs.add(new BasicNameValuePair("rcprop",
-						"title|user|timestamp|comment|userid|ids|flags|loginfo"));
+						"title|user|timestamp|userid|ids|flags"));
 				nameValuePairs.add(new BasicNameValuePair("format", "xml"));
 				nameValuePairs.add(new BasicNameValuePair("rclimit", "max"));
 				nameValuePairs
@@ -83,7 +83,7 @@ public class WikiUpdateHistoric {
 
 				File file = new File("result.txt");
 				OutputStreamWriter wr = new OutputStreamWriter(
-						new FileOutputStream(file), "UTF-8");
+						new FileOutputStream(file));
 				String line = "";
 				String result = "";
 				while ((line = rd.readLine()) != null) {
